@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_2</title>
+</head>
+
+<body>
+    <div align="middle">
+        <p>Введите логин и пароль</p>
+        <form action="logandpass">
+            <label for="login">Логин:</label> <br>
+            <div
+                title="В логине не должно быть русских букв, допускается использовать точку, тире, нижнее подчеркивание">
+                <input type="text" placeholder="Email" id="login" pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+                    required> <br><br>
+            </div>
+            <label for="password">Пароль:</label> <br>
+            <div
+                title="В пароле должно быть от 8 до 10 символов, допускается использовать цифры и буквы на английском языке">
+                <input type="password" placeholder="Password" id="password" pattern="[a-zA-Z0-9]{8,10}$" required>
+                <br><br>
+            </div>
+            <input type="submit" value="Вход" style="width: 165px;">
+        </form>
+    </div><br>
+    <div>
+        <table width="100%" border="3">
+            <caption>Cписок работников предприятия:</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2" width="30%"> Название бригады </th>
+                    <th rowspan="2" width="40%"> ФИО работника </th>
+                    <th colspan="2" width="30%"> Зарплата </th>
+                <tr>
+                    <td style="text-align: center;" width="15%">Меньше 500$</td>
+                    <td style="text-align: center;" width="15%">Больше 500$</td>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td style="text-align: center;" colspan="4"><b>Итого:</b></td>
+                </tr>
+                <tr>
+                    <td>Всего бригад</td>
+                    <td>Всего работников</td>
+                    <td colspan="2" style="text-align: center;">Получают зарплату, чел</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2(две)</td>
+                    <td rowspan="2">5(пять)</td>
+                    <td style="text-align: center;">меньше 500$</td>
+                    <td style="text-align: center;">больше 500$</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">2</td>
+                    <td style="text-align: center;">3</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <col valign="top">
+                <tr>
+                    <td rowspan="3">Бригада по монтажу оборудования</td>
+                    <td> Петров В.В.</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                </tr>
+                <tr>
+                    <td> Федоров Н.Н.</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                </tr>
+                <tr>
+                    <td> Иванов А.А.</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">Бригада по покраске оборудования</td>
+                    <td> Сергеев П.П.</td>
+                    <td style="text-align: center;"></td>
+                    <td style="text-align: center;">+</td>
+                </tr>
+                <tr>
+                    <td> Ласточкин Д.Д.</td>
+                    <td style="text-align: center;">+</td>
+                    <td style="text-align: center;"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <form action="Registration">
+            <p style="text-align: center;">Чтобы зарегистрироваться заполните все поля</p>
+            <div style="margin-left: 20%;">
+                <div style="float: left; margin-right: 100px;">
+                    <label for="Name">Имя:</label>
+                    <input type="text" id="Name" placeholder="Name" required>
+                </div>
+                <div style="float: left; margin-right: 100px;">
+                    <label for="Surname">Фамилия:</label>
+                    <input type="text" id="Surname" placeholder="Surname" required>
+                </div>
+                <div style="float: none">
+                    <label for="Address">Адрес:</label>
+                    <input type="text" id="Address" placeholder="Address" required>
+                </div>
+            </div><br>
+            <div style="float: left; margin-right: 100px; margin-left: 20%;">
+                <label for="Age"> Есть ли вам 18 лет?</label>
+                <input type="checkbox" id="Age" required>
+            </div>
+            <div style="float: left; margin-right: 100px;">
+                <label for="Country">Выберите страну проживания:</label>
+                <select id="Country" required>
+                    <option></option>
+                    <option>Беларусь</option>
+                    <option>Россия</option>
+                    <option>Украина</option>
+                    <option>Молдова</option>
+                    <option>Польша</option>
+                </select>
+            </div>
+            <div aria-required="true">
+                <label>Выберите размер одежды <br>
+                    <label for="Size">S</label>
+                    <input type="radio" name="Size" required>
+                    <label for="Size">M</label>
+                    <input type="radio" name="Size">
+                    <label for="Size">L</label>
+                    <input type="radio" name="Size">
+                    <label for="Size">XL</label>
+                    <input type="radio" name="Size">
+                </label>
+            </div><br>
+            <div style="margin-left: 45%;">
+                <input type="submit" value="Зарегистрироваться">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

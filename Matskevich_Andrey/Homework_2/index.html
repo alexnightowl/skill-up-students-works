@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Списки, формы и таблицы</title>
+    <link rel="stylesheet" href="style.css" <style type="text/css">
+
+</head>
+
+<body>
+    <h1 align="center">Список</h1>
+    <p>Spin&Go</p>
+    <ul>
+        <li>3max <ul type="square">
+                <li>BTN</li>
+                <li>SB</li>
+                <li>BB</li>
+            </ul>
+        </li>
+        <li>HU <ol>
+                <li>SB</li>
+                <li>BB</li>
+            </ol>
+        </li>
+
+    </ul>
+    <hr>
+    <h1 align="center">Таблица</h1>
+    <div>
+        <table border="1">
+            <caption> Чарты spin&go</caption>
+            <thead>
+                <tr>
+                    <th width="70px" bgcolor="yellow"></th>
+                    <th colspan="3" align="center">3max</th>
+                    <th colspan="2" align="center">HU</th>
+                </tr>
+                <tr>
+                    <th bgcolor="yellow"></th>
+                    <th>BTN</th>
+                    <th>SBvsBTN</th>
+                    <th>BBvsBTN</th>
+                    <th>SB</th>
+                    <th>BBvsSB</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3" align="center">15-25bb</td>
+                    <td align="center"><a href="images2/btn rfi.jpg" target="_blank">mr</a></td>
+                    <td align="center">call</td>
+                    <td align="center">call</td>
+                    <td align="center">limp</td>
+                    <td align="center">check</td>
+                </tr>
+                <tr>
+                    <td align="center">os</td>
+                    <td align="center">3BnAI</td>
+                    <td align="center">3BnAI</td>
+                    <td align="center">RFI</td>
+                    <td align="center">call</td>
+
+                </tr>
+                <tr>
+                    <td bgcolor="yellow" align="center"></td>
+                    <td align="center">3BAI</td>
+                    <td align="center">3BAI</td>
+                    <td align="center">3BAI</td>
+                    <td align="center">3B</td>
+                </tr>
+                <td rowspan="3" align="center">10-15bb</td>
+                <td align="center">mr</td>
+                <td align="center">call</td>
+                <td align="center">call</td>
+                <td align="center">limp</td>
+                <td align="center">check</td>
+                </tr>
+                <tr>
+                    <td align="center">os</td>
+                    <td align="center">3BnAI</td>
+                    <td align="center">3BnAI</td>
+                    <td align="center">RFI</td>
+                    <td align="center">call</td>
+
+                </tr>
+                <tr>
+                    <td bgcolor="yellow" align="center"></td>
+                    <td align="center">3BAI</td>
+                    <td align="center">3BAI</td>
+                    <td align="center">3BAI</td>
+                    <td align="center">3B</td>
+                </tr>
+                <td rowspan="3" align="center">7-10bb</td>
+                <td align="center">mr</td>
+                <td align="center">call</td>
+                <td align="center">call</td>
+                <td align="center">limp</td>
+                <td align="center">check</td>
+                </tr>
+                <tr>
+                    <td align="center">os</td>
+                    <td align="center">3BnAI</td>
+                    <td align="center">3BnAI</td>
+                    <td align="center">RFI</td>
+                    <td align="center">call</td>
+
+                </tr>
+                <tr>
+                    <td bgcolor="yellow" align="center"></td>
+                    <td align="center">3BAI</td>
+                    <td align="center">3BAI</td>
+                    <td align="center">3BAI</td>
+                    <td align="center">3B</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <hr>
+    <h1 align="center">Форма регистрации 1</h1>
+    <form action="">
+        <label for=""><input required placeholder="Login" type="email" /> Login</label>
+        <br><br>
+        <label for=""><input required placeholder="Password" type="password" minlength="8" /> Password</label>
+        <br><br>
+        <input type="submit" value="OK" />
+    </form>
+    <br>
+    <hr>
+    <h1 align="center">Форма регистрации 2</h1>
+    <form action="">
+        <input required placeholder="Имя" type="text" name="" id="">
+        <input required placeholder="Фамилия" type="text" name="" id="">
+        <input required placeholder="Адрес" type="text" name="" id="">
+        <br><br>
+        <label for=""><input required type="checkbox" name="" id=""> мне исполнилось 18 лет</label><br><br>
+        <label for=""><select name="Страна" id="S1" required>
+                <option></option>
+                <option value="1">Беларусь</option>
+                <option value="2">Украина</option>
+                <option value="3">Россия</option>
+                <option value="4">Польша</option>
+            </select> Выбери страну</label><br><br>
+        <div>
+            <p>Выбери размер обуви:</p>
+            <label for=""><input required type="radio" name="Размер обуви" id="">S</label>
+            <label for=""><input type="radio" name="Размер обуви" id="">M</label>
+            <label for=""><input type="radio" name="Размер обуви" id="">X</label>
+            <label for=""><input type="radio" name="Размер обуви" id="">XL</label>
+        </div><br>
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+
+</html>

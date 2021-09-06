@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+</head>
+
+<body>
+    <div id="form1">
+        <form>
+            <p><b>Введите логин и пароль:</b></p>
+            <label for="login">Логин:</label>
+            <input id="login" placeholder="Email адрес" type="email" required size="25">
+            <label for="password">Пароль:</label>
+            <input id="password" placeholder="Минимум 8 символов" type="password" required minlength="8" size="25"><br>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id="table1">
+        <table border="1">
+            <caption><b>Список учеников 11Б класса</b></caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">№ п/п
+                    <th rowspan="2">Фамилия
+                    <th rowspan="2">Имя
+                    <th rowspan="2">Отчество
+                    <th rowspan="2">Дата рождения
+                    <th colspan="3">Средний балл
+                </tr>
+                <tr>
+                    <th>Биология
+                    <th>Химия
+                    <th>Математика
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1
+                    <td>Иванов
+                    <td>Иван
+                    <td>Иванович
+                    <td>15.07.1998
+                    <td>7.7
+                    <td>7.9
+                    <td>8.5
+                </tr>
+                <tr>
+                    <td>2
+                    <td>Сидоров
+                    <td>Сидор
+                    <td>Сидорович
+                    <td>20.09.1999
+                    <td>8.1
+                    <td>7.3
+                    <td>7.2
+                </tr>
+                <tr>
+                    <td>3
+                    <td>Петров
+                    <td>Пётр
+                    <td>Петрович
+                    <td>12.07.1996
+                    <td>7.5
+                    <td>8.8
+                    <td>8.9
+                </tr>
+                <tr>
+                    <td>4
+                    <td>Ольгина
+                    <td>Ольга
+                    <td>Леонидовна
+                    <td>19.08.1999
+                    <td>9.1
+                    <td>9.9
+                    <td>9.5
+                </tr>
+                <td>5
+                <td>Васильев
+                <td>Василий
+                <td>Васильевич
+                <td>10.01.1995
+                <td colspan="3">Нет данных
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id="form2">
+        <form>
+            <p><b>Введите Ваши данные:</b></p>
+            <label for="name">Имя:</label>
+            <input id="name" placeholder="Ваше имя" type="text" size="30">
+
+            <label for="surname">Фамилия:</label>
+            <input id="surname" placeholder="Ваша фамилия" type="text" required size="40"><br>
+
+            <label for="address">Адрес:</label>
+            <input id="address" placeholder="Ваш адрес" type="text" size="84"><br>
+
+            <label for="age">Мне есть 18 лет:</label>
+            <input id="age" type="checkbox"><br>
+
+            <label for="country">Страна:</label>
+            <select id="country">
+                <option>Беларусь</option>
+                <option>Россия</option>
+                <option>Украина</option>
+                <option>Польша</option>
+                <option>Литва</option>
+                <option>Латвия</option>
+                <option>Эстония</option>
+                <option>Другая</option>
+            </select>
+
+            <p><b>Ваш размер одежды:</b></p>
+            <label for="r1">S</label>
+            <input id="r1" type="radio" name="clothes">
+
+            <label for="r2">M</label>
+            <input id="r2" type="radio" name="clothes">
+
+            <label for="r3">L</label>
+            <input id="r3" type="radio" name="clothes">
+
+            <label for="r4">XL</label>
+            <input id="r4" type="radio" name="clothes">
+
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+    <hr>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form and table</title>
+</head>
+<body>
+   <div>
+    <form action="#">
+         <label for="Login"><b>Login</b></label>
+         <input id="Login" placeholder="Enter login" type="email" name="Username" required>
+         <label id="password"><b>Password</b></label>
+         <input id="password" placeholder="Enter password" type="password" name="userpass" minlength="8" required/>
+         <hr>
+         <button type="submit">Submit Form</button>
+    </form>
+   </div>
+   <div>
+       <table width="50%" border="1" align="center" cellpadding="4" cellspacing="0">
+           <caption>Calorie table</caption>
+           <thead>
+            <tr>
+              <th colspan="5">Per 100g</th>
+            </tr>
+               <tr align="center" bgcolor="YellowGreen">
+                   <th>FRUIT</th>
+                   <td>Calories<br>(kcal)</td>
+                   <td>Carbohydrates(total)<br>(grams)</td>
+                   <td>Sugar<br>(grams)</td>
+                   <td>Filer<br>(grams)</td>
+               </tr>
+           </thead> 
+           <tbody>  
+               <tr align="center">
+                   <th>Apple</th>
+                   <td>52</td>
+                   <td>14</td>
+                   <td>10</td>
+                   <td>2.4</td>
+               </tr>
+               <tr align="center">
+                   <th>Apricot</th>
+                   <td>48</td>
+                   <td>11</td>
+                   <td>9</td>
+                   <td>2</td>
+               </tr>
+               <tr align="center">
+                   <th>Banana</th>
+                   <td>89</td>
+                   <td>23</td>
+                   <td>12</td>
+                   <td>2.6</td>
+               <tr align="center"> 
+                   <th>Blackberries</th>  
+                   <td>43</td> 
+                   <td>10</td> 
+                   <td>4.9</td> 
+                   <td>5</td> 
+               </tr>
+               <tr align="center">
+                   <th>Blueberries</th>
+                   <td>57</td>
+                   <td>14</td>
+                   <td>10</td>
+                   <td>2.4</td>
+               </tr>
+               <tr align="center">
+                   <th>Cherries</th>
+                   <td>50</td>
+                   <td>12</td>
+                   <td>8</td>
+                   <td>1.6</td>
+               </tr>
+               <tr align="center">
+                   <th>Coconut</th>
+                   <td>354</td>
+                   <td>15</td>
+                   <td>6</td>
+                   <td>9</td>
+               </tr>
+           </tbody>
+           <tfoot>
+            <tr align="center">
+                <th colspan="5">DIETvsDISEASE</th>
+               </tr>
+           </tfoot>
+       </table>
+   </div>
+   <br>
+   <hr>
+   <div>
+       <form action="#">
+       <label for="Name">Name</label>
+       <input id="Name" type="text" name="Name" required>
+       <label for="Surname">Surname</label>
+       <input id="Surname" type="text" name="Surname" required>
+       <label for="Address">Address</label>
+       <input id="Address" type="text" name="Dddress" required><br><br>
+       <label for="age">Are you over 18 years old?</label>
+       <input id="age" type="checkbox" name="Yes" value="Yes">Yes
+       <input id="age" type="checkbox" name="No" value="No">No
+       <p><select name="country" id="country" required>
+           <option selected disabled>Choose your country</option>
+           <option value="Russia">Russia</option>
+           <option value="Ukraine">Ukraine</option>
+           <option value="America">America</option>
+       </select></p><br>
+       <p>Your clothing size:</p>
+       <label for="r1">S</label>
+       <input id="r1" checkbox type="radio" name="size">
+       <label for="r2">M</label>
+       <input id="r2" checkbox type="radio" name="size">
+       <label for="r3">L</label>
+       <input id="r3" checkbox type="radio" name="size">
+       <label for="r4">XL</label>
+       <input id="r4" checkbox type="radio" name="size"><br><br>
+       <button type="submit">Submit form</button>
+    </form>
+   </div>
+</body>
+</html>

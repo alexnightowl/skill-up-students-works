@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework_2</title>
+
+<body>
+
+    <center>
+        <p>
+        <h1>Добро пожаловать!</h1>
+        <h2>Заполните форму</h2>
+        <i style="color: red;">Внимание поля обязатильны для заполнения</i>
+        </p>
+
+        <form action="">
+            <input required placeholder="login" type="text" pattern="\w+@\w+" size="30%"><br>
+            <i style="color: #C0C0C0;">"@" обязательный символ</i><br><br>
+            <input required placeholder="Password" type="password" pattern="\w{8,}" size="30%"><br>
+            <i style="color: #C0C0C0;">не менее 8 символов</i><br><br>
+            <input type="submit" value="Отправить">
+        </form>
+        <br>
+
+    </CEnter>
+    <hr><br>
+
+    <table align="center" border="1px" width="90%" height="400px" cellspacing="0">
+
+        <tr>
+            <th colspan="4">Информация об одногрупниках</th>
+        </tr>
+        <!-- ПЕРВАЯ СТРОКА> -->
+        <tr align="center">
+            <th>Имя</th>
+            <th>Возраст</th>
+            <th>Напиток</th>
+            <th>Еда</th>
+        </tr>
+        <!-- КОЛЯ> -->
+        <tr align="center">
+            <Td>Коля</Td>
+            <Td>34</Td>
+            <Td>Молоко</Td>
+            <Td bgcolor="00FF00">Яблоки</Td>
+        </tr>
+        <!-- ПЕТЯ -->
+        <tr align="center">
+            <Td>Петя</Td>
+            <Td>25</Td>
+            <Td bgcolor="00FFFF">Вода</Td>
+            <Td bgcolor="FFFF00 ">Макароны</Td>
+        </tr>
+        <!-- ВАСЯ -->
+        <tr align="center">
+            <td rowspan="2">Вася</td>
+            <td rowspan="2">28</td>
+            <td bgcolor="#61210B">Горячий шоколад</td>
+            <td bgcolor="#F7F2E0">Рис</td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="#FFBF00">Пиво</td>
+            <td bgcolor="FF8000">Картошка</td>
+        </tr>
+        <!-- Ангелина + Полина -->
+        <tr align="center">
+            <td>Ангелина</td>
+            <td rowspan="2">18</td>
+            <td bgcolor="#DF3A01">Чай</td>
+            <td rowspan="2" bgcolor="#8A4B08">Мясо</td>
+        </tr>
+        <tr align="center">
+            <td>Полина</td>
+            <td bgcolor="#B45F04">Какао</td>
+        </tr>
+
+    </table>
+    <br><br><br>
+    <hr>
+
+    <!-- Форма регистрации -->
+
+    <form action="">
+
+        <center>
+            <h1>
+                <p><b>Форма регистрации</b></p>
+            </h1>
+        </center>
+
+        <!-- Имя -->
+
+        <label for="Name"><i><b>Имя:</b></i></label><br>
+        <input id="Name" required placeholder="Имя" type="text" size="30%"><br><br>
+
+        <!--  Фамииля   -->
+
+        <label for="surname"><i><b>Фамииля</b></i></label><br>
+        <input id="surname" required placeholder="Имя" type="text" size="30%"><br><br>
+
+        <!-- Адрес   -->
+
+        <label for="address"><i><b>Адрес</b></i></label><br>
+        <input id="address" required placeholder="Имя" type="text" size="30%"><br>
+
+        <!-- 18 лет   -->
+
+        <p><b> Есть ли тебе 18 лет?</b><input required type="checkbox"> </p>
+
+        <!-- Выберите вашу страну -->
+        <p>
+            <b>Выберите вашу страну</b>
+
+            <select name="" id="">
+                <option value="">Америка</option>
+                <option value="">Беларусь</option>
+                <option value="">Венгрия</option>
+                <option value="">Гондурас</option>
+                <option value="">Дания</option>
+            </select><br>
+
+            <!-- Ваш размер одежды -->
+        <p><b>Ваш размер одежды:</b></p>
+
+        <label for="S">S</label>
+        <input type="radio" name="size" id="S">
+
+        <label for="M">M</label>
+        <input type="radio" name="size" id="M">
+
+        <label for="L">L</label>
+        <input type="radio" name="size" id="L">
+
+        <label for="X">X</label>
+        <input type="radio" name="size" id="X">
+
+        <label for="XL">XL</label>
+        <input type="radio" name="size" id="XL">
+
+        </p>
+        <input type="submit" value="Отправить">
+
+    </form>
+
+    <br><br><br><br><br><br>
+
+
+
+</body>
+
+</html>

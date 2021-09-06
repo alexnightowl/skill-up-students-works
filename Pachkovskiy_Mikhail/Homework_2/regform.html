@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div align="center"><a href="index.html">На главную страницу</a></div>
+  <h1 style="text-align: center">Форма регистрации нового пользователя</h1>
+  <div>
+    <form action="">
+      <table align="center">
+        <tr>
+          <td align="right"><label for="form-username">Имя</label></td>
+          <td>
+            <input type="text" id="form-username" autofocus required placeholder="Name" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="form-surname">Фамилия</label></td>
+          <td>
+            <input type="text" id="form-surname" required placeholder="Surname" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="form-email">Адрес эл.почты</label></td>
+          <td><input type="email" id="form-email" required placeholder="Email"></td>
+        </tr>
+        <tr>
+          <td align="right">Страна</td>
+          <td>
+            <select name="country" size="1" style="width: 180px;">
+              <option></option>
+              <option>Беларусь</option>
+              <option>Россия</option>
+              <option>Украина</option>
+              <option>Польша</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td align="right" valign="top">Есть ли Вам 18 лет?</td>
+          <td><label><input type="radio" name="age">Да</label><br>
+            <label><input type="radio" name="age">Нет</label></td>
+        </tr>
+        <tr>
+          <td align="right" valign="top">Любимые жанры</td>
+          <td><label><input type="checkbox" name="genre" value="detec">Детектив<br>
+              <label><input type="checkbox" name="genre" value="scince">Фантастика</label><br>
+              <label><input type="checkbox" name="genre" value="roman">Роман</label><br>
+              <label><input type="checkbox" name="genre" value="humor">Юмор</label><br>
+              <label><input type="checkbox" name="genre" value="adventure">Приключения</label><br>
+          </td>
+        </tr>
+        <td align="right" valign="top"><label for="form-comment">Комментарий</label></td>
+        <td><textarea name="comment" id="form-comment" cols="30" rows="5" placeholder="Не более 200 символов"
+            maxlength="200"></textarea></td>
+      </table><br>
+      <div align="center">
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

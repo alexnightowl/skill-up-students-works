@@ -1,0 +1,105 @@
+body {
+    background: url(../image/usabg.jpg) no-repeat center;
+    background-size: cover;
+    background-color: black;
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+header,
+main {
+    display: block;
+    width: 100%;
+    background: #d9eff8;
+    margin: 25px 0px;
+}
+
+header {
+    height: 150px;
+}
+
+main {
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.l {
+    float: left;
+    text-align: right;
+}
+
+.r {
+    float: right;
+    text-align: left;
+}
+
+hr {
+    clear: both;
+}
+
+main img {
+    float: left;
+    width: 465px;
+    padding: 20px;
+}
+
+.submitbtn {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.LoginForm {
+    display: block;
+    float: right;
+    background: #fff;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: right;
+}
+
+.LoginForm p,
+.RegForm p {
+    text-align: center;
+}
+
+input,
+select {
+    padding: 5px;
+    margin: 5px auto;
+}
+
+.RegForm {
+    display: block;
+    background-color: white;
+    width: 95%;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.RegForm div {
+    margin: 20px;
+    width: 40%;
+}
+
+table {
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+table caption {
+    padding-bottom: 20px;
+    text-align: center;
+}

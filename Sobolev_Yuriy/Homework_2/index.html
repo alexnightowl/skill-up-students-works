@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework_2</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Homework_2</h1>
+    </header>
+    <main>
+      <div>
+        <form class="LoginForm" action="index.html">
+          <p>Войти</p>
+          <label for="login">Login | </label>
+          <input
+            title="Введите ваш email"
+            placeholder="aaa@aa.com"
+            required
+            pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+            type="email"
+            name="email"
+            id="login"
+          />
+          <br />
+          <label for="pass">Password | </label>
+          <input
+            title="пароль не менее 8 символов как минимум один спецсимвол"
+            id="pass"
+            placeholder="pass"
+            required
+            pattern="(?=.*?[#?!@$%^&*-]).{8,}$"
+            type="text"
+          />
+          <input class="submitbtn" type="submit" value="LOGIN" />
+        </form>
+      </div>
+      <div>
+        <img src="image/car-usa.jpg" alt="Cars from USA. choose your car!" />
+      </div>
+      <hr />
+      <div>
+        <table border="1" style="background-color: white">
+          <caption>
+            Авто из США
+          </caption>
+          <thead>
+            <tr>
+              <th rowspan="2" width="20px">#</th>
+              <th rowspan="2" width="150px">Марка</th>
+              <th rowspan="2" width="150px">Модель</th>
+              <th rowspan="2" width="60px">год</th>
+              <th colspan="3" width="300px">Состояние</th>
+              <th rowspan="2" width="60px">Цена $</th>
+            </tr>
+            <tr>
+              <td style="text-align: center" width="100px">Хор.</td>
+              <td style="text-align: center" width="100px">Средн.</td>
+              <td style="text-align: center" width="100px">Плох.</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td rowspan="2">ACURA</td>
+              <td>ILX</td>
+              <td>2017</td>
+              <td></td>
+              <td style="text-align: center">*</td>
+              <td></td>
+              <td>7100 $</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>TLX</td>
+              <td>2017</td>
+              <td style="text-align: center">*</td>
+              <td></td>
+              <td></td>
+              <td>13500 $</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td rowspan="3">CADILLAC</td>
+              <td rowspan="2">ESCALADE</td>
+              <td>2015</td>
+              <td style="text-align: center">*</td>
+              <td></td>
+              <td></td>
+              <td>27500 $</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>2014</td>
+              <td></td>
+              <td></td>
+              <td style="text-align: center">*</td>
+              <td>1800 $</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>ATS Luxury</td>
+              <td>2016</td>
+              <td></td>
+              <td style="text-align: center">*</td>
+              <td></td>
+              <td>9000 $</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td rowspan="4">DODGE</td>
+              <td rowspan="2">RAM 1500</td>
+              <td>2011</td>
+              <td style="text-align: center">*</td>
+              <td></td>
+              <td></td>
+              <td>9000 $</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>2012</td>
+              <td></td>
+              <td style="text-align: center">*</td>
+              <td></td>
+              <td>9650 $</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>DART Limited</td>
+              <td>2014</td>
+              <td></td>
+              <td></td>
+              <td style="text-align: center">*</td>
+              <td>5400 $</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>JORNEY Crossroad</td>
+              <td>2016</td>
+              <td></td>
+              <td></td>
+              <td style="text-align: center">*</td>
+              <td>5500 $</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <form class="RegForm" action="index.html">
+          <p>Зарегистрироваться</p>
+          <hr />
+          <div class="l">
+            <label
+              >Имя |
+              <input
+                title="Введите Ваше Имя"
+                placeholder="Ваше Имя"
+                required
+                type="text"
+                id="name"
+            /></label>
+            <br />
+            <label
+              >Фамилия |
+              <input
+                title="Введите Вашу Фамилию"
+                placeholder="Ваш Фамилия"
+                required
+                type="text"
+                id="surname"
+            /></label>
+            <br />
+            <label
+              >Адрес |
+              <input
+                title="Введите Ваш адрес"
+                placeholder="Ваш Адрес"
+                required
+                type="text"
+                id="address"
+            /></label>
+          </div>
+          <div class="r">
+            <input type="checkbox" id="18" required />
+            <label for="18"> Есть ли вам 18 ?</label>
+            <br />
+            <label for="Country">Ваша Страна ?</label>
+            <select id="Country" required>
+              <option selected disabled></option>
+              <option value="Китай">Китай</option>
+              <option value="USA">USA</option>
+              <option value="Франция">Франция</option>
+              <option value="Вьетнам">Вьетнам</option>
+              <option value="Польша">Польша</option>
+              <option value="Италия">Италия</option>
+              <option value="UAE">UAE</option>
+              <option value="Япония">Япония</option>
+              <option value="Позняки">Позняки</option>
+            </select>
+            <br />
+            <label>Ваш бюджет<br /></label>
+            <label
+              >1000
+              <input type="radio" name="money" required />
+            </label>
+            <label> | 10000 <input type="radio" name="money" /></label>
+            <label> | 20000 <input type="radio" name="money" /></label>
+            <label> | 50000 <input type="radio" name="money" /></label>
+          </div>
+          <hr />
+          <input class="submitbtn" type="submit" value="REGISTER" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

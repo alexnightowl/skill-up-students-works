@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_2</title>
+</head>
+
+<body>
+    <div align="middle">
+        <p> enter your email and password</p>
+        <form action="logandpass">
+            <label for="email">email</label><br>
+            <div>
+                <input type="text" placeholder="enter email" pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+                    required>
+                <br><br>
+            </div>
+            <label for="password">password</label><br>
+            <div>
+                <input type="password" placeholder=" enter password" required>
+                <br><br>
+            </div>
+            <input type="submit" value="log in" style="width: 200px;">
+        </form>
+    </div><br>
+    <div>
+        <style>
+            table {
+                width: 80%;
+                border-collapse: collapse;
+            }
+
+            td,
+            th {
+                padding: 5px;
+                border: 2px solid;
+            }
+        </style>
+        <hr>
+        <p align="center"><strong>График</strong></p>
+        <p align="center"><strong>переодического медицинского осмотра</strong></p>
+        <div class="table">
+            <table border="2" align=«center»>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>дата проведения</th>
+                        <th>Ф.И.О.</th>
+                        <th>дата рождения</th>
+                        <th>должность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>25.06.2022</td>
+                        <td>Комиссаров Геннадий Лукьянович</td>
+                        <td>08.07.1991</td>
+                        <td>главный бухгалтер</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>29.12.2022</td>
+                        <td>Журавлёва Алия Рудольфовна</td>
+                        <td>02.10.1995</td>
+                        <td>бухгалтер</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>05.11.2022</td>
+                        <td>Архипов Борис Авксентьевич</td>
+                        <td>14.12.1990</td>
+                        <td>бухгалтер</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>02.04.2022</td>
+                        <td>Гришина Рая Гордеевна</td>
+                        <td>05.03.1998</td>
+                        <td>начальник отдела кадров</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>02.04.2022</td>
+                        <td>Лукин Захар Феликсович</td>
+                        <td>05.03.1998</td>
+                        <td>специалист отдела кадров</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>02.04.2022</td>
+                        <td>Жуков Алан Игоревич</td>
+                        <td>05.03.1998</td>
+                        <td>специалист отдела кадров</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <hr>
+        <br>
+        <div align="middle">
+            <form action="Registration">
+                <p style="text-align: center;">To register, fill in the fields</p>
+                <div>
+                    <label for="Name">name:</label>
+                    <input type="text" placeholder="enter name" required>
+                </div><br>
+                <div>
+                    <label for="Surname">surname:</label>
+                    <input type="text" placeholder="enter surname" required>
+                </div><br>
+                <div>
+                    <label for="Address">address:</label>
+                    <input type="text" placeholder="enter address" required>
+                </div><br>
+                <div>
+                    <label for="Age">Are you 18 years old?</label><br>
+                    <input type="checkbox" name="">
+                </div><br>
+                <div>
+                    <label for="Country">Select your country of residence:</label>
+                    <select required>
+                        <option></option>
+                        <option>Ukraine</option>
+                        <option>Belarus</option>
+                        <option>Poland</option>
+                        <option>Russia</option>
+                        <option>Moldova</option>
+                        <option>the other</option>
+                    </select>
+                </div><br>
+                <div aria-required="true">
+                    <label>Choose your clothing size <br>
+                        <label for="Size">S</label>
+                        <input type="radio" name="Size" required>
+                        <label for="Size">M</label>
+                        <input type="radio" name="Size">
+                        <label for="Size">L</label>
+                        <input type="radio" name="Size">
+                        <label for="Size">XL</label>
+                        <input type="radio" name="Size">
+                    </label>
+                </div><br>
+                <div>
+                    <input type="submit" value="registered">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

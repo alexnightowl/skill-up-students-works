@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Ян">
+  <meta name="robots" content="index,follow">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>3 сайта для чтения манги</title>
+</head>
+
+<body >
+  <form action="log_action.php">
+    <div class="form">
+    <fieldset>
+      <legend style="text-align: center">
+        <h1>Войти в систему</h1>
+      </legend>
+      <label for="login">Введите логин </label> <br>
+      <div class="input">
+        <input type="email" id="login"  placeholder="Login" class="log_make_bigger" required maxlength="14" minlength="6" autofocus pattern="[A-Za-z]" >
+      </div>
+      <!-- /.input -->
+      <label for="password">Введите пароль </label> <br>
+      <div class="password">
+        <input type="password" id="password"  placeholder="Password" class="log_make_bigger" required maxlength="16" minlength="8"   >
+      </div>
+      <!-- /.password -->
+      <br>
+      <div class="button">
+        <input class="buttonD" type="submit" value="Вход">
+      </div>
+      <!-- /.button -->
+    </fieldset>
+    </div>
+    <!-- /.form -->
+  </form>
+  <hr style=" border-style: double ; padding: 5px ">
+  <table>
+  <caption style="font-size: 18px; margin: 0 0 30px ;">Топ 5 акций в портфеле компании Уоррена Баффета по стоимости на 30 июня 2021 года</caption>
+    
+    <thead>
+      <tr>
+        <th colspan="5" >Топ 5 акций Уоррена Баффета по % портфеля</th> 
+      </tr>
+      <tr>
+        <th rowspan="2">Компания</th>
+        <th rowspan="2">Символ</th>
+        <th rowspan="2">Стоимость на 30.06.2021</th>
+        <th rowspan="2">Кол-во акций</th>
+        <th rowspan="2">% портфеля</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>APPLE INC(COM)</td>
+        <td>AAPL</td>
+        <td>121,502,087,000</td>
+        <td>887,135,554</td>
+        <td>41.46%</td>
+      </tr>
+      <tr>
+        <td>BANK AMER CORP(COM)</td>
+        <td>BAC</td>
+        <td>41,646,448,000</td>
+        <td>1,010,100,606	</td>
+        <td>14.21%</td>
+      </tr>
+      <tr>
+        <td>AMERICAN EXPRESS CO(COM)</td>
+        <td>AXP</td>
+        <td>25,050,635,000</td>
+        <td>151,610,700	</td>
+        <td>8.55%</td>
+      </tr>
+      <tr>
+        <td>COCA COLA CO(COM)</td>
+        <td>KO</td>
+        <td>21,644,001,000</td>
+        <td>400,000,000	</td>
+        <td>7.39%</td>
+      </tr>
+      <tr>
+        <td>KRAFT HEINZ CO(COM)</td>
+        <td>KHC</td>
+        <td>13,279,388,000</td>
+        <td>325,634,818	</td>
+        <td>4.53%</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2">Общая стоимость на 30.06.2021 ($)</td>
+        <td colspan="3" style="text-align:left">293,023,412,000</td>
+      </tr>
+    </tfoot>
+  </table>
+  <hr style=" border-style: double ; padding: 5px ">
+  <div class="form2">
+    <form action="#" method="GET">
+      <h2>Регистрация</h2>
+      <label for="name">Имя </label> <br>
+      <div class="name">
+        <input type="text" id="name" placeholder="Name" required maxlength="14" minlength="2" class="dotted"  pattern="[А-Яа-яЁё]" >
+      </div>
+      <!-- /.name -->
+      <label for="surname">Фамилия </label> <br>
+      <div class="surname">
+        <input type="text" id="surname" placeholder="Surname" required maxlength="14" minlength="3" class="dotted" pattern="[А-Яа-яЁё]" >
+      </div>
+      <!-- /.surname -->
+      <label for="address">Адрес </label> <br>
+      <div class="address">
+        <input type="text" id="address" placeholder="Address" maxlength="20" minlength="7" class="dotted" pattern="[А-Яа-яЁё]" >
+      </div>
+      <!-- /.address -->
+      <label for="age" >Есть ли вам 18 лет? </label> 
+      <div class="age">
+        <input type="radio" name="radio"  id="age1" >
+        <label for="age1" >Да</label> 
+        <input type="radio" name="radio"  id="age2" >
+        <label for="age2" >Нет</label> 
+      </div>
+      <!-- /.age -->
+      <label for="country">Выберите страну проживания: </label> <br>
+      <div class="country">
+        <select id="country" class="dotted" required>
+          <option></option>
+          <option>Беларусь</option>
+          <option>Польша</option>
+          <option>Россия</option>
+          <option>Молдова</option>
+          <option>Украина</option>
+        </select>
+      </div>
+      <!-- /.country -->
+      <div class="size">
+        <label>Выберите размер одежды <br>
+          <label for="Size">S</label>
+          <input type="radio" name="Size" required>
+          <label for="Size">M</label>
+          <input type="radio" name="Size">
+          <label for="Size">L</label>
+          <input type="radio" name="Size">
+          <label for="Size">XL</label>
+          <input type="radio" name="Size">
+        </label>
+      </div>
+      <!-- /.size -->
+      <div class="button2">
+        <input class="buttonB" type="submit" value="Отправить">
+      </div>
+    </form>
+  </div>
+  <!-- /.form2 -->
+
+
+</body>
+</html>

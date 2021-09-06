@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_2_ID</title>
+</head>
+
+<body>
+    <div align="middle">
+        <p>Введите логин и пароль</p>
+        <form action="logandpass">
+            <label for="login">Логин</label><br>
+            <div>
+                <input type="text" placeholder="email" id="login" pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+                    required>
+                <br><br>
+            </div>
+            <label for="password">Пароль</label><br>
+            <div>
+                <input type="password" placeholder="password" id="password" pattern="[a-zA-Z0-9]{8,10}$" required>
+                <br><br>
+            </div>
+            <input type="submit" value="Вход" style="width: 200px;">
+        </form>
+    </div><br>
+    <div>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            thead {
+                background: #a0eff5;
+            }
+
+            td,
+            th {
+                padding: 5px;
+                border: 1px solid #333;
+            }
+        </style>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Месяц</th>
+                    <th colspan="4">Наименование</th>
+                </tr>
+                <tr>
+                    <th>КАССА</th>
+                    <th>З/П</th>
+                    <th>ЗАКУПКА</th>
+                    <th>АРЕНДА</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Январь</td>
+                    <td>62000</td>
+                    <td>12400</td>
+                    <td>18500</td>
+                    <td>8500</td>
+                </tr>
+                <tr>
+                    <td>Февраль</td>
+                    <td>56000</td>
+                    <td>11200</td>
+                    <td>16500</td>
+                    <td>8500</td>
+                </tr>
+                <tr>
+                    <td>Март</td>
+                    <td>61000</td>
+                    <td>12100</td>
+                    <td>17000</td>
+                    <td>8500</td>
+                </tr>
+                <tr>
+                    <td>Апрель</td>
+                    <td>65000</td>
+                    <td>12800</td>
+                    <td>18800</td>
+                    <td>8500</td>
+                </tr>
+                <tr>
+                    <td>Май</td>
+                    <td>64000</td>
+                    <td>13000</td>
+                    <td>17900</td>
+                    <td>8500</td>
+                </tr>
+                <tr>
+                    <td>Июнь</td>
+                    <td>65000</td>
+                    <td>12800</td>
+                    <td>18300</td>
+                    <td>8500</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div><br>
+    <div align="middle">
+        <form action="Registration">
+            <p style="text-align: center;">Для регистрации заполните поля</p>
+            <div>
+                <label for="Name">Имя:</label>
+                <input type="text" id="Name" placeholder="Name" required>
+            </div><br>
+            <div>
+                <label for="Surname">Фамилия:</label>
+                <input type="text" id="Surname" placeholder="Surname" required>
+            </div><br>
+            <div>
+                <label for="Address">Адрес:</label>
+                <input type="text" id="Address" placeholder="Address" required>
+            </div><br>
+            <div>
+                <label for="Age"> Есть ли вам 18 лет?</label>
+                <input type="checkbox" id="Age" required>
+            </div><br>
+            <div>
+                <label for="Country">Выберите страну проживания:</label>
+                <select id="Country" required>
+                    <option></option>
+                    <option>Беларусь</option>
+                    <option>Молдова</option>
+                    <option>Польша</option>
+                    <option>Россия</option>
+                    <option>Украина</option>
+                </select>
+            </div><br>
+            <div aria-required="true">
+                <label>Выберите размер одежды <br>
+                    <label for="Size">S</label>
+                    <input type="radio" name="Size" required>
+                    <label for="Size">M</label>
+                    <input type="radio" name="Size">
+                    <label for="Size">L</label>
+                    <input type="radio" name="Size">
+                    <label for="Size">XL</label>
+                    <input type="radio" name="Size">
+                </label>
+            </div><br>
+            <div>
+                <input type="submit" value="Зарегистрироваться">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgba(149, 223, 241, 35%);
+margin: 0;
+}
+
+.form {
+ width: 800px;
+ padding: 12px;
+ border-radius: 30px;
+ box-shadow: 5px 5px 12px black;
+ border: dashed rgb(0, 0, 0);
+ text-align: center;
+ margin: 2% auto;
+ background-color: rgba(149, 223, 241, 0.527);
+}
+.input, 
+.password, 
+.button 
+{
+  margin: 3px;
+  
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.buttonD 
+{
+background-color: rgba(41, 60, 235, 0.945);
+color: rgb(255, 255, 255);
+font-size: 18px ;
+}
+
+.buttonB 
+{
+background-color: rgba(41, 60, 235, 0.945);
+color: rgb(255, 255, 255);
+font-size: 18px ;
+margin-top: 15px;
+}
+
+.buttonD:focus 
+{
+background-color: rgba(67, 83, 233, 0.945);
+}
+
+.buttonB:focus 
+{
+background-color: rgba(67, 83, 233, 0.945);
+}
+
+fieldset {
+  border: dashed rgb(0, 0, 0);
+}
+
+table {
+  font-family:sans-serif;
+  border-collapse: separate;
+  border-spacing: 8px;
+  background: rgba(149, 223, 241, 0.527);
+  border: 4px dashed rgb(0, 0, 0);
+  color: rgb(4, 54, 48);
+  border-radius: 20px;
+  box-shadow: 5px 5px 12px black;
+  text-align: center;
+  margin: 2% auto;
+}
+
+th {
+  font-size: 18px;
+  padding: 8px;
+  background: rgb(95, 189, 212);
+}
+
+td {
+  background: rgb(149, 223, 241);
+}
+
+.form2 {
+  width: 400px;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 12px black;
+  border: dashed rgb(0, 0, 0);
+  text-align: center;
+  margin: 2% auto;
+  background-color: rgba(149, 223, 241, 0.527);
+  font-size: 16px;
+ }
+
+ .dotted {
+  border: dashed;
+  border-width: 2px 4px;
+  border-radius: 40px;
+  border-color: rgb(0, 0, 0);
+ }
+
+ .log_make_bigger {
+   height: 20px;
+ }
