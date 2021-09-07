@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div>
     <form action>
         <input placeholder="email" type="email" required>
         <label for="Login">Login</label>
@@ -15,9 +15,27 @@
         <input placeholder="password" type="password" required minlength="8">
         <label for="passwors">Password</label>
         <br>
-        <br>
         <input type="submit">
-        <hr>
     </form>
+    </div>
+    <hr>
+    <p>Please choose your size:</p>
+    <div>
+        <form action>
+            <input type="radio" name="choose size" required>
+            <label for="choose size">S</label>
+            <br>
+            <input type="radio" name="choose size" required>
+            <label for="choose size">M</label>
+            <br>
+            <input type="radio" name="choose size" required>
+            <label for="choose size">L</label>
+            <br>
+            <input type="radio" name="choose size" required>
+            <label for="choose size">XL</label>
+            <br>
+            <input type="submit" required>
+        </form>
+    </div>
 </body>
 </html>
