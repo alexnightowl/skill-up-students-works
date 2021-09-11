@@ -1,0 +1,41 @@
+body {
+  font: 1em Aerial;
+  /* margin: 0; */
+  margin: 20px;
+}
+.conteiner {
+  background: #999;
+  display: block;
+  /* display: none; */
+  /* width: 200px; */
+  height: 100px;
+  margin: 80px;
+  /* margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px; */
+  /* padding: 10px; */
+  max-width: 500px;
+  min-width: 350px;
+  position: relative;
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  overflow: auto;
+}
+.conteiner-inner {
+  background: #ccc;
+  margin: 10px;
+  /* position: absolute; */
+  position: fixed;
+  bottom: ;
+  top: 20px;
+  left: ;
+  right: 20px;
+  z-index: 999;
+}
+a {
+  width: 500px;
+  height: 100px;
+  background: #888;
+  display: block;
+}
