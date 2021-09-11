@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  padding: 2rem;
+  margin: 0;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.hexagon__grid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 160px;
+}
+
+.hexagon {
+  width: 185px;
+  height: 200px;
+  background: url(./images/hexagon.svg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transition: 0.2s all ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.row a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.hexagon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
