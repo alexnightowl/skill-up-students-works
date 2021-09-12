@@ -3,19 +3,35 @@ body {
    font-family: Verdana;
 }
 
-h1,h2 {
+h1 {
    color: red;
-   font-size: 35px;
+   font-size: 45px;
+   text-align: center;
+   border-bottom: 2px solid brown;
+}
+
+h2,h3 {
+   color: red;
+   font-size: 30px;
    text-align: center;
 }
 
+li:nth-child(odd) {
+   color: darkmagenta;
+   font-size: 15px;
+   font-style: italic;
+}
+
+li:nth-child(even) {
+   color: green;
+   font-size: 15px;
+   font-style: italic;
+}
+
 h1::after{
-   content: "Mensk";
+   content: "(Mensk)";
    font-size: 20px;
    font-style: italic;
 }
 
-.region {
-   color: sienna;
-}
 
