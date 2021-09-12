@@ -1,0 +1,21 @@
+body {
+   background-color: rgb(221, 192, 192);
+   font-family: Verdana;
+}
+
+h1,h2 {
+   color: red;
+   font-size: 35px;
+   text-align: center;
+}
+
+h1::after{
+   content: "Mensk";
+   font-size: 20px;
+   font-style: italic;
+}
+
+.region {
+   color: sienna;
+}
+
