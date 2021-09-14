@@ -9,6 +9,7 @@
 .nav {
      width: 100%;
      height: 40px; 
+     min-width: 1600px;
      background: rgb(0, 0, 0); 
      border: 1px solid #000; 
      padding: 3px;
@@ -19,7 +20,7 @@
      height: 585px; 
      background: rgb(71, 15, 223); 
      border: 1px solid #000; 
-     padding: 3px;
+     padding: 1px;
      float: left;
      display: block;
 }
@@ -29,24 +30,28 @@
      height: 700px; 
      background:rgb(255, 255, 255); 
      border: 1px solid #000; 
-     padding: 2px;
+     padding: 1px;
 }
 
 .section-block1 {
      height: 600px;
      overflow: auto;
+     padding-left: 10px;
 }
 
 .section {
-     width: 400px;
+     width: 300px;
      height: 100px; 
      background:#ffd700; 
      border: 1px solid #000; 
-     margin-left: 5px;
-     margin-top: 10px;
+     margin-left: 2px;
+     margin-top: 4px;
      display: inline-block;
      text-align: center;
      font-family: 'Times New Roman', Times, serif;
+     border-radius: 4px;
+     position: sticky;
+     box-sizing: border-box;
 }
 
 .footer {
@@ -55,8 +60,7 @@
      background: rgb(185, 90, 52); 
      border: 1px solid #000; 
      padding: 2px;
-     float: left;
-    }
+ }
  
 .p-aside {
      width: 150px;
@@ -71,11 +75,37 @@
 }
 
 
-.t1-header-footer {
-     color: rgb(255, 255, 255);
+.t1-header {
+     color: rgb(224, 199, 54);
      text-align: center;
+     font-size: 18pt;
 }
 
-body {
-     background: rgb(156, 248, 255);
-}    
+.t1-footer {
+     color: rgb(224, 199, 54);
+     text-align: center;
+     font-size: 10pt;
+     margin-bottom: 0px;
+}
+
+.t2-footer {
+     color: rgb(0, 0, 0);
+     text-align: center;
+     font-size: 8pt;
+}
+
+.section div {
+     width: 80px;
+     height: 80px;
+     border: 1px solid #000;
+     background: rgb(133, 175, 182);
+     position: absolute;
+     top: 10px;
+     left: 110px;
+     box-sizing: border-box;
+}
+
+.pic-insection {
+     width: 100%;
+     height: 100%;
+}
