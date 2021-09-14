@@ -1,0 +1,143 @@
+body {
+  margin: 10px;
+}
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(41, 44, 49);
+}
+.menu {
+  display: inline-block;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 5px;
+}
+#imgnav {
+  width: 30px;
+  float: left;
+  padding-top: 7px;
+  padding-left: 10px;
+}
+li a {
+  text-decoration: none;
+  color: rgb(119, 114, 114);
+}
+li a:hover {
+  color: white;
+}
+.form-block {
+  margin: 7px;
+}
+#form-nav {
+  float: right;
+}
+#form-nav input {
+  display: inline-block;
+}
+
+#form-search {
+  border-radius: 5px;
+  height: 30px;
+  font-size: 0.8em;
+}
+#button-search {
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid rgb(13, 153, 153);
+  color: rgb(13, 153, 153);
+  height: 30px;
+  font-size: 0.8em;
+}
+#button-search:hover {
+  color: white;
+}
+.kv {
+  position: relative;
+  margin-top: 100px;
+  width: 500px;
+  height: 400px;
+  border: 1px dotted #000;
+}
+.red {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: red;
+}
+.blue {
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: blue;
+}
+.green {
+  position: absolute;
+  top: 190px;
+  left: 190px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: green;
+}
+.zind1 {
+  z-index: 1;
+}
+.zind2 {
+  z-index: 2;
+}
+.tl-block {
+  margin-top: 100px;
+  position: relative;
+  width: 500px;
+  height: 650px;
+  border: 1px dotted #000;
+}
+.tl {
+  position: relative;
+  width: 200px;
+  height: 430px;
+  border: 1px solid #000;
+  margin: 100px auto;
+}
+.tl div {
+  border: 1px solid #000;
+}
+.circle-red {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: red;
+}
+.circle-yellow {
+  position: absolute;
+  top: 165px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: yellow;
+}
+.circle-green {
+  position: absolute;
+  top: 280px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: green;
+}
