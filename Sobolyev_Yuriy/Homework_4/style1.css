@@ -14,30 +14,10 @@ a {
   color: #cd2c2c;
   text-decoration: none;
 }
-/* 
-.list>li {
-    border-bottom: 1px dashed #666;
-}
-h2 ~ li {
-    color: hotpink;
-}
-:link {
-    border-bottom: 1px dashed #444;
-}
-:valid {
-
-} */
 :hover {
   border: 1px solid black;
   background: pi;
 }
-/*
-:active {
-
-}
-:focus {
-
-} */
 li:nth-last-child(even) {
   color: red;
 }
@@ -49,15 +29,6 @@ h2::after {
   content: " - By the way : ";
   font-size: 10px;
 }
-/* a[title="my-title"] {
-
-} */
-/* a[title~="my-title"] {
-
-} */
-/* a[title|="my-title"] {
-
-} */
 a[href^='https://']::before
 {
   content: "http link -";
