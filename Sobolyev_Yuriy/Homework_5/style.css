@@ -1,5 +1,5 @@
 body {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
 main {
@@ -93,13 +93,10 @@ header {
   height: 70px;
   z-index: 3;
   top: 0;
-  /* margin: 0; */
-  /* padding: 10px; */
 }
 .inline {
   display: inline-block;
   box-sizing: border-box;
-  /* margin: 10px; */
 }
 .nav {
   position: absolute;
@@ -115,7 +112,6 @@ header {
   color: #ffffff99;
   height: 50px;
   padding: 0 10px;
-  /* margin: 10px 0; */
 }
 .nav a.active,
 .nav a:hover {
@@ -129,7 +125,8 @@ header {
   right: 20px;
   margin-top: 10px;
 }
-.search input, button {
+.search input,
+button {
   border: 1px solid #fff;
   padding: 0 20px;
   border-radius: 5px;
