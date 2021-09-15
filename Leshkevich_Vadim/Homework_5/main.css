@@ -1,234 +1,234 @@
 .head {
-    position: fixed;
-    border: 1px solid black;
-    height: 50px;
-    width: auto;
-    top: 0px;
-    left: 5px;
-    right: 5px;
-    background-color: rgb(108, 173, 238);
-    z-index: 4;
-    margin-top: 0;
-  }
-  .link:link,
-  .link:visited {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .link:focus {
-    color: purple;
-  }
-  
-  a:link,
-  a:visited {
-    text-decoration: none;
-    color: rgb(181, 181, 181);
-  }
-  
-  a:focus {
-    text-decoration: none;
-    color: white;
-  }
-  
-  #logo {
-    display: inline-block;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    top: 10px;
-    left: 5px;
-  }
-  
-  .link {
-    display: inline-block;
-    font-family: "Montserrat", sans-serif;
-    margin-left: 35px;
-  }
-  
-  .nav {
-    display: inline-block;
-  }
-  
-  ul {
-    padding-left: 5px;
-  }
-  
-  ul a {
-    margin-left: 10px;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  .search {
-    position: absolute;
-    border-radius: 5px;
-    border: 1px solid rgb(181, 181, 181);
-    right: 90px;
-    top: 5px;
-    width: 150px;
-    height: 35px;
-  }
-  
-  .searchbutton {
-    position: absolute;
-    border-radius: 5px;
-    border: 1px solid white;
-    right: 5px;
-    background-color: rgb(108, 173, 238);
-    top: 5px;
-    width: 80px;
-    height: 40px;
-    color: white;
-  }
-  
-  .searchbutton:focus {
-      color: purple;
-  }
-  
-  .work {
-    position: relative;
-    top: 60px;
-  }
-  
-  .redbox-first {
-    display: inline-block;
-    position: absolute;
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-  }
-  
-  .bluebox-first {
-    display: inline-block;
-    position: absolute;
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    top: 60px;
-    left: 60px;
-    z-index: 1;
-  }
-  
-  .greenbox-first {
-    display: inline-block;
-    position: absolute;
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    top: 120px;
-    left: 120px;
-  }
-  
-  .redbox-second {
-    display: inline-block;
-    position: absolute;
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
-    left: 300px;
-    background-color: red;
-  }
-  .bluebox-second {
-    display: inline-block;
-    position: absolute;
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    top: 60px;
-    left: 360px;
-    z-index: -1;
-  }
-  
-  .greenbox-second {
-    display: inline-block;
-    position: absolute;
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    top: 120px;
-    left: 420px;
-  }
-  
-  .redbox-third {
-    display: inline-block;
-    position: absolute;
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
-    left: 600px;
-    background-color: red;
-    z-index: 3;
-  }
-  
-  .bluebox-third {
-    display: inline-block;
-    position: absolute;
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    top: 60px;
-    left: 660px;
-    z-index: 2;
-  }
-  
-  .greenbox-third {
-    display: inline-block;
-    position: absolute;
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    top: 120px;
-    left: 720px;
-    z-index: 1;
-  }
-  
-  .light {
-    position: relative;
-    border: 1px solid black;
-    width: 120px;
-    height: 190px;
-    top: 300px;
-  }
-  .red-light {
-    position: absolute;
-    border: 1px solid black;
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    border-radius: 50%;
-    left: 50%;
-    margin-left: -25px;
-    top: 10px;
-  }
-  
-  .yellow-light {
-    position: absolute;
-    border: 1px solid black;
-    width: 50px;
-    height: 50px;
-    background-color: yellow;
-    border-radius: 50%;
-    left: 50%;
-    margin-left: -25px;
-    top: 70px;
-  }
-  
-  .green-light {
-    position: absolute;
-    border: 1px solid black;
-    width: 50px;
-    height: 50px;
-    background-color: green;
-    border-radius: 50%;
-    left: 50%;
-    margin-left: -25px;
-    top: 130px;
-  }
-  
+  position: fixed;
+  border: 1px solid black;
+  height: 50px;
+  width: auto;
+  top: 0px;
+  left: 5px;
+  right: 5px;
+  background-color: rgb(108, 173, 238);
+  z-index: 4;
+  margin-top: 0;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.link:focus {
+  color: purple;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(181, 181, 181);
+}
+
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#logo {
+  display: inline-block;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 10px;
+  left: 5px;
+}
+
+.link {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 35px;
+}
+
+.nav {
+  display: inline-block;
+}
+
+ul {
+  padding-left: 5px;
+}
+
+ul a {
+  margin-left: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.search {
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid rgb(181, 181, 181);
+  right: 90px;
+  top: 5px;
+  width: 150px;
+  height: 35px;
+}
+
+.search_button {
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid white;
+  right: 5px;
+  background-color: rgb(108, 173, 238);
+  top: 5px;
+  width: 80px;
+  height: 40px;
+  color: white;
+}
+
+.search_button:focus {
+  color: purple;
+}
+
+.work {
+  position: relative;
+  top: 60px;
+}
+
+.redbox-first {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.bluebox-first {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  top: 60px;
+  left: 60px;
+  z-index: 1;
+}
+
+.greenbox-first {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  top: 120px;
+  left: 120px;
+}
+
+.redbox-second {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  left: 300px;
+  background-color: red;
+}
+.bluebox-second {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  top: 60px;
+  left: 360px;
+  z-index: -1;
+}
+
+.greenbox-second {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  top: 120px;
+  left: 420px;
+}
+
+.redbox-third {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  left: 600px;
+  background-color: red;
+  z-index: 3;
+}
+
+.bluebox-third {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  top: 60px;
+  left: 660px;
+  z-index: 2;
+}
+
+.greenbox-third {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  top: 120px;
+  left: 720px;
+  z-index: 1;
+}
+
+.light {
+  position: relative;
+  border: 1px solid black;
+  width: 120px;
+  height: 190px;
+  top: 300px;
+}
+.red-light {
+  position: absolute;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -25px;
+  top: 10px;
+}
+
+.yellow-light {
+  position: absolute;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -25px;
+  top: 70px;
+}
+
+.green-light {
+  position: absolute;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -25px;
+  top: 130px;
+}
