@@ -69,15 +69,17 @@ a:hover {
 .block11 {
 	width:877px;
 	height:350px;
-	background: #e4cdcd; /* Цвет заднего фона */ 
+	background: #e4cdcd; /* Цвет заднего фона */
+	box-sizing: border-box;
 }
 .block12 {
-	width: 390px;
+	width: 386px;
 	height:350px;
 	position:absolute;
 	left:877px;
 	top:136px;
    background: #addae0; /* Цвет заднего фона */ 
+	box-sizing: border-box;
 }
 .color1 {
 	width: 80px;
@@ -175,10 +177,51 @@ a:hover {
 	text-align: center;
 	position: relative;
 	top: -475px;
-	left: 655px;
+   left: 655px;
 	z-index: 3;
 }
 .svetofor {
-	background-color: white;
-	border: 2px black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.color31 {
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	background-color: red;
+	border-radius: 50%;
+	color: #000;
+	text-align: center;
+	top: 0;
+	left: 0;
+	position: relative;
+	z-index: 1;
+}
+.color32 {
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	background-color: yellow;
+	color: #000;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	top: 0;
+   left: 0;
+	z-index: 3;
+}
+.color33 {
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	background-color: green;
+	color: #000;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	top: 0;
+   left: 0;
+	z-index: 2;
 }
