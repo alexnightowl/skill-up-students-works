@@ -1,0 +1,215 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: relative;
+}
+h1{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 0.2em;
+}
+h3{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 45px;
+	margin-top: 80px;
+}
+.exp{
+	font-size: 30px;
+	color: darkgreen;
+}
+.exp12{
+	font-size: 25px;
+	font-style: italic;
+	color: blue;
+	text-indent: 75%;
+}
+.exp2{
+	font-size: 30px;
+	font-style: italic;
+	color: blue;
+	text-indent: 75%;
+}
+.exp21{
+	font-size: 30px;
+	font-style: italic;
+	color: rgb(134, 34, 143);
+	text-indent: 75%;
+}
+.exp3{
+	font-size: 35px;
+	color: goldenrod;;
+}
+.exp5{
+	font-size: 40px;
+	font-style: italic;
+}
+.header {
+	background-color: #6a13eb;
+	padding-top: 12px; /*задаем внутренний отступки*/
+	padding-bottom: 12px;
+}
+.navbar {
+	max-width: 980px;
+	margin: 0 50px 0 70px;
+	display: flex; /*сделали блок гибким*/
+	justify-content: space-between; /*раставили элементы по краям*/
+	align-items: center;
+	color: #00ecbb;
+   position: sticky;
+}
+.logo {
+	margin: 0;
+	padding-right: 50px;
+}
+.navbar-menu {
+	margin: 0; /*отключение отступов внешних*/
+	padding: 0; /*отключение внутренних отступов*/
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar-item {
+	font-weight: 800;
+	margin-left: 50px; /*устанавливаем левый отступ в списке меню*/
+	margin-right: 0; /*устанавливаем правый отступ в списке меню*/
+}
+.navbar-link {
+	text-decoration: none;
+	color: #00ecbb;
+}
+.navbar-text {
+	display: block;
+	font-weight: 700;
+	color: #00ecbb;
+	margin-bottom: 4px;
+	font-size: 14px;
+	line-height: 16px;
+	text-decoration: none;
+}
+.navbar-contacts {
+	text-align: right;
+	justify-content: space-between;
+}
+.navbar-phone {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #fff;
+	padding-left: 50px;
+}
+.block11 {
+	width:877px;
+	height:350px;
+	background: #e4cdcd; /* Цвет заднего фона */ 
+}
+.block12 {
+	width: 370px;
+	height:350px;
+	position:absolute;
+	left:877px;
+	top:152px;
+   background: #addae0; /* Цвет заднего фона */ 
+}
+.color1 {
+	width: 80px;
+	height: 80px;
+	background-color: blue;
+	color: #000;
+	text-align: center;
+	top: 55px;
+	left: 55px;
+	position: relative;
+	z-index: 1;
+}
+.color2 {
+	width: 80px;
+	height: 80px;
+	background-color: rgb(255, 0, 13);
+	color: #000;
+	text-align: center;
+	position: relative;
+	top: 30px;
+   left: 110px;
+	z-index: 3;
+}
+.color3 {
+	width: 80px;
+	height: 80px;
+	background-color: rgb(21, 255, 0);
+	color: #000;
+	text-align: center;
+	position: relative;
+	top: 5px;
+   left: 165px;
+	z-index: 2;
+}
+.color11 {
+	width: 80px;
+	height: 80px;
+	background-color: blue;
+	color: #000;
+	text-align: center;
+	top: -185px;
+	left: 300px;
+	position: relative;
+	z-index: 3;
+}
+.color12 {
+	width: 80px;
+	height: 80px;
+	background-color: rgb(255, 0, 13);
+	color: #000;
+	text-align: center;
+	position: relative;
+	top: -210px;
+	left: 355px;
+	z-index: 1;
+}
+.color13 {
+	width: 80px;
+	height: 80px;
+	background-color: rgb(21, 255, 0);
+	color: #000;
+	text-align: center;
+	position: relative;
+	top: -235px;
+	left: 410px;
+   z-index: 2;
+}
+.color21 {
+	width: 80px;
+	height: 80px;
+	background-color: blue;
+	color: #000;
+	text-align: center;
+	top: -425px;
+   left: 545px;
+	position: relative;
+	z-index: 1;
+}
+.color22 {
+	width: 80px;
+	height: 80px;
+	background-color: rgb(255, 0, 13);
+	color: #000;
+	text-align: center;
+	position: relative;
+	top: -450px;
+	left: 600px;
+   z-index: 2;
+}
+.color23 {
+	width: 80px;
+	height: 80px;
+	background-color: rgb(21, 255, 0);
+	color: #000;
+	text-align: center;
+	position: relative;
+	top: -475px;
+	left: 655px;
+	z-index: 3;
+}
+.svetofor {
+	background-color: white;
+	border: 2px black;
+}

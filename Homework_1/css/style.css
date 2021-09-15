@@ -1,0 +1,39 @@
+h1 {
+	font-size: 50px;
+	color: crimson;
+	text-align: center;
+}
+
+p {
+	font-size: 30px;
+	color: rgb(13, 49, 126);
+	text-align: center;
+}
+.link {
+	color: deepskyblue;
+}
+
+.image {
+	margin: 0;
+	padding: 0;
+	display: flex; /*равномерное распределение фото и картинок на странице*/
+	justify-content: space-between; /*равномерное распределение фото и картинок на странице*/
+}
+
+.image1 {
+	border-radius: 50%; /* Радиус скругления */
+	border: 3px solid green; /* Параметры рамки */
+	box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.image2 {
+	border-radius: 50%; /* Радиус скругления */
+	border: 3px solid green; /* Параметры рамки */
+	box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.image3 {
+	border-radius: 50%; /* Радиус скругления */
+	border: 3px solid green; /* Параметры рамки */
+	box-shadow: 0 0 5px #666; /* Параметры тени */
+}
