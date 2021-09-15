@@ -1,0 +1,124 @@
+
+.sticker {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border: gray dotted 1px;
+    
+
+}
+.stickers{
+    position: absolute;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+  
+}
+.green{
+    background: green;
+    left: 75px;
+    top: 75px;
+    z-index: 2;
+   
+}
+.orange{
+    background: orange;
+    left: 150px;
+    top: 150px;
+  z-index: 1;
+}
+
+
+
+.stickers2{
+    position: absolute;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+}
+.green2{
+    background: green;
+    left: 75px;
+    top: 75px;
+    z-index: 1;
+}
+.orange2{
+    background: orange;
+    left: 150px;
+    top: 150px;
+  z-index: 2;
+}
+
+
+
+.stickers3{
+    position: absolute;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+}
+.green3{
+    background: green;
+    left: 75px;
+    top: 75px;
+    z-index: 2;
+}
+.orange3{
+    background: orange;
+    left: 150px;
+    top: 150px;
+  z-index: 1;
+}
+.circle {
+    position: relative;
+    border: gray dotted 1px;
+    height: 500px;
+}
+.rectengular{
+    position: relative;
+    width: 150px;
+    height: 300px;
+    border: black solid 1px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.dot1{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: brown;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+}
+.dot2{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 110px;
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+.dot3{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 210px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
