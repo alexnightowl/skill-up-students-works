@@ -1,0 +1,54 @@
+@keyframes example {
+    0%   {background-color: rgba(182, 182, 182, 0.534);}
+  25%  {background-color: rgba(131, 131, 131, 0.521);}
+
+ 
+  }
+ 
+
+  
+
+body {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+  }
+
+h1{
+    
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid white;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+a :hover{
+    color: #FF756FFF;
+
+
+}
+
+li{
+  list-style:none;  
+  margin-top: 20px;
+  border: 1px solid white;
+  width: fit-content;
+  padding: 10px;
+  background-color:#FFFFFF71;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count : infinite;
+}
+ li :hover{
+    color: #FF756FFF;
+
+ }
