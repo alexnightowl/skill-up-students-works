@@ -1,4 +1,4 @@
-.block {
+/* .block {
     display: block;
     position: static;
     width: 500px;
@@ -11,6 +11,7 @@
     width: 60px;
     height: 60px;
     border: 1px solid #000;
+    background: red;
     top: 40px;
     left: 40px;   
 }
@@ -20,8 +21,10 @@
     width: 60px;
     height: 60px;
     border: 1px solid #000;
+    background:blue;
     top: 13px;
     left: 70px;
+    z-index: 1;
 }
 
 .static3 {
@@ -29,7 +32,86 @@
     width: 60px;
     height: 60px;
     border: 1px solid #000;
+    background: green;
     top: -15px;
     left: 105px;
 }
 
+.block2 {
+    display: block;
+    position: static;
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000;
+}
+.static4 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background: red;
+    top: 40px;
+    left: 40px;
+    z-index: 2;   
+}
+
+.static5 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background:blue;
+    top: 13px;
+    left: 70px;
+    z-index: 0;
+}
+
+.static6 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background:green;
+    top: -15px;
+    left: 105px;
+}
+
+.block3 {
+    display: block;
+    position: static;
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000;
+}
+.static7 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background: red;
+    top: 40px;
+    left: 40px;
+    z-index: 4;
+}
+
+.static8 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background: blue;
+    top: 13px;
+    left: 70px;
+    z-index: 3;
+}
+
+.static9 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background: green;
+    top: -15px;
+    left: 105px;
+    z-index: 2;
+} */
