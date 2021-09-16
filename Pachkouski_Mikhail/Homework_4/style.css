@@ -1,12 +1,13 @@
 body {
   font: 1em Arial;
 }
+
 .container {
   background: #999;
   display: inline-block;
   width: 300px;
   height: 100px;
- }
+}
 
 a {
   display: block;
@@ -23,6 +24,7 @@ a {
   margin: 20px auto;
   padding: 10px;
 }
+
 .container2 {
   background: #999;
   display: block;
@@ -31,6 +33,7 @@ a {
   max-width: 500px;
   margin: 20px;
 }
+
 .container3 {
   background: #999;
   display: block;
@@ -38,6 +41,7 @@ a {
   position: relative;
   margin: 20px;
 }
+
 .container-inner {
   background: #ccc;
   margin: 10px;
@@ -45,6 +49,7 @@ a {
   bottom: 0;
   right: 0;
 }
+
 .container-inner2 {
   background: #ccc;
   margin: 10px;
@@ -53,15 +58,17 @@ a {
   right: 20px;
   z-index: 1;
 }
+
 .container5 {
   background: #999;
   height: 200px;
   width: 200px;
   overflow: auto;
 }
+
 .container6 {
-    background: #999;
-    height: 200px;
-    width: 200px;
-    display: none;
-  }
+  background: #999;
+  height: 200px;
+  width: 200px;
+  display: none;
+}
