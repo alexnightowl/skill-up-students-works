@@ -1,0 +1,19 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 14px;
+color: black;
+background: khaki;
+} 
+a {
+    color: #cb2c2c;
+    text-decoration: none;
+}
+h1,  li {
+    color: rgb(0, 59, 252);
+}
+.list>li {
+    border: 1px solid black;
+}
+h4~li {
+    color: maroon;
+}
