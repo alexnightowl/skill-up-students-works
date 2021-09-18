@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<form action="action_page.php">
+		<div class="container">
+			<h1>Анкета</h1>
+			<p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+			<hr>
+			<label class="login" for="email"><b>Login</b></label>
+			<input class="login2" type="email" placeholder="Enter login" name="Логин" required>
+			<label class="password" for="psw"><b>Password</b></label>
+			<input class="password2" type="password" minlength="8" placeholder="Enter Password" name="Пароль" required>
+			<hr>
+			<button class="button" type="submit" class="registerbtn">Войти</button>
+		</div>
+	</form>
+
+	<div class="table">
+		<table border="3">
+			<caption class="header1">Список группы 22/345 (FED)</caption>
+			<thead>
+				<th class="header2" colspan="7">Список группы 22/345 (FED)</th>
+			</thead>
+			<tbody>
+				<tr class="header3">
+					<td>Ф.И.О./Данные</td>
+					<td>Пол</td>
+					<td>Образование</td>
+					<td>Год рождения</td>
+					<td>Место жительства</td>
+				</tr>
+				<tr>
+					<td>Авласенок</td>
+					<td rowspan="3">муж</td>
+					<td rowspan="3">высшее</td>
+					<td rowspan="3">1981</td>
+					<td rowspan="3">РБ, Минск</td>
+				</tr>
+				<tr>
+					<td>Александр</td>
+				</tr>
+				<tr>
+					<td>Сергеевич</td>
+				</tr>
+				<tr>
+					<td>Артамонова</td>
+					<td rowspan="3">жен</td>
+					<td rowspan="3">высшее</td>
+					<td rowspan="3">1990</td>
+					<td rowspan="3">РФ, Н.Новгород</td>
+				</tr>
+				<tr>
+					<td>Алина</td>
+				</tr>
+				<tr>
+					<td>Игоревна</td>
+				</tr>
+				<tr>
+					<td>Артамонова</td>
+					<td rowspan="3">жен</td>
+					<td rowspan="3">высшее</td>
+					<td rowspan="3">1996</td>
+					<td rowspan="3">РБ, Минск</td>
+				</tr>
+				<tr>
+					<td>Арина</td>
+				</tr>
+				<tr>
+					<td>Игоревна</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+	<div class="anceta">
+		<form class="form" action="#" method="get">
+			<h1>Данные</h1>
+			<div class="surname">
+				<p>Фамилия</p>
+				<input class="surname2" placeholder="Фамилия" tabindex="1" name="surname" type="text"/>
+			</div>
+			<div class="name">
+				<p>Имя</p>
+				<input class="name2" placeholder="Имя" tabindex="2" name="username" type="text"/>
+			</div>
+			<div class="username">
+				<p>Отчество</p>
+				<input class="username2" placeholder="Отчество" tabindex="3" name="username" type="text"/>
+			</div>
+			<div class="age">
+				<p>Есть ли Вам 18</p>
+				<label>
+						<input class="age2" tabindex="4" name="возраст" value="age" type="radio"/>
+						Да
+				</label><br>
+				<label>
+						<input class="age2" tabindex="4" name="возраст" value="age" type="radio"/>
+						Нет
+				</label>
+			</div>
+			<div class="country">
+				<p>Страна проживания</p>
+				<select class="country2" tabindex="5" name="side">
+					<option  value="Belarus">Беларусь</option>
+					<option  value="Ukraine">Украина</option>
+					<option  value="Lithuania">Литва</option>
+					<option  value="Latvia">Латвия</option>
+					<option  value="Poland">Польша</option>
+					<option  value="Russia">Россия</option>
+				</select>
+			</div>
+			<div class="interest">
+				<p>Что вы хотите изучать в IT</p>
+				<label>
+					<input class="interest2" tabindex="6" type="checkbox" name="languages" value="HTML">
+					Хочу изучать HTML
+				</label>
+				<br>
+				<label>
+					<input class="interest2" tabindex="6" type="checkbox" name="languages" value="CSS">
+					Хочу изучать CSS
+				</label>
+				<br>
+				<label>
+					<input class="interest2" tabindex="6" type="checkbox" name="languages" value="JS">
+					Хочу изучать JS
+				</label>
+			</div>
+			<div class="color">
+				<p>Любимый цвет</p>
+				<select class="color2" tabindex="7" name="color">
+					<option selected value="red">красный</option>
+					<option value="orange">оранжевый</option>
+					<option value="yellow">желтый</option>
+					<option value="green">зеленый</option>
+					<option value="sky-blue">голубой</option>
+					<option value="blue">синий</option>
+					<option value="purple">фиолетовый</option>
+				</select>
+			</div>
+			<div class="size">
+				<p>Размер одежды</p>
+				<label>
+					<input tabindex="8" type="radio" name="size" value="yes">
+					S
+				</label>
+				
+				<label>
+					<input tabindex="8" type="radio" name="size" value="no">
+					M
+				</label>
+				<label>
+					<input tabindex="8" type="radio" name="size" value="yes">
+					L
+				</label>
+				<label>
+					<input tabindex="8" type="radio" name="size" value="yes">
+					XL
+				</label>
+			</div>
+			<div class="actions">
+				<p>Действия</p>
+				<button class="actions2" tabindex="9" type="submit">Отправить</button>
+				<button class="actions2" tabindex="10" type="reset">Очистить</button>
+			</div >
+		</form>
+	</div>
+
+</body>
+</html>
