@@ -1,23 +1,25 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 14px;
-color: black;
-background: khaki;
-} 
-a {
-    color: #2c51cb;
-    text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
 }
-li {
-    color: blue;
-}
-.table-sec{
-    border: 1px solid black;
+
+.container {
+    background: rgb(17, 128, 202);
+    display: block;
+    width: 300px;
+    height: 100px;
+    margin: 80 px;
+    padding: 20px;
+    overflow: auto;
+   }
+
+.container-inner {
+    background: rgb(163, 219, 245);
+    margin: 20px;
+    position: relative;
+    bottom: 0px;
+    top: 20px;
+    right:20px;
+    z-index: 1;
     }
-a:hover {
-    border: 1px solid grey;
-}
-h2::before {
-    content: "Глава: ";
-    font-size: 15px;
-}
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,67 +8,29 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="main">
-      <h1>Заголовок h1</h1>
-      <h2>Заголовок h2</h2>
-      <ul class="list">
-        <h4>Заголовок h4</h4>
-        <li>list item 1</li>
-        <li>list item 2</li>
-        <li>list item 3</li>
-        <h4>Заголовок h4</h4>
-        <li>list item 4</li>
-        <li>list item 5</li>
-      </ul>
-      <ul class="list 2">
-        <h4>Заголовок h4</h4>
-        <li>list team 1</li>
-        <li>list team 2</li>
-        <li>list team 3</li>
-        <li>list team 4</li>
-        <li>list team 5</li>
-      </ul>
-      <table class="table-main">
-        <tr>
-          <td>Table cell 1</td>
-          <td>Table cell 2</td>
-          <td>Table cell 3</td>
-        </tr>
-        <tr>
-          <td>Table cell 1</td>
-          <td>Table cell 2</td>
-          <td>Table cell 3</td>
-        </tr>
-        <tr>
-          <td>Table cell 1</td>
-          <td>Table cell 2</td>
-          <td>Table cell 3</td>
-        </tr>
-      </table>
-      <h2>Заголовок h2</h2>
-      <table class="table-sec">
-        <tr>
-          <td>Table cell 1</td>
-          <td>Table cell 2</td>
-          <td>Table cell 3</td>
-        </tr>
-        <tr>
-          <td>Table cell 1</td>
-          <td>Table cell 2</td>
-          <td>Table cell 3</td>
-        </tr>
-        <tr>
-          <td>Table cell 1</td>
-          <td>Table cell 2</td>
-          <td>Table cell 3</td>
-        </tr>
-      </table>
-      <br />
-      <a
-        href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftechrocks.ru%2F2020%2F03%2F25%2Fhow-to-style-forms-with-css%2F&psig=AOvVaw0e57UGQ5a1Hj25eaSl-Fve&ust=1632076217930000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMDdlvCTifMCFQAAAAAdAAAAABAD"
-        target="blank"
-        >Стилизуем формы при помощи CSS:</a
-      >
+    <div class="container">
+      <div class="container-inner">
+        В CSS блок элемента может быть расположен в соответствии с тремя схемами
+        позиционирования:
+      </div>
+    </div>
+    <div class="container">
+      Нормальный поток. Нормальный поток включает блочный контекст
+      форматирования (элементы с display block, list-item или table), строчный
+      (встроенный) контекст форматирования (элементы с display inline,
+      inline-block или inline-table), и относительное и «липкое»
+      позиционирование элементов уровня блока и строки.
+    </div>
+    <div class="container">
+      Обтекание. В обтекающей модели блок удаляется из нормального потока и
+      позиционируется влево или вправо. Содержимое обтекает правую сторону
+      элемента с float: left и левую сторону элемента с float: right.
+    </div>
+    <div class="container">
+      Абсолютное позиционирование. В модели абсолютного позиционирования блок
+      полностью удаляется из нормального потока и ему присваивается позиция
+      относительно содержащего блока. Абсолютное позиционирование реализуется с
+      помощью значений position: absolute; и position: fixed;.
     </div>
   </body>
 </html>
