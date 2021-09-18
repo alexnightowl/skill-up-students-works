@@ -5,15 +5,19 @@ color: black;
 background: khaki;
 } 
 a {
-    color: #cb2c2c;
+    color: #2c51cb;
     text-decoration: none;
 }
-h1,  li {
-    color: rgb(0, 59, 252);
+li {
+    color: blue;
 }
-.list>li {
+.table-sec{
     border: 1px solid black;
+    }
+a:hover {
+    border: 1px solid grey;
 }
-h4~li {
-    color: maroon;
+h2::before {
+    content: "Глава: ";
+    font-size: 15px;
 }
