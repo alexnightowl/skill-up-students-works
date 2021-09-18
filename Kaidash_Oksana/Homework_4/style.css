@@ -1,22 +1,21 @@
 body {
 font-family: Arial, Helvetica, sans-serif;
-margin: 0px;
+margin: 40px;
 }
 
 .container {
     background: rgb(17, 128, 202);
     display: block;
-    width: 300px;
-    height: 100px;
-    margin: 80 px;
+    width: 400px;
+    height: 200px;
+    margin: auto;
     padding: 20px;
-    overflow: auto;
-   }
+      }
 
 .container-inner {
     background: rgb(163, 219, 245);
     margin: 20px;
-    position: relative;
+    position: ;
     bottom: 0px;
     top: 20px;
     right:20px;
