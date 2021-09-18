@@ -156,13 +156,24 @@ ul li {
     margin-right: 10px;
   }
 
-#home {
+.home_button {
     display: inline-block;
     float: left;
     color: white;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
- 
+}
+
+.nav_button {
+    display: inline-block;
+    float: left;
+    color: #ccc;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 .search-box {
