@@ -7,10 +7,7 @@ body {
     width: 300;
     height: 200px;
     overflow-x: scroll;
-    overflow-y: hidden;
-    
-
-    
+    overflow-y: hidden;   
 }
 a {
     width: 500px;
