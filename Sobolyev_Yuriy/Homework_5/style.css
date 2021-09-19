@@ -1,0 +1,145 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+main {
+  width: 720px;
+  margin: 100px auto;
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.block_1,
+.block_2,
+.block_3,
+.block_4 {
+  background: #e6e6e6;
+  border: 1px dashed #999;
+  min-height: 200px;
+  margin: 20px 0;
+}
+.block_1 div,
+.block_2 div,
+.block_3 div {
+  position: relative;
+  content-visibility: hidden;
+}
+.red,
+.blue,
+.green {
+  width: 60px;
+  height: 60px;
+}
+.red {
+  background: #f00;
+  top: 30px;
+  left: 30px;
+}
+.blue {
+  background: #00aaff;
+  top: 5px;
+  left: 64px;
+}
+.green {
+  background: #00ff00;
+  top: -18px;
+  left: 100px;
+}
+.yelow {
+  background: yellow;
+}
+.block_1 .blue {
+  z-index: 1;
+}
+.block_2 .red {
+  z-index: 1;
+}
+.block_3 .red {
+  z-index: 2;
+}
+.block_3 .blue {
+  z-index: 1;
+}
+.reg {
+  margin: 40px auto;
+  background: #fff;
+  width: 140px;
+  padding: 20px 0;
+  border: 1px solid #999;
+}
+.reg div {
+  width: 80px;
+  height: 80px;
+  margin: 10px auto;
+  border-radius: 50%;
+  content-visibility: hidden;
+  border: 1px solid #999;
+  box-sizing: content-box;
+}
+header {
+  background: #00aaff;
+  font-size: 16px;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 3;
+  top: 0;
+}
+.inline {
+  display: inline-block;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 50px;
+  margin-top: 10px;
+}
+.nav a {
+  text-decoration: none;
+  color: #ffffff99;
+  height: 50px;
+  padding: 0 10px;
+}
+.nav a.active,
+.nav a:hover {
+  color: #fff;
+}
+.logo {
+  font-size: 22px;
+}
+.search {
+  position: absolute;
+  right: 20px;
+  margin-top: 10px;
+}
+.search input,
+button {
+  border: 1px solid #fff;
+  padding: 0 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 50px;
+}
+button {
+  background: #00aaff;
+  color: #fff;
+}
+button:hover,
+input[type="text"]:focus {
+  background: #fff;
+  color: #00aaff;
+  outline-color: #00aaff;
+}
