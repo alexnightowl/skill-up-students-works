@@ -1,77 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page-desktop</title>
-    <link rel="stylesheet" href="style5.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style5.css" />
+  </head>
+  <body>
     <div class="container">
-        <header class="first">
-            <h1>
-                <a href="#">What The Flexbox?!</a>
-            </h1>
-        </header>
-        <nav class="navi">
-            <a href="#" class="menunavi">Menu</a>
-            <ul class="items">
-                <li>
-                    <a href="#">Item 01</a>
-                </li>
-                <li>
-                    <a href="#">Item 02</a>
-                </li>
-                <li>
-                    <a href="#">Item 03</a>
-                </li>
-                <li>
-                    <a href="#">Item 04</a>
-                </li>
-                <li>
-                    <a href="#">Item 05</a>
-                </li>
-                <li>
-                    <a href="#">Item 06</a>
-                </li>
-                <li class="social">
-                    <a href="https://twitter.com/lanab">
-                    <img src="twitter.jpg" alt="twitter_logo">
-                </a>
-                </li>
-                <li class="social">
-                    <a href="https://www.facebook.com/lana.barmettler">
-                    <img src="facebook.png" alt="twitter_logo">
-                </a>
-                </li>
-                <li class="social">
-                    <a href="https://github.com/LanaBarmettler">
-                    <img src="github.png" alt="twitter_logo">
-                </a>
-                </li>
-                <li class="social">
-                    <a href="https://www.instagram.com/lana.b.01/">
-                    <img src="instagram.jpg" alt="twitter_logo">
-                </a>
-                </li>
-            </ul>
-        </nav>
-        <section class="picture">
-            <img src="" alt="">
-        </section>
-        <section class="info">
-            <p>A simple video course to help you master FlexBox.</p>
-            <p>Sign up today to grab all the videos and exercises!</p>
-        </section>
-        <section class="signup">
-            <input type="text" name="Your Name" id="Name">
-            <input type="email" name="Email Address" id="email">
-            <input type="submit" value="Sign me up!">
-        </section>
-        <footer>
-            <p>c Lana Barmettler</p>
-        </footer>
+      <header class="first">
+        <h1>
+          <a href="#">What The Flexbox?!</a>
+        </h1>
+      </header>
+      <div class="navi">
+          <a href="#" class="toggleNav">Menu</a>
+        <ul class="items">
+          <li>
+            <a href="#">Item 01</a>
+          </li>
+          <li>
+            <a href="#">Item 02</a>
+          </li>
+          <li>
+            <a href="#">Item 03</a>
+          </li>
+          <li>
+            <a href="#">Item 04</a>
+          </li>
+          <li>
+            <a href="#">Item 05</a>
+          </li>
+          <li>
+            <a href="#">Item 06</a>
+          </li>
+          <li class="social">
+            <a href="https://twitter.com/lanabarmettler.1"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="social">
+            <a href="https://www.facebook.com/lana.barmettler"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="social">
+            <a href="https://github.com/LanaBarmettler"><i class="fa fa-github"></i></a>
+          </li>
+          <li class="social">
+            <a href="https://www.instagram.com/lana.b.01/"><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <section class="picture">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Cloughmore_Stone.jpg"
+          alt=""
+        />
+      </section>
+      <section class="info">
+        <p>A simple video course to help you master FlexBox.</p>
+        <p>Sign up today to grab all the videos and exercises!</p>
+      </section>
+      <section class="signup">
+          <form action="">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Email Address" />
+            <input type="submit" value="Sign me up!" />
+          </form>
+      </section>
+      <footer>
+        <p>© Lana Barmettler</p>
+      </footer>
     </div>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    $(function() {
+        $('.toggleNav').on('click',function() {
+          $('.navi ul').toggleClass('open');
+        });
+      });
+    </script>
+    
+  </body>
 </html>
