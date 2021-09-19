@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework2</title>
+  </head>
+
+  <body>
+    <form action="1">
+      <p>to log in</p>
+      <label for="login">Enter login</label>
+      <input id="login" placeholder="login" type="email" required />
+      <br /><br />
+      <label for="password">Enter password</label>
+      <input
+        id="password"
+        placeholder="Passwordat least 8 characters"
+        type="password"
+        minlength="8"
+        required
+      />
+      <br /><br />
+      <input type="submit" />
+    </form>
+    <hr />
+    <br />
+    <table border="20">
+      <tbody>
+        <br />
+        <tr>
+          <th rowspan="3" width="20px">№</th>
+          <th colspan="6">Document</th>
+        </tr>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th colspan="2">Certificate</th>
+          <th rowspan="2">School</th>
+          <th rowspan="2">Years of study</th>
+          <th rowspan="2">Phone</th>
+        </tr>
+        <tr>
+          <th>Series</th>
+          <th width="70px">№</th>
+        </tr>
+        <tr>
+          <td style="padding: 10px">1</td>
+          <td>Abdullayev Emin</td>
+          <td style="text-align: center">B</td>
+          <td style="text-align: center">453232</td>
+          <td>School № 91</td>
+          <td style="text-align: center">2010-2020</td>
+          <td>+996 234 65 43 87</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px">2</td>
+          <td>Ahmedova Ramina</td>
+          <td style="text-align: center">A</td>
+          <td style="text-align: center">453987</td>
+          <td>School № 2</td>
+          <td style="text-align: center">2007-2017</td>
+          <td>+098 987 23 45</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px">3</td>
+          <td>Klimov Artem</td>
+          <td style="text-align: center">C</td>
+          <td style="text-align: center">345123</td>
+          <td>School № 64</td>
+          <td style="text-align: center">2011-2021</td>
+          <td>+066 345 95 93</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <form action="2">
+      <label for="Name">Name</label>
+      <input id="Name" required type="text" />
+      <br /><br />
+      <label for="surname">Surname</label>
+      <input id="surname" required type="text" />
+      <br /><br />
+      <label for="address">Address</label>
+      <input id="address" required type="text" />
+      <br /><br />
+      <label for="age">Are you 18?</label>
+      <input id="age" required type="checkbox" />
+      <br /><br />
+      <label for="country">The country in which you live</label>
+      <select name="select" id="country">
+        <option></option>
+        <option>USA</option>
+        <option>Ukrain</option>
+        <option>Netherlands</option>
+        <option value="s4">Сanada</option>
+      </select>
+      <br /><br />
+      <div>
+        <p>What is your clothing size?</p>
+        <label for="r1">S</label>
+        <input id="r1" type="radio" name="clothes" />
+        <label for="r2">M</label>
+        <input id="r2" type="radio" name="clothes" />
+        <label for="r3">L</label>
+        <input id="r3" type="radio" name="clothes" />
+        <label for="r4">XL</label>
+        <input id="r4" type="radio" name="clothes" />
+      </div>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
