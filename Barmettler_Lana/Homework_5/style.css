@@ -1,0 +1,201 @@
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    background: rgb(41, 40, 40);
+    margin: 10px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.navbar .grey {
+    color: grey;
+}
+
+.navbar .nav-list {
+    display: block;
+    padding: 0 25px;
+    font-size: 20px;
+}
+
+.navbar input {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin: 0 5px 0 850px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+button {
+    float: right;
+    padding: 6px;
+    border: none;
+    font-size: 12px;
+    color: turquoise;
+    border-radius: 3px;
+    border: 1px solid turquoise;
+    background: transparent;
+}
+
+.z-index-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    border: 2px dotted black;
+    margin: 10px;
+ }
+
+.border-dotted {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px dotted black;
+
+}
+.sticker {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: pink;
+}
+
+.blue {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: navy;
+    margin-left: 60px;
+    margin-top: 60px;
+    z-index: 2;
+}
+
+.green {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+.pink1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: pink;
+    z-index: 1;
+}
+
+.blue1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: navy;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.green1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+.pink2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: pink;
+    z-index: 2;
+}
+
+.blue2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: navy;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.green2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+.z-index-container1 {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px dotted black;
+ }
+
+ .border-inside {
+     margin: 10px auto;
+     width: 250px;
+     height: 480px;
+     border: 1px solid #000;
+
+ }
+
+ .circle {
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 60px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background: red;
+ }
+
+ .circle-yellow {
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background: yellow;
+ }
+
+ .circle-green {
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background: green;
+ }

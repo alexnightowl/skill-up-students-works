@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Homework_2</title>
+</head>
+<body>
+
+<div>
+    
+<!--LOGINFORM-->    
+
+    <div class="loginForm">
+        <p>Enter your login and password</p>
+            <form action="loginForm">
+                <div>
+                    <div title="The username should not contain Russian letters, it is allowed to use a dot, a dash, an underscore" class="email">
+                        <label for="email"><strong>Email:</strong></label>
+                        <br>
+                        <input type="email" name="email" placeholder="Enter email" required>
+                    </div>
+                    
+                    <div title="The password must be 8 to 10 characters, numbers and letters in English are allowed">
+                        <label for="password"><strong>Password:</strong></label>
+                        <br>
+                        <input type="password" name="password" placeholder="Enter password" required>
+                    </div>
+                    
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+    </div>
+    <hr>
+
+<!--TABLE-->
+
+    <div class="table">
+        <table>
+            <caption class="nameTable"><strong><em>Group List</em></strong></caption>
+                <thead>
+                    <tr>
+                        <th>Students</th>
+                        <th>Task 1</th>
+                        <th>Task 2</th>
+                        <th>Task 3</th>
+                        <th>Task 4</th>
+                        <th>Task 5</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="nameStudent">Oleg P.R.</td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nameStudent">Ivan O.R.</td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                    </tr>
+                    <tr>
+                        <td class="nameStudent">Gleb T.F.</td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nameStudent">Olga G.R.</td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nameStudent">Pavel K.L.</td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nameStudent">Roman T.V.</td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                        <td><img src="./image/checkMark.jpg" alt="Done"></td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="6" class="lastBox"></td>
+                        <td class="lastBox"></td>
+                    </tr>
+                </tfoot>
+        </table>
+    </div>
+    <hr>
+
+<!--REGISTRATION FORM-->
+
+    <div class="regForm">
+        <form action="registrationForm">
+            <div class="formItems">
+                <label for="name"><strong>Name:</strong></label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+            </div>
+
+            <div class="formItems">
+                <label for="lastName"><strong>Last Name:</strong></label>
+                <br>
+                <input type="text" name="lastName" id="lastName" placeholder="Your last name" required>
+            </div>
+
+            <address class="formItems">
+                <label for="address"><strong>Address:</strong></label>
+                <br>
+                <input type="text" name="address" id="address" placeholder="Your address" required>
+            </address>
+
+            <div class="formItems">
+                <label for="age"><strong>Are you 18 years old?</strong></label>
+                <br>
+                <input type="checkbox" name="age" id="age" required>               
+            </div>
+
+            <div class="formItems">
+                <label for="country"><strong>Select your country of residence</strong></label>
+                <br>
+                <select name="country" id="country" required>
+                    <option></option>
+                    <option>Ukraine</option>
+                    <option>Sweden</option>
+                    <option>Germany</option>
+                    <option>Poland</option>
+                    <option>England</option>
+                </select>
+            </div>
+
+            <div class="formItems">
+                <label for="clothingSize"><strong>Choose your clothing size:</strong></label>
+                <br>
+                <label for="clothingSize">XS</label>
+                <input type="radio" name="clothingSize" id="clothingSize">
+
+                <label for="clothingSize">S</label>
+                <input type="radio" name="clothingSize" id="clothingSize">
+
+                <label for="clothingSize">M</label>
+                <input type="radio" name="clothingSize" id="clothingSize">
+
+                <label for="clothingSize">L</label>
+                <input type="radio" name="clothingSize" id="clothingSize">
+
+                <label for="clothingSize">XL</label>
+                <input type="radio" name="clothingSize" id="clothingSize">
+            </div>
+
+            <div class="formItems">
+                <input type="submit" value="Sign up">
+            </div>       
+        </form>
+    </div>
+</div>      
+</body>
+</html>
