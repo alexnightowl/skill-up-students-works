@@ -1,0 +1,50 @@
+.box1 {
+  background: #1abc9c;
+}
+.box2 {
+  background: #3498db;
+}
+.box3 {
+  background: #9b59b6;
+}
+.box4 {
+  background: #34495e;
+}
+.box5 {
+  background: #f1c40f;
+}
+.box6 {
+  background: #e67e22;
+}
+.box7 {
+  background: #e74c3c;
+}
+.box8 {
+  background: #bdc3c7;
+}
+.box9 {
+  background: #2ecc71;
+}
+.box10 {
+  background: #16a085;
+}
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+  height: 100vh;
+  border: 10px solid goldenrod;
+}
+.box {
+  display: flex;
+  width: 33.3333333%;
+  /* height: 100%; */
+  align-items: center;
+  justify-content: center;
+}
+.box:hover {
+  background: #01ff6b;
+  transition: all 1s ease;
+}
