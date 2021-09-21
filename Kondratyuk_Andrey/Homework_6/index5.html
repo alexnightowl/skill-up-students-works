@@ -4,80 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page-desktop</title>
+    <title>Page-desktop sss</title>
     <link rel="stylesheet" href="style5.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="first">
-        <h1>
-          <a href="#">What The Flexbox?!</a>
-        </h1>
-      </header>
-      <div class="navi">
-          <a href="#" class="toggleNav">Menu</a>
-        <ul class="items">
-          <li>
-            <a href="#">Item 01</a>
-          </li>
-          <li>
-            <a href="#">Item 02</a>
-          </li>
-          <li>
-            <a href="#">Item 03</a>
-          </li>
-          <li>
-            <a href="#">Item 04</a>
-          </li>
-          <li>
-            <a href="#">Item 05</a>
-          </li>
-          <li>
-            <a href="#">Item 06</a>
-          </li>
-          <li class="social">
-            <a href="https://twitter.com/lanabarmettler.1"><img src="twitter.jpg" alt="twitter logo"></a>
-          </li>
-          <li class="social">
-            <a href="https://www.facebook.com/lana.barmettler"><img src="facebook.png" alt="facebook logo"></a>
-          </li>
-          <li class="social">
-            <a href="https://github.com/LanaBarmettler"><img src="github.png" alt="github logo"></a>
-          </li>
-          <li class="social">
-            <a href="https://www.instagram.com/lana.b.01/"><img src="instagram.jpg" alt="instagram logo"></a>
-          </li>
-        </ul>
-      </div>
-      <section class="picture">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Cloughmore_Stone.jpg"
-          alt=""
-        />
-      </section>
-      <section class="info">
-        <p>A simple video course to help you master FlexBox.</p>
-        <p>Sign up today to grab all the videos and exercises!</p>
-      </section>
-      <section class="signup">
-          <form action="">
-            <input type="text" placeholder="Your Name" />
-            <input type="email" placeholder="Email Address" />
-            <input type="submit" value="Sign me up!" />
+    <body>
+  
+      <div class="wrapper">
+        
+        <header class="top">
+          <h1><a href="#">What The Flexbox?!</a></h1>
+        </header>
+    
+        <nav class="flex-nav">
+          <a href="#" class="toggleNav">☰ Menu</a>
+          <ul>
+            <li><a href="#">Item 01</a></li>
+            <li><a href="#">Item 02</a></li>
+            <li><a href="#">Item 03</a></li>
+            <li><a href="#">Item 04</a></li>
+            <li><a href="#">Item 05</a></li>
+            <li><a href="#">Item 06</a></li>
+            <li class="social">
+              <a href="http://twitter.com/eneaxharja"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="social">
+              <a href="http://facebook.com/eneaxharja"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="social">
+              <a href="http://github.com/eneaxharja"><i class="fa fa-github"></i></a>
+            </li>
+            <li class="social">
+              <a href="http://instagram.com/eneaxharja"><i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+    
+        <section class="hero">
+          <img src="http://lorempixel.com/1000/600/abstract">
+        </section>
+    
+        <section class="details">
+          <p>A simple video course to help you master FlexBox.</p>
+          <p>Sign up today to grab all the videos and exercises!</p>
+        </section>
+    
+        <section class="signup">
+          <form action="" class="signup">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Email Address">
+            <input type="submit" value="Sign me up!">
           </form>
-      </section>
-      <footer>
-        <p>© Lana Barmettler</p>
-      </footer>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>
-    $(function() {
-        $('.toggleNav').on('click',function() {
-          $('.navi ul').toggleClass('open');
-        });
-      });
-    </script>
+        </section>
+    
+        <footer>
+          <p>© Enea Xharja</p>
+        </footer>
+    
+    
+      </div>
     
   </body>
 </html>
