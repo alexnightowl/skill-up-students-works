@@ -105,7 +105,43 @@ a:hover {
 }
 
 .z-in {
+    position: relative;
     height: 900px;
     width: 400px;
     border: 1px solid rgb(252, 252, 252);
+}
+
+.light {
+position: relative;
+height: 200px;
+width: 100px;
+border: 1px solid black;
+margin: 30px;
+}
+
+.circle {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.c1 {
+    position: absolute;
+    background: red;
+    margin: 25px;
+}
+
+.c2 {
+    position: absolute;
+    background: yellow;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+
+.c3 {
+    position: absolute;
+    background: green;
+    margin-top: 140px;
+    margin-left: 25px;
 }
