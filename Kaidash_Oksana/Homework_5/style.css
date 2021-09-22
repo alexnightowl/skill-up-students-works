@@ -1,0 +1,29 @@
+.navi {
+    height: 80px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 10px;
+    height: 60px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size: 20px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+a:hover {
+   background: cadetblue;
+   }
