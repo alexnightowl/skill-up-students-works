@@ -1,0 +1,51 @@
+.overflow {
+  width: 200px;
+  height: 500px;
+  border: 1px solid #000;
+  overflow: scroll;
+}
+
+.overflow::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow-wrapper {
+  width: 500px;
+  height: 200px;
+  border: 1px solid #000;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.block {
+  background: rgb(109, 173, 138);
+  opacity: 0.5;
+  width: 700px;
+  height: 400px;
+}
+
+.button {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: url("./icon.svg") no-repeat;
+  background-position: center;
+  background-size: 50px;
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.1),
+    inset 2px 2px 10px 3px rgba(255, 255, 255, 0.1);
+  transition: 0.3s all ease-in-out;
+}
+
+.button:hover {
+  box-shadow: inset 2px 2px 10px 3px rgba(0, 0, 0, 0.1),
+    2px 2px 10px 3px rgba(255, 255, 255, 0.1);
+}
+
+.rectangle {
+  width: 226px;
+  height: 226px;
+  background: linear-gradient(180deg, #f18686 0%, #86f190 100%);
+  border-radius: 17px;
+  filter: blur(20px);
+  transform: rotate(-52deg);
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Rubik Beastly';
+    src: url('RubikBeastly-Regular.woff2') format('woff2'),
+        url('RubikBeastly-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
