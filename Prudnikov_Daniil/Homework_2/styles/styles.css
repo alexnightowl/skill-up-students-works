@@ -1,0 +1,44 @@
+table {
+    border: solid 2px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+td, th, tr {
+    border: solid 1px;
+    padding: 5px;
+}
+.lastBox {
+    padding: 20px;
+}
+.nameStudent {
+    text-align: left;
+}
+img {
+    width: 15px;
+    height: 15px;
+}
+address {
+    font-style: normal;
+}
+.loginForm{
+    margin: 0 auto;
+    text-align: center ;
+}
+.nameTable {
+    margin-bottom: 10px;
+}
+.email {
+    margin-bottom: 10px;
+}
+.submit {
+    margin-top: 15px;
+}
+.regForm {
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+.formItems {
+    padding: 10px;
+}
