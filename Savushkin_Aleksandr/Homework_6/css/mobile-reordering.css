@@ -1,0 +1,129 @@
+html {
+  overflow-y: visible;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(to right, #ec6ead, #3594e5);
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.header-title {
+  text-align: center;
+  padding: 20px 5px;
+  font-family: sans-serif;
+  font-size: 2em;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.header-title:hover {
+  background: rgba(0, 0, 0, 0.25);
+  transition: 1.5s;
+}
+
+.navbar {
+  display: flex;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  margin-bottom: 20px;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.navbar-icons__list,
+.navbar-list {
+  display: flex;
+}
+
+.navbar-list__item {
+  font-size: 1em;
+  display: block;
+  padding: 20px 35px;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.navbar-list__item:last-child {
+  padding-right: 32px;
+}
+
+.navbar-list__item:hover {
+  background: rgba(0, 0, 0, 0.25);
+  transition: 1.5s;
+}
+
+.navbar-icons__list {
+  padding-left: 10px;
+}
+
+.navbar-list__icon {
+  color: #fff;
+  display: block;
+  padding: 20px 15px;
+}
+
+li:last-child .navbar-list__icon {
+  padding: 20px 0px 20px 15px;
+}
+
+.navbar-list__icon:hover {
+  background: rgba(0, 0, 0, 0.25);
+  transition: 1.5s;
+}
+
+.main-content {
+  border: 20px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.main-content__desc {
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.desc-text {
+  padding: 10px;
+}
+
+.signup {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+}
+
+input:focus-visible {
+  border: 1px solid #000;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+  padding: 35px;
+}
