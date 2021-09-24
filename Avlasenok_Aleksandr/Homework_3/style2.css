@@ -1,0 +1,98 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+.flex-direct {
+   width: auto;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+}
+.col1 {
+   width: 128px;
+   height: 100px;
+   background-color: rgb(3, 180, 157);
+   text-align: center;
+   color: white;
+   font-size: 80px;
+   order: 2;
+}
+.col2 {
+   width: 128px;
+   height: 100px;
+   background-color: rgb(31, 156, 214);
+   text-align: center;
+   color: white;
+   font-size: 80px;
+   order: 2;
+}
+.col3 {
+   width: 128px;
+   height: 100px;
+   background-color: rgb(109, 43, 126);
+   text-align: center;
+   color: white;
+   font-size: 80px;
+   order: 3;
+}
+.col4 {
+   width: 128px;
+   height: 100px;
+   background-color: rgb(39, 59, 97);
+   text-align: center;
+   color: white;
+   font-size: 80px;
+   order: 2;
+}
+.col5 {
+   width: 128px;
+   height: 100px;
+   background-color: yellow;
+   text-align: center;
+   color: white;
+   font-size: 80px;
+}
+.col6 {
+   width: 128px;
+   height: 100px;
+   background-color: orange;
+   text-align: center;
+   color: white;
+   font-size: 80px;
+   order: 2;
+}
+.col7 {
+   width: 128px;
+   height: 100px;
+   background-color: rgb(167, 3, 3);
+   text-align: center;
+   color: white;
+   font-size: 80px;
+   order: 3;
+}
+.col8 {
+   width: 128px;
+   height: 100px;
+   background-color: grey;
+   text-align: center;
+   color: white;
+   font-size: 80px;
+   order: 2;
+}
+.col9 {
+   width: 128px;
+   height: 100px;
+   background-color: rgb(84, 196, 122);
+   text-align: center;
+   color: white;
+   font-size: 80px;
+}
+.col10 {
+   width: 128px;
+   height: 100px;
+   background-color: rgb(37, 119, 101);
+   text-align: center;
+   color: white;
+   font-size: 80px;
+   order: 2;
+}

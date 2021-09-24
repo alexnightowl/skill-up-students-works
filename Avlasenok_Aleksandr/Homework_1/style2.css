@@ -1,0 +1,79 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+.flex-direct {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+}
+.col1 {
+   height: 50px;
+   background-color: rgb(3, 180, 157);
+   text-align: center;
+   color: white;
+   font-size: 45px;
+}
+.col2 {
+   height: 50px;
+   background-color: rgb(31, 156, 214);
+   text-align: center;
+   color: white;
+   font-size: 45px;
+}
+.col3 {
+   height: 50px;
+   background-color: rgb(109, 43, 126);
+   text-align: center;
+   color: white;
+   font-size: 45px;
+}
+.col4 {
+   height: 50px;
+   background-color: rgb(39, 59, 97);
+   text-align: center;
+   color: white;
+   font-size: 45px;
+}
+.col5 {
+   height: 50px;
+   background-color: yellow;
+   text-align: center;
+   color: white;
+   font-size: 45px;
+}
+.col6 {
+   height: 50px;
+   background-color: orange;
+   text-align: center;
+   color: white;
+   font-size: 45px;
+}
+.col7 {
+   height: 50px;
+   background-color: rgb(167, 3, 3);
+   text-align: center;
+   color: white;
+   font-size: 45px;
+}
+.col8 {
+   height: 50px;
+   background-color: grey;
+   text-align: center;
+   color: white;
+   font-size: 45px;
+}
+.col9 {
+   height: 50px;
+   background-color: rgb(84, 196, 122);
+   text-align: center;
+   color: white;
+   font-size: 45px;
+}
+.col10 {
+   height: 50px;
+   background-color: rgb(37, 119, 101);
+   text-align: center;
+   color: white;
+   font-size: 45px;
+}
