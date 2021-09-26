@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    font-family: Rubik;
+}
+
+.plan-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plan-section__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plan-section__description {
+    max-width: 555px;
+    text-align: center;
+}
+
+.plan-wrapper {
+
+}
+
+.plan-item {
+    border: 2px solid black;
+    width: 330px;
+    height: 760px;
+    margin-right: 60px;
+    padding: 80px 70px 50px 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plan-item img
+.plan-item_list {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.plan-item_list li {
+    list-style-type: none;
+    position: relative;
+}
+
+.plan-item_list li::before{
+    content: url();
+    position: absolute;
+    left: -10px;
+}
