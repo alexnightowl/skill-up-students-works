@@ -1,0 +1,207 @@
+.main-box {
+    width: 650px;
+    height: 250px;
+    border: 2px dotted #111;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    margin-bottom: 10px;
+}
+
+.inner-box {
+    display: inline-block;    
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+.red {
+    background: red;
+    top: 50px;
+    left: 50px;
+}
+
+.blue {
+    background: blue;
+    top: 85px;
+    left: 85px;
+    z-index: 1;
+}
+
+.green {
+    background: green;
+    top: 120px;
+    left: 120px;
+}
+
+.red2 {
+    background: red;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+    
+.blue2 {
+    background: blue;
+    top: 85px;
+    left: 85px;
+}
+    
+.green2 {
+    background: green;
+    top: 120px;
+    left: 120px;
+    z-index: 1;
+}
+
+.red3 {
+    background: red;
+    top: 50px;
+    left: 50px;
+}
+    
+.blue3 {
+    background: blue;
+    top: 85px;
+    left: 85px;
+    z-index: 1;
+}
+    
+.green3 {
+    background: green;
+    top: 120px;
+    left: 120px;
+    z-index: 2;
+}
+
+.interpreter-main {
+    width: 800px;
+    height: 500px;
+    border: 2px dotted #111;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.interpreter-main-box {
+    width: 200px;
+    height: 400px;
+    border: 2px solid #111;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    bottom: 50px;
+}
+
+.interpeter-light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+    position: absolute;
+}
+
+.i-red {
+    background: red;
+    top: 40px;
+    left: 50px;
+}
+    
+.i-yellow {
+    background: yellow;
+    top: 150px;
+    left: 50px;
+}
+    
+.i-green {
+    background: green;
+    top: 260px;
+    left: 50px;
+}
+
+.header {
+    width: 100%;
+    min-width: 535px;
+    height: 50px;
+    background: rgb(0, 122, 255);
+    position: fixed;
+    z-index: 3;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navlinks {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 10px;
+    width: 550px;
+}
+
+#logo {
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-right: 20px;
+    margin-top: 12.5px;
+}
+
+ul li {
+    display: inline-block;
+    float: left;
+    color: #ccc;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+  }
+
+.home_button {
+    display: inline-block;
+    float: left;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_button {
+    display: inline-block;
+    float: left;
+    color: #ccc;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.search-box {
+   position: absolute;
+   right: 0px;
+   margin-right: 40px;
+   margin-top: 9px;
+}
+
+#searcher {
+    border-radius: 5px;
+    height: 8px;
+    font-size: 11px;
+    padding: 10px;
+}
+
+#searchbutton {
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgb(0, 122, 255); 
+    border-color: #fff;
+    color: #fff;
+    font-size: 11px;
+    border: 1px solid;
+}
+
+.dzpart1-2 {
+    position: relative;
+    top: 50px;
+}
+

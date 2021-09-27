@@ -1,0 +1,42 @@
+#bodyclass {
+  border: 3px dotted silver;
+}
+
+.block {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  border: 2px solid #000;
+  margin: 50px auto;
+}
+
+.color {
+  position: absolute;
+  background: red;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  border: 2px solid #000;
+  left: 25%;
+  top: 50px;
+}
+.color2 {
+  position: absolute;
+  background: yellow;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  border: 2px solid #000;
+  left: 25%;
+  top: 225px;
+}
+.color3 {
+  position: absolute;
+  background: green;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  border: 2px solid #000;
+  left: 25%;
+  bottom: 50px;
+}

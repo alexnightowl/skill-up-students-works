@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    border: 5px solid goldenrod;
+    margin: 0;
+}
+
+div.container {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    min-height: 1320px;
+}
+
+div.box {
+    padding: 8.5px;
+}
+
+div.box_1 {
+    background-color: greenyellow;
+}
+
+div.box_2 {
+    background-color: hotpink;
+}
+
+div.box_3 {
+    background-color: khaki;
+}
+
+div.box_4 {
+    background-color: lavender;
+}
+
+div.box_5 {
+    background-color: lightblue;
+}
+
+div.box_6 {
+    background-color: lightsalmon;
+}
+
+div.box_7 {
+    background-color: maroon;
+}
+
+div.box_8 {
+    background-color: mediumslateblue;
+}
+
+div.box_9 {
+    background-color: olive;
+}
+
+div.box_10 {
+    background-color: peru;
+}

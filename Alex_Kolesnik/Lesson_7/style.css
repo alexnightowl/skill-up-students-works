@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap");
+
+input:checked {
+  transform: scale(3.5);
+  margin: 10px;
+}
+
+input:disabled {
+  transform: scale(3.5);
+  margin: 10px;
+}
+
+.parent p:first-child {
+  border: 1px solid #ddd;
+}
+
+.parent p:last-child {
+  border: 1px solid red;
+}
+
+.focus:focus {
+  outline: none;
+  border: 2px solid blue;
+}
+
+form:invalid {
+  box-shadow: none;
+  border: 1px solid #f00;
+}
+
+/* .parent > p:not(.clear) {
+    background: #ddd;
+} */
+
+.parent > p:nth-last-child(2) {
+  background: #ddd;
+}
+
+.input:required {
+  transform: scale(1.2);
+}
+
+.pseudo {
+  width: 200px;
+  height: 100px;
+  background: yellow;
+  border: 1px solid #000;
+  /* position: relative; */
+  margin: 0 auto;
+}
+
+.pseudo::before {
+  content: "";
+  width: 50px;
+  border: 1px solid #000;
+  height: 100%;
+  position: absolute;
+  left: -50px;
+  background: #000;
+}
+
+.pseudo::after {
+  content: "";
+  width: 50px;
+  border: 1px solid #000;
+  height: 100%;
+  position: absolute;
+  right: -50px;
+  background: #000;
+}
+
+.d16 {
+  margin: 50px;
+  width: 100px;
+  height: 55px;
+  background: #f1ccae;
+  position: relative;
+}
+
+.d16:before,
+.d16:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.d16:before {
+  top: -25px;
+  border-bottom: 25px solid #f1ccae;
+}
+
+.d16:after {
+  bottom: -25px;
+  border-top: 25px solid #f1ccae;
+}
+
+.list {
+  display: flex;
+}
+
+.list li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.list li:after {
+  content: "|";
+  margin-left: 5px;
+}
+
+.list li:before {
+  content: "*";
+  margin-left: 5px;
+}
+
+.f-letter:first-letter {
+  font-size: 2rem;
+  color: red;
+}
+
+.f-line:first-line {
+  text-decoration: underline;
+}
+
+.selection::selection {
+  background: yellow;
+}
+
+.font {
+  font-size: 2rem;
+  font-family: "Grechen Fuemen", cursive;
+}
+
+@font-face {
+  font-family: "Rubik Beastly";
+  src: url("RubikBeastly-Regular.woff2") format("woff2"),
+    url("RubikBeastly-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.rubik {
+    font-family: 'Rubik Beastly';
+    font-size: 2rem;
+    text-shadow: 10px 10px 20px #f00;
+    text-transform: uppercase;
+}

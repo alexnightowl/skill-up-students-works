@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+div.container {
+    font-family: sans-serif;
+    display: flex;
+}
+
+div.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
+
+div.box_1 {
+    background-color: greenyellow;
+}
+
+div.box_2 {
+    background-color: hotpink;
+}
+
+div.box_3 {
+    background-color: khaki;
+    order: 1;
+}
+
+div.box_4 {
+    background-color: lavender;
+}
+
+div.box_5 {
+    background-color: lightblue;
+    order: -2;
+}
+
+div.box_6 {
+    background-color: lightsalmon;
+}
+
+div.box_7 {
+    background-color: maroon;
+    order: 2;
+}
+
+div.box_8 {
+    background-color: mediumslateblue;
+}
+
+div.box_9 {
+    background-color: olive;
+    order: -1;
+}
+
+div.box_10 {
+    background-color: peru;
+}

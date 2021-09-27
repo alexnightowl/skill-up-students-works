@@ -1,0 +1,147 @@
+.navi {
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 10px;
+    height: 50px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size: 20px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+a:hover {
+   background: cadetblue;
+   }
+
+.tinput { 
+   font-size: 15px; 
+   padding: 5px;
+   margin-left: 600px;
+}
+
+.button {
+   font-size: 15px;
+   border: 1px solid white;
+   background-color: blue;
+   padding: 5px;
+   margin: 10px;
+}
+
+.bloc {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.b1 {
+    background: tomato;
+    margin: 30px;
+}
+
+.b2 {
+    background: rgb(112, 90, 238);
+    margin: 90px; 
+    z-index: 1;
+}
+
+.b3 {
+    background: rgb(60, 250, 76);
+    margin: 160px; 
+}
+
+.b11 {
+    background: tomato;
+    margin-top: 310px;
+    margin-left: 30px;
+    z-index: 1;
+}
+
+.b12 {
+    background: rgb(112, 90, 238);
+    margin-top: 370px; 
+    margin-left: 90px;
+}
+
+.b13 {
+    background: rgb(60, 250, 76);
+    margin-top: 430px; 
+    margin-left: 160px;
+    z-index: 1;
+}
+
+.b21 {
+    background: tomato;
+    margin-top: 590px;
+    margin-left: 30px;
+    z-index: 2;
+}
+
+.b22 {
+    background: rgb(112, 90, 238);
+    margin-top: 660px; 
+    margin-left: 90px;
+    z-index: 1;
+}
+
+.b23 {
+    background: rgb(60, 250, 76);
+    margin-top: 730px; 
+    margin-left: 160px;
+}
+
+.z-in {
+    position: relative;
+    height: 900px;
+    width: 400px;
+    border: 1px solid rgb(252, 252, 252);
+}
+
+.light {
+position: relative;
+height: 200px;
+width: 100px;
+border: 1px solid black;
+margin: 30px;
+}
+
+.circle {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.c1 {
+    position: absolute;
+    background: red;
+    margin: 25px;
+}
+
+.c2 {
+    position: absolute;
+    background: yellow;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+
+.c3 {
+    position: absolute;
+    background: green;
+    margin-top: 140px;
+    margin-left: 25px;
+}
