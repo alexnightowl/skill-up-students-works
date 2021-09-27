@@ -1,9 +1,4 @@
-@keyframes example {
-    0%   {background-color: rgba(182, 182, 182, 0.534);}
-  25%  {background-color: rgba(131, 131, 131, 0.521);}
 
- 
-  }
  
 
   
@@ -20,8 +15,9 @@ h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     border: 2px solid white;
     width: fit-content;
-    margin: 10px auto;
+    margin: 0px auto;
     padding: 10px;
+    margin-bottom: 25px;
 }
 
 a{
@@ -37,7 +33,13 @@ a :hover{
 
 }
 
-li{
+ul{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#selected li{
   list-style:none;  
   margin-top: 20px;
   border: 1px solid white;
@@ -47,8 +49,173 @@ li{
   animation-name: example;
   animation-duration: 2s;
   animation-iteration-count : infinite;
+  
 }
- li :hover{
+
+
+
+#selected li :hover{
     color: #FF756FFF;
 
  }
+ 
+
+audio{
+  position: fixed;
+  
+  width: 200px;
+  bottom: 0;
+  
+}
+
+#content{
+  display: flex;
+  
+
+}
+
+#selected {
+  flex:0 0 15%;
+  padding: 0;
+  margin: 0;
+  height: 1000px;
+ 
+  animation-name: example;
+  padding-right: 2%;
+  border-right: 2px solid white;
+  width: 100%;
+  
+}
+
+#resume{
+  flex:0 0 60%;
+ 
+  margin-left: 25px;
+  padding: 20px;
+
+  background-color: #68686848;
+ 
+  width: 60%;
+border-radius: 20px;
+color:white;
+}
+
+#right-side{
+  flex:0 0 15%;
+
+  
+  
+  color: white;
+  width: 100%;
+  margin-left: 2%;
+  height: 900px;
+  border-left: 2px solid white;
+  
+}
+
+#right-side li{
+  list-style:none;  
+  margin-top: 20px;
+  border: 1px solid white;
+  width: fit-content;
+  padding: 2%;
+  background-color:#FFFFFF71;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count : infinite;
+  
+}
+
+
+
+#right-side li :hover{
+    color: #FF756FFF;
+
+ }
+
+
+
+ img{
+   width: 200px;
+   border-radius: 100px;
+   float: left;
+   margin-right: 50px;
+ }
+
+
+
+@media screen and (max-width: 700px) {
+
+  div#content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  
+  }
+  
+  div#selected ul{
+    align-items: center;
+    width: 100%;
+  }
+
+  
+
+  audio{
+    display: none;
+  }
+  img{
+    width: 100%;
+  }
+
+  div#selected {
+    order: 1; 
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    flex:0 0 100%;
+    display: block;
+    border: none;
+    
+  }
+
+  div#selected ul{
+    padding: 0;
+    margin: 0;
+  }
+
+  div#resume {
+    order: 2;
+    height: fit-content;
+
+    flex:1 100%;
+    display: block;
+  }
+  div#right-side {
+    order: 3;
+    height: fit-content;
+
+    flex:1 100%;
+    display: block;
+    border: none;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ @keyframes example {
+  0%   {background-color: rgba(182, 182, 182, 0.534);}
+25%  {background-color: rgba(131, 131, 131, 0.521);}
+
+
+}
