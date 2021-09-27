@@ -1,17 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+body {
+  padding-top: 50px;
+}
+
 header {
   display: flex;
-  margin-left: 80px;
-  margin-top: 46px;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1140px;
 }
+
+main {
+  padding: 100px;
+}
+
 a {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   color: #4f5665;
+  text-decoration: none;
+  font-size: 16px;
 }
+
 .logo {
   margin-top: 5px;
 }
+
 .top_text {
   font-size: 16px;
   line-height: 19px;
@@ -20,39 +35,35 @@ a {
   font-weight: 500;
   color: #0b132a;
 }
+
 .block {
   height: 45px;
   width: 150px;
   left: 1140px;
-  top: 45.6162109375px;
+  top: 45px;
   border-radius: 50px;
   border: #f53855 solid 1px;
 }
 
 .navbar {
   display: flex;
-  margin-left: 157px;
 }
+
 .navbar li {
   margin-right: 40px;
   list-style: none;
   align-items: center;
 }
-a {
-  text-decoration: none;
-  color: #4f5665;
-  font-size: 16px;
-}
+
 .container1 {
   display: inline;
 }
-.img2 {
-  width: 611px;
-  height: 382px;
-  float: right;
-  margin-right: 83px;
-  margin-top: 179px;
+
+.gallery-wrapper {
+  display: flex;
+  justify-content: center;
 }
+
 .container1_text1 {
   color: #0b132a;
   font-family: Rubik;
@@ -62,12 +73,6 @@ a {
   line-height: 70px;
 }
 
-.container1_text {
-  float: left;
-  margin-top: 206px;
-  margin-left: 80px;
-} 
-
 .span1 {
   color: #0b132a;
   font-family: Rubik;
@@ -76,6 +81,7 @@ a {
   font-size: 50px;
   line-height: 70px;
 }
+
 .container1_text2 {
   color: #4f5665;
   font-family: Rubik;
@@ -85,12 +91,14 @@ a {
   line-height: 30px;
   font-weight: normal;
 }
+
 .span2 {
   color: #4f5665;
   font-family: Rubik;
   font-style: normal;
   font-weight: 700;
 }
+
 .button {
   width: 250px;
   height: 60px;
@@ -98,6 +106,7 @@ a {
   background-color: #f53838;
   box-shadow: 0px 25px 20px 5px #f5383859;
 }
+
 .button_text {
   font-family: Rubik;
   font-size: 16px;
@@ -108,6 +117,7 @@ a {
   padding-top: 20px;
   color: #ffffff;
 }
+
 .block12 {
   background: rgba(0, 0, 0, 0.3);
   height: fit-content;
