@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #3494E6;
+    background: linear-gradient(to right, #3494E6, #50a3ec );
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li:hover {
+    background: black;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+}
+
+.head_text {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-nav ul {
+    display: flex;
+    list-style: none;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.item {
+    flex: 1 1 50%;
+}
+
+p {
+    text-align: center;
+}
+
+.section-form {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 120px;
+    outline: none;
+    margin-left: 2px;
+}
+
+.submit_button {
+    width: 70px;
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+.social {
+    flex: 1 1 25%;
+    display: list-item;
+    border-top: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.info {
+    color: blanchedalmond;
+    font-size: 12px;
+}
+
