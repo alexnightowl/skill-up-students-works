@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  min-height: 80vh;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  background-color: rosybrown;
+  padding: 40px;
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background: cornflowerblue;
+}

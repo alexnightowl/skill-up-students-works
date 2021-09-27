@@ -1,0 +1,62 @@
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 10px solid rgb(209, 231, 10);
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  justify-content: center;
+  align-content: center;
+}
+
+.box {
+  font-size: 100px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: rgb(51, 48, 48);
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  width: 33.33%;
+  padding: 20px;
+}
+
+.box1 {
+  background-color: burlywood;
+}
+
+.box2 {
+  background-color: yellow;
+}
+
+.box3 {
+  background-color: yellowgreen;
+}
+
+.box4 {
+  background-color: green;
+}
+
+.box5 {
+  background-color: aquamarine;
+}
+
+.box6 {
+  background-color: blue;
+}
+
+.box7 {
+  background-color: blueviolet;
+}
+
+.box8 {
+  background-color: violet;
+}
+
+.box9 {
+  background-color: purple;
+}
+
+.box10 {
+  background-color: red;
+}

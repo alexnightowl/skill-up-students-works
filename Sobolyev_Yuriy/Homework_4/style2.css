@@ -1,0 +1,30 @@
+body {
+  font: 1em Aerial;
+  margin: 20px;
+}
+.conteiner {
+  background: #999;
+  display: block;
+  height: 100px;
+  margin: 80px;
+  max-width: 500px;
+  min-width: 350px;
+  position: relative;
+  overflow: auto;
+}
+.conteiner-inner {
+  background: #ccc;
+  margin: 10px;
+  position: fixed;
+  bottom: ;
+  top: 20px;
+  left: ;
+  right: 20px;
+  z-index: 999;
+}
+a {
+  width: 500px;
+  height: 100px;
+  background: #888;
+  display: block;
+}

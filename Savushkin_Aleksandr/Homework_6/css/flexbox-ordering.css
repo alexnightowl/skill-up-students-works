@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+}
+
+.box {
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-family: sans-serif;
+  flex: 1;
+}
+
+.box1 {
+  background-color: #1abc9c;
+}
+
+.box2 {
+  background-color: #3498db;
+}
+
+.box3 {
+  background-color: #9b59b6;
+  order: 1;
+}
+
+.box4 {
+  background-color: #34495e;
+}
+
+.box5 {
+  background-color: #f1c40f;
+  order: -1;
+}
+
+.box6 {
+  background-color: #e67e22;
+}
+
+.box7 {
+  background-color: #e74c3c;
+  order: 2;
+}
+
+.box8 {
+  background-color: #bdc3c7;
+}
+
+.box9 {
+  background-color: #2ecc71;
+  order: -1;
+}
+
+.box10 {
+  background-color: #16a085;
+}

@@ -1,0 +1,191 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Diablo;
+    src: url(/Dektyarev_Anton/fonts/Diablo.ttf);
+}
+
+@font-face {
+    font-family: Diablo RU;
+    src: url(/Dektyarev_Anton/fonts/Diablo_RU.TTF);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 510px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container_photo {
+    height: 100%;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.head_textbox {
+    height: 200px;
+    width: 100%;
+    margin-left: 15px;
+    min-width: 366px;
+    display: flex;
+    flex-direction: column;
+}
+
+.allhommeworks_logo {
+    float: left;
+    margin-right: 7px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.homeworks_text {
+   font-family: Diablo;
+   font-size: 15px;
+   color: #00c400;
+   font-weight: bold;
+   vertical-align: middle;
+   margin-top: 55px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: Diablo RU;
+    color: #A59263;
+    text-align: left;
+    display: block;
+    margin-top: 40px;
+
+}
+
+.post {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 100px;
+    margin: 0px;
+    text-align: left;
+    display: flex;
+
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 2px solid #A59263;
+    min-width: 640px;
+}
+
+.navbox_main {
+    display: flex;
+    width: 100%;
+    background-color: #A59263;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.navbox {
+    display: flex;
+    color: #fff;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navtext {
+    margin-left: 8px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+article {
+    display: flex;
+    width: 65%;
+    margin-left: 50px;
+    min-height: 500px;
+    flex-direction: column;
+}
+
+aside {
+    display: flex;
+    width: 35%;
+    margin-left: 30px;
+    margin-right: 30px;
+    min-height: 500px;
+    flex-direction: column;
+}
+
+.article_text {
+    font-size: 22px;
+    font-family: Diablo;
+    color: #A59263;
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.article_block {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.article_textblock {
+    display: flex;
+    color: #000;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid #A59263;
+    border-radius: 3px;
+    padding-left: 2px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    min-width: 300px;
+}
+
+.upper_block {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    display: flex;
+    padding-top: 2px;
+    border: 2px solid #A59263;
+    min-width: 550px;
+}
+
+.footer_main {
+    display: flex;
+    width: 100%;
+    min-height: 20px;
+    background-color: #A59263;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.allhommeworks_logo:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,52 @@
+.main_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 50px;
+}
+
+.links {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+.links {
+  border-radius: 120px 5px;
+  border: 5px solid yellowgreen;
+  border-width: 5px 5px 25px 25px;
+  }
+
+body {
+  background: linear-gradient(45deg, #FDFC47, #24FE41);
+  background-size: 400% 400%;
+  animation: gradient 10s ease-in infinite;
+  font-family: 'Trebuchet MS';
+  font-size: 1em;
+  text-shadow: 1px 1px rgba(255,255,255, .8);
+  color: #57700c;
+  }
+
+.links {
+  max-width: 250px;
+  margin: 40px auto;
+  padding: 40px 50px;
+  background: #e5f783;
+  }
+
+  @keyframes gradient{
+    0% {
+      background-position:  0 50%;
+    }
+    50% {
+      background-position:  100% 50%;
+    }
+    100% {
+      background-position:  0 50%;
+    }
+  }
