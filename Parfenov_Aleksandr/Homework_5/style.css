@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgba(100,100,1000,0.2 );
+}
+header {
+    position: fixed;
+    z-index: 100;
+    background: rgb(87,106,170);
+    padding: 10px;
+    width: 100%;
+}
+
+ul.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.navbar {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px; 
+}
+.search_input, input,button {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    right: 50px;
+}
+.search_input {
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 7px 0 0 7px;
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+    background: #37363e;
+    border: 1px solid skyblue;
+    color: skyblue;
+    border-radius: 0 7px 7px 0;
+}
+.block {
+   position: relative; 
+   border: 3px dotted black;
+   max-width: 400px;
+   height: 400px;
+   top: 90px;
+   left: 10px;
+}
+.block_1 {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   background: rosybrown;
+   top: 20px;
+   left: 20px;
+}
+.block_2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+    left: 70px;
+    top: 70px;
+    z-index: 1;
+ }
+.block_3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: springgreen;
+    left: 120px;
+    top: 120px;   
+}
+.raund {
+    position: relative; 
+    border: 3px dotted green;
+    max-width: 400px;
+    height: 400px;
+    top: 10rem;
+    left: 10px;
+}
+.raund1 {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   background: rosybrown;
+   top: 20px;
+   left: 20px;
+   z-index: 1;
+}
+.raund2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+    left: 70px;
+    top: 70px;
+    z-index: 0;
+}
+.raund3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: springgreen;
+    left: 120px;
+    top: 120px;
+    z-index: 1;   
+}
+.grow {
+    position: relative; 
+    border: 3px dotted blue;
+    max-width: 400px;
+    height: 400px;
+    top: 15rem;
+    left: 10px;
+}
+.grow1 {
+    position: absolute;
+   width: 100px;
+   height: 100px;
+   background: rosybrown;
+   top: 20px;
+   left: 20px;
+   z-index: 2;
+}
+.grow2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+    left: 70px;
+    top: 70px;
+    z-index: 1;
+}
+.grow3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: springgreen;
+    left: 120px;
+    top: 120px;
+    z-index: 0;
+}
+.lights {
+    position: relative; 
+    border: 2px dotted indigo;
+    max-width: 300px;
+    height: 600px;
+    bottom: 50rem;
+    left: 30rem;  
+}
+.lights_1 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background: red;
+    top:25%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.lights_2 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background: yellow;
+    top:55%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.lights_3 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background: green;
+    top:85%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
