@@ -1,0 +1,60 @@
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.box {
+  font-size: 100px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: rgb(51, 48, 48);
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.box1 {
+  background-color: burlywood;
+}
+
+.box2 {
+  background-color: yellow;
+}
+
+.box3 {
+  background-color: yellowgreen;
+  order: 1;
+}
+
+.box4 {
+  background-color: green;
+}
+
+.box5 {
+  background-color: aquamarine;
+  order: -2;
+}
+
+.box6 {
+  background-color: blue;
+}
+
+.box7 {
+  background-color: blueviolet;
+  order: 2;
+}
+
+.box8 {
+  background-color: violet;
+}
+
+.box9 {
+  background-color: purple;
+  order: -1;
+}
+
+.box10 {
+  background-color: red;
+}
