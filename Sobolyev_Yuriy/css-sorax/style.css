@@ -18,6 +18,11 @@ ul {
   transition: all 0.7s ease-in-out;
 }
 
+nav {
+  position: absolute;
+  z-index: 1;
+}
+
 .nav {
   display: flex;
   flex-direction: column;
@@ -38,6 +43,14 @@ ul {
   transition: all 0.3s ease-in-out, height 0.3s ease-in-out 0.2s;
 }
 
+.nav li:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.nav li:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
 .nav li:hover {
   width: 200px;
   height: 190px;
@@ -50,7 +63,6 @@ ul {
   align-items: center;
   text-decoration: none;
   background: #bbb;
-  border: 1px solid #fff;
   color: #fff;
   padding-left: 12px;
   box-sizing: border-box;
@@ -93,4 +105,63 @@ ul {
   padding-right: 15px;
   width: 30px;
   height: 30px;
+}
+
+.baner {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background: url(http://lorempixel.com/1024/400) center;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.baner::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 400px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s;
+  background: radial-gradient(transparent, rgba(0, 0, 0, 0.5));
+}
+
+.baner:hover::after {
+  opacity: 0;
+}
+
+.bgline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  margin-top: 45px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+box-sizing: border-box;
+  /* background: repeating-linear-gradient(-45deg, red, red 5px, blue 5px, blue 10px); */
+  background: 
+    radial-gradient(#000, transparent);
+}
+
+.bgline:hover {
+    background: repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, 0.3) 2px,
+      rgba(0, 0, 0, 0.3) 4px,
+      #000 4px,
+      #000 6px
+    ), repeating-linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.3) 1px,
+        rgba(0, 0, 0, 0.3) 4px,
+        #000 1px,
+        #000 6px
+      )
 }
