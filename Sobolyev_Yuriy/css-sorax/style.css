@@ -109,9 +109,9 @@ nav {
 
 .baner {
   width: 100%;
-  height: 400px;
+  height: 355px;
   position: relative;
-  background: url(http://lorempixel.com/1024/400) center;
+  background: url(http://lorempixel.com/1024/355) center;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
@@ -121,7 +121,7 @@ nav {
   content: "";
   display: block;
   width: 100%;
-  height: 400px;
+  height: 355px;
   display: block;
   position: absolute;
   top: 0;
@@ -140,28 +140,146 @@ nav {
   align-items: center;
   width: 100%;
   height: 150px;
-  margin-top: 45px;
+  margin: 45px 0;
   color: #fff;
   border-radius: 5px;
   border: 1px solid #bbb;
-box-sizing: border-box;
+  box-sizing: border-box;
   /* background: repeating-linear-gradient(-45deg, red, red 5px, blue 5px, blue 10px); */
-  background: 
-    radial-gradient(#000, transparent);
+  background: radial-gradient(#000, transparent);
 }
 
 .bgline:hover {
-    background: repeating-linear-gradient(
+  background: repeating-linear-gradient(
       -45deg,
       rgba(0, 0, 0, 0.3) 2px,
       rgba(0, 0, 0, 0.3) 4px,
       #000 4px,
       #000 6px
-    ), repeating-linear-gradient(
-        45deg,
-        rgba(0, 0, 0, 0.3) 1px,
-        rgba(0, 0, 0, 0.3) 4px,
-        #000 1px,
-        #000 6px
-      )
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.3) 1px,
+      rgba(0, 0, 0, 0.3) 4px,
+      #000 1px,
+      #000 6px
+    );
+}
+
+.animation {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.square:hover {
+  animation-play-state: paused;
+}
+
+.a1 {
+  background: rgb(57, 60, 94);
+  animation: spin 2s linear 0s infinite;
+}
+
+.a2 {
+  background: rgb(61, 121, 155);
+  animation: spin 2s linear 0s infinite reverse;
+}
+
+.a3 {
+  background: rgb(61, 155, 85);
+  animation: spin 2s linear 0s infinite alternate;
+}
+
+.a4 {
+  background: rgb(215, 218, 89);
+  animation: scale 1s linear 0s infinite alternate;
+}
+
+.a5 {
+  background: rgb(218, 104, 89);
+  animation: skew 1s linear 0s infinite alternate;
+}
+
+.a6 {
+  background: rgb(177, 89, 218);
+  animation: translate 1s linear 0s infinite alternate;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes skew {
+  0% {
+    transform: skewy(45deg);
+  }
+  100% {
+    transform: skewy(-45deg);
+  }
+}
+
+@keyframes translate {
+  0% {
+    transform: translate(-40px);
+  }
+  100% {
+    transform: translate(10px);
+  }
+}
+
+.loading {
+  width: 200px;
+  height: 30px;
+  border: 3px solid #00f;
+  /* box-sizing: border-box; */
+  border-radius: 15px;
+  margin: 45px auto;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.progress-bar {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  box-sizing: border-box;
+  width: 400px;
+  height: 30px;
+  background: repeating-linear-gradient(
+    -45deg,
+    #fff 0,
+    #fff 5px,
+    #00f 5px,
+    #00f 10px
+  );
+  animation: slide 2.5s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -100%;
+  }
 }
