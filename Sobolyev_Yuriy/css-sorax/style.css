@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/leather_1.png");
+  font: 1em sans-serif;
+  text-transform: uppercase;
+}
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 15px auto;
+  padding: 30px;
+  transition: all 0.7s ease-in-out;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 55px;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav:hover {
+  opacity: 1;
+}
+
+.nav li {
+  width: 55px;
+  height: 55px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out, height 0.3s ease-in-out 0.2s;
+}
+
+.nav li:hover {
+  width: 200px;
+  height: 190px;
+}
+
+.nav li a {
+  display: flex;
+  width: 200px;
+  height: 45px;
+  align-items: center;
+  text-decoration: none;
+  background: #bbb;
+  border: 1px solid #fff;
+  color: #fff;
+  padding-left: 12px;
+  box-sizing: border-box;
+  transition: background 0.5s ease-in-out;
+}
+
+.nav li a:hover {
+  background: rgb(57, 60, 94);
+}
+
+.nav li a:first-child {
+  font-size: 1.1em;
+  height: 55px;
+}
+
+.nav li.main-menu a:first-child::before {
+  content: url(./images/home.svg);
+  padding-right: 15px;
+  width: 30px;
+  height: 30px;
+  fill: #ff0;
+}
+
+.nav li.settings a:first-child::before {
+  content: url(./images/settings.svg);
+  padding-right: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.nav li.link a:first-child::before {
+  content: url(./images/link.svg);
+  padding-right: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.nav li.contacts a:first-child::before {
+  content: url(./images/contacts.svg);
+  padding-right: 15px;
+  width: 30px;
+  height: 30px;
+}
