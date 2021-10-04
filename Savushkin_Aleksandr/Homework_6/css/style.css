@@ -1,0 +1,44 @@
+body {
+  background-color: #ffc100;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 50px;
+}
+
+a {
+  font-size: 2rem;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  background-color: #b7afbc;
+  background-image: url(../images/pic.png), url(../images/boat.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom, center;
+  background-size: 400px, cover;
+}
+
+.navbar-list {
+  padding: 50px 40px;
+}
+
+.navbar-item:nth-child(odd) a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-item:nth-child(even) a {
+  color: #000;
+  text-decoration: line-through;
+}
