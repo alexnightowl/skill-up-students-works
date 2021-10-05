@@ -3,11 +3,7 @@ body {
     margin: 0;
 }
 
-<<<<<<< HEAD
-container {
-=======
 .container {
->>>>>>> master
     background: #999;
     display: block;
     width: 300px;
