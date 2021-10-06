@@ -6,8 +6,13 @@ body {
 
 /* fonts */
 @font-face {
-    font-family: Diablo RU;
+    font-family: Diablo;
     src: url(fonts/Diablo_RU.TTF);
+}
+
+@font-face {
+    font-family: Kaligrafica;
+    src: url(fonts/Kaligrafica.ttf);
 }
 /* fonts */
 
@@ -15,6 +20,23 @@ header {
     display: flex;
     box-sizing: border-box;
     position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+header .myphoto-box {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 1px #000;
+}
+
+.myphoto-box img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
 }
 
 header p:nth-child(2) {
@@ -22,7 +44,7 @@ header p:nth-child(2) {
     margin: 0px;
     font-size: 40px;
     font-weight: 400;
-    font-family: Diablo RU;
+    font-family: Diablo;
     text-shadow: 0px 1px 1px #000;
     color: #A59263;
     top: 30px;
@@ -55,7 +77,7 @@ header a:nth-child(4):hover {
 
 header a img {
     animation-name: icon-flash;
-    animation-duration: 1.8s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -67,10 +89,11 @@ header a img:hover {
 header p:nth-child(5) {
    position: absolute;
    margin: 0px;
-   font-family: Diablo RU;
-   font-size: 16px;
-   text-shadow: 0px 1px 1px #000;
-   color: #00c400;
+   font-family: Kaligrafica;
+   font-size: 22px;
+   font-weight: bold;
+   text-shadow: 0px 1px 1px #bbb;
+   color: #A59263;
    top: 145px; 
    left: 260px;
 }
@@ -80,9 +103,23 @@ header p:nth-child(5) {
     display: none;
 }
 
+.header-mobile .myphoto-box-mobile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 1px #000;
+}
+
+.myphoto-box-mobile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
 .header-mobile a img {
     animation-name: icon-flash;
-    animation-duration: 1.8s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -128,7 +165,7 @@ nav:hover {
 
 main {
     display: flex;
-    background: #000;
+    background: rgb(158, 101, 101);
     padding-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
@@ -167,28 +204,31 @@ aside {
 }
 
 .upper_block p {
+    margin: 0px;
     margin-left: 5px;
     font-size: 22px;
-    font-family: Diablo RU;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #000;
-    margin: 0px;
+    text-shadow: 0px 1px 2px #000;
 }
 
 .textblock {
     margin-top: 10px;
     box-sizing: border-box;
-    border: 1px solid #A59263;
+    border: 1px solid #fff;
     border-radius: 3px;
+    background: #ddd;
 }
 
 .textblock p {
     margin: 5px 10px 5px 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #bbb;
+    font-weight: bold;
+    color: #000;
     font-size: 14px;
     line-height: 18px;
+    text-shadow: 0px 1px 1px #333;
     word-break: break-all;
 }
 
@@ -212,10 +252,10 @@ footer:hover {
 
 footer p {
     margin: 5px;
-    font-family: Diablo RU;
+    font-family: Diablo;
     text-align: center;
     text-shadow: 0px 1px 1px #000;
-    color: #000;
+    color: #555;
 }
 
 /* animations */
@@ -301,8 +341,8 @@ footer p {
     .header-mobile {
         display: flex;
         height: 150px;
-        padding: 2px;
         position: relative;
+        padding-left: 10px;
     }
 
     .header-mobile p:nth-child(2) {
@@ -311,11 +351,11 @@ footer p {
         font-size: 25px;
         line-height: 40px;
         font-weight: 400;
-        font-family: Diablo RU;
+        font-family: Diablo;
         text-shadow: 0px 1px 1px #000;
         color: #A59263;
         top: 10px;
-        left: 152px;
+        left: 168px;
     }
 
     .header-mobile p:nth-child(3) {
@@ -324,44 +364,49 @@ footer p {
         font-size: 25px;
         line-height: 40px;
         font-weight: 400;
-        font-family: Diablo RU;
+        font-family: Diablo;
         text-shadow: 0px 1px 1px #000;
         color: #A59263;
         top: 30px;
-        left: 152px;
+        left: 168px;
     }
 
     .header-mobile p:nth-child(4) {
         position: absolute;
         margin: 0px;
-        font-size: 16px;
+        font-size: 15px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: bold;
         color: #000;
         text-shadow: 0px 1px 1px #A59263;
         top: 60px;
-        left: 154px;
+        left: 170px;
     } 
 
     .header-mobile a:nth-child(5) {
         position: absolute;
         margin: 0px;
         top: 110px;
-        left: 152px;
+        left: 155px;
     }
 
     .header-mobile p:nth-child(6) {
         position: absolute;
         margin: 0px;
-        font-family: Diablo RU;
-        font-size: 11px;
-        text-shadow: 0px 1px 1px #000;
-        color: #00c400;
-        top: 115px; 
-        left: 196px;
+        font-family: Kaligrafica;
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 0px 1px 1px #bbb;
+        color: #A59263;
+        top: 113px; 
+        left: 198px;
      }
     /* mobile block */
 
+   .nav-wrapper {
+       margin-top: 15px;
+   }
+   
     nav {
         min-width: auto;
         flex-direction: column;
@@ -375,7 +420,7 @@ footer p {
     }
 
     .upper_block p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .textblock p {
