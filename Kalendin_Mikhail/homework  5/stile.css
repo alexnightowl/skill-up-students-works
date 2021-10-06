@@ -1,0 +1,111 @@
+
+.z-index-container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 2px dashed #000;
+}
+.absolute{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: green;
+    top: 20%;
+    left: 8%;       
+}
+.yellow{
+    background: yellow;
+    top: 40%;
+    left: 12%;   
+}
+.red{
+    background: red;
+    top: 60%;
+    left: 16%;    
+}
+.z-index-container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 2px dashed #000;
+}
+.absolute1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: green;
+    top: 20%;
+    left: 8%;
+    z-index: 2;   
+}
+.yellow{
+    background: yellow;
+    top: 40%;
+    left: 12%;
+    z-index: 0;
+
+}
+.red{
+    background: red;
+    top: 60%;
+    left: 16%;
+    
+}
+
+.z-index-container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 2px dashed #000;
+}
+.absolute2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: green;
+    top: 20%;
+    left: 8%;
+    z-index: 1;   
+}
+.yellow{
+    background: yellow;
+    top: 40%;
+    left: 12%;
+    z-index: 0;
+
+}
+.red{
+    background: red;
+    top: 60%;
+    left: 16%;
+    z-index: 3;
+    
+}
+.z-index-container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 2px dashed #000;
+}
+.absolute3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: green;
+    top: 20%;
+    left: 8%;
+    z-index: 0;   
+}
+.yellow{
+    background: yellow;
+    top: 40%;
+    left: 12%;
+    z-index: 1;
+
+}
+.red{
+    background: red;
+    top: 60%;
+    left: 16%;
+    
+}
