@@ -4,7 +4,7 @@
     background: green;
 }
 
-/* @media screen {max-width:768px;}{
+@media screen {max-width:768px;}{
     .resize-block {
         background: greenyellow;
     }
@@ -14,10 +14,10 @@
     .resize-block {
         background: red;
     }
-} */
+} 
 
 
-/* 
+ 
 .hero-boner {
     display: flex;
 }
@@ -41,4 +41,4 @@
         width:calc(100%-23px);
 
     }
-} */ 
+}  */
