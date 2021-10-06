@@ -1,0 +1,34 @@
+body {
+    background: #ddd;
+}
+
+.container {
+    width: 200px;
+    height: 30px;
+    border: 3px solid #fff;
+    background: #999;
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 40px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bar {
+    height: 30px;
+    width: 400px;
+    background: repeating-linear-gradient(45deg, rgba(255,255,255,0.9) 0, rgba(255,255,255,0.9) 5px, transparent 5px, transparent 10px);
+    animation: slide 3s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        margin-left: -100%;
+    }
+}
