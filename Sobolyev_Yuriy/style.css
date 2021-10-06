@@ -1,0 +1,26 @@
+body {
+  background: #fff;
+  color: #353535;
+}
+
+a {
+  color: #353535;
+  text-decoration: none;
+}
+
+article {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: url(https://media.proglib.io/wp-uploads/2019/01/CoM-The-Ultimate-Front-End-Development-Bundle-1280x660.jpg)
+    no-repeat center #eee;
+}
+
+nav {
+    display: flex;
+
+}
+nav li {
+  flex-direction: row;
+  
+}
