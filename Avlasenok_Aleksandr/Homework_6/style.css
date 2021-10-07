@@ -1,0 +1,101 @@
+.logo {
+	margin: 10px;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+	font-size: 25px;
+	cursor: pointer;
+}
+.navbar {
+	margin: 0;
+	width: 1247px;
+	height: 100px;
+	display: flex; /*сделали блок гибким*/
+	justify-content: space-evenly; /*раставили элементы по краям*/
+	align-items: center;
+	color: #00ecbb;
+   background-color: rgb(102, 102, 187);
+}
+a {
+	margin: 10px;
+	color: #00ecbb;
+	text-decoration: none;
+	opacity: 0.55;
+}
+a:hover {
+	box-shadow: 4px 4px 4px 0 #00ecbb;
+	opacity: 1;
+	transition: 0.3s;
+}
+footer{
+	margin-top: -10px;
+	width: 1247px;
+	height: 50px;
+	background-color: rgb(2 132 62);
+	display: flex;
+	justify-content: center;
+}
+.login{
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+}
+.password{
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+}
+.button{
+	margin-left: 25px;
+	width: 200px;
+	height: 42px;
+	font-size: 15px;
+	background-color: rgb(175, 238, 238);
+	font-weight: bold;
+	border-radius: 15px 0;
+	border-color: rgb(95, 158, 160);
+	color: dimgray;
+	cursor: pointer;
+}
+.button:hover{
+	color: rgb(218, 214, 19);
+	background-color: rgb(95, 158, 160);
+	border-color: rgb(95, 158, 160);
+	box-shadow: 4px 4px 4px 0 rgb(226, 179, 24);
+}
+.login2{
+	width: 200px;
+	height: 35px;
+	font-size: 15px;
+	background-color: rgb(175, 238, 238);
+	font-weight: bold;
+	border-radius: 15px 0;
+	border-color: rgb(95, 158, 160);
+	color: dimgray;
+	cursor: pointer;
+}
+.login2:hover{
+	color: black;
+	background-color: rgb(95, 158, 160);
+	border-color: rgb(95, 158, 160);
+	box-shadow: 4px 4px 4px 0 rgb(226, 179, 24);
+}
+.password2{
+	width: 200px;
+	height: 35px;
+	font-size: 15px;
+	background-color: rgb(175, 238, 238);
+	font-weight: bold;
+	border-radius: 15px 0;
+	border-color: rgb(95, 158, 160);
+	color: dimgray;
+	cursor: pointer;
+}
+.password2:hover{
+	color: black;
+	background-color: rgb(95, 158, 160);
+	border-color: rgb(95, 158, 160);
+	box-shadow: 4px 4px 4px 0 rgb(226, 179, 24);
+}

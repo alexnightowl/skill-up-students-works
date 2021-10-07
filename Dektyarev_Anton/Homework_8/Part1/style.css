@@ -1,0 +1,81 @@
+body {
+    font: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0px;
+    margin: 30px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.nav:hover {
+    opacity: 1;
+}
+
+.nav li {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out 0.2s;
+}
+
+.nav li:hover {
+    height: 200px;
+    width: 1750px;
+    overflow: hidden;
+}
+
+.nav li a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background: #bbb;
+    margin: 1px;
+    color: #fff;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.nav li a:hover {
+    background: #2fc5ff;
+}
+
+.nav li a:first-child {
+    font-size: 1.1em;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-indent: 36px;
+}
+
+.nav li a:first-child::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 9px;
+    left: 9px;
+}
+
+.main-menu li a:first-child::before {
+    background: url(/Dektyarev_Anton/Homework_9/home.png) center no-repeat;
+}
+
+.settings li a:first-child::before {
+    background: url(/Dektyarev_Anton/Homework_9/settings.png) center no-repeat;
+}
+
+.link li a:first-child::before {
+    background: url(/Dektyarev_Anton/Homework_9/link.png) center no-repeat;
+}
+
+.search li a:first-child::before {
+    background: url(/Dektyarev_Anton/Homework_9/search.png) center no-repeat;
+}

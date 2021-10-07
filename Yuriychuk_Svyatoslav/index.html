@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
   </head>
-  <body style="background-image: url(img/back.jpg)";>
+  <body style="background-image: url(img/back.jpg)"; onload="setVolume();">
     <div class="h1">
       <h1>Svyatoslav's HomeWorks</h1>
     </div>
+    <div id="content">
         <div id="selected">
     <ul>
       <li><a href="Homework_1/index.html">Homework 1</a></li>
@@ -22,7 +23,96 @@
       <li><a href="#">Homework 6</a></li>
 
     </ul>
-  </div>
 
+    <audio id="myAudio" controls>
+     
+      <source src="img/blue_bird.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+    
+
+    </div>
+
+  <div id="resume" >
+
+    <img src="img/photo.jpg" alt="">
+
+    <h2>Education and Qualifications</h2>
+    
+<ul>
+  <li><b>Jan. 2020 - Present</b><br>	Bachelor in UX Design, DePaul University, Chicago, IL: GPA:  4.0
+
+  </li><br>
+  <li><b>Oct. 2016 – Jun.2021</b><br>	Associate in General Studies, Wilbur Wright College, Chicago, IL: GPA:  3.9
+
+  </li><br>
+  <li><b>Sept. 2012 - June 2016</b><br>	Associate in Computer Sciences, College of Electronic Devices, Ukraine:  GPA:  3.5</li>
+</ul>
+<hr>
+<h2>Experience</h2>
+
+<ul>
+  <li><b>May - Jul. 2019</b> &nbsp;&nbsp;&nbsp; Wide Open West, Cable Company</li>
+</ul><p>Network Technician (customer support, internet network installation, video system installation, troubleshooting computer networks)</p>
+<ul>  <li><b>Aug. 2018 – Nov. 2018</b>&nbsp;&nbsp;&nbsp; Master Safety, Inc</li>
+</ul> <p>IT Support Specialist (customer and employee support, troubleshooting computer systems and networks, testing and fixing ELD devices)</p>
+ <ul> <li><b>Oct. 2017 – Dec. 2019</b>&nbsp;&nbsp;&nbsp; Wright College, IT Media Services</li>
+ </ul> <p>Work Study (customer service, troubleshooting video, audio and computer systems, software installation, troubleshooting multimedia rooms, and multimedia equipment)</p>
+ <ul> <li><b>Feb. 2016</b>&nbsp;&nbsp;&nbsp; UTeam, Internet Provider</li>
+ </ul> <p>Network Installer (network installation, equipment management)  </p>
+
+ 
+<hr>
+
+<h2>Key I.T. Skills </h2>
+
+<ul>
+  <li>Windows, Mac OS, Android</li><br>
+  <li>Microsoft Office (Word, Excel, Power Point)</li><br>
+  <li>HTML, CSS, JS</li><br>
+  <li>Adobe (Premiere Pro, Photoshop, Light Room)</li>
+</ul>
+<hr>
+<h2>Other Skills</h2>
+
+<ul>
+  <li>Video and Audio Editing</li><br>
+  <li>Photography and Graphic design</li>
+</ul>
+</div>
+<div id="right-side">
+
+  <ul>
+    <li><a href="https://alexnightowl.github.io/skill-up-students-works/">Index</a></li>
+
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus doloremque corrupti earum animi accusamus et maxime impedit dolor sint quia, dicta placeat neque ad sunt aliquam provident ipsa voluptatem. Neque?</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus doloremque corrupti earum animi accusamus et maxime impedit dolor sint quia, dicta placeat neque ad sunt aliquam provident ipsa voluptatem. Neque?</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus doloremque corrupti earum animi accusamus et maxime impedit dolor sint quia, dicta placeat neque ad sunt aliquam provident ipsa voluptatem. Neque?</p>
+
+
+
+</div>
+
+
+  </div>
+</div>
   </body>
+
+
+  <script>
+    var aud = document.getElementById("myAudio");
+    
+   
+    function setVolume() { 
+      aud.volume = 0.1;
+    } 
+      
+   
+    </script> 
+
+
+
 </html>
+
+
