@@ -10,9 +10,12 @@ body {
   max-width: 1440px;
   margin: 50px auto;
   background: #fff;
-  display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.flex {
+  display: flex;
 }
 
 a {
@@ -37,7 +40,6 @@ li {
 }
 
 .header {
-  display: flex;
   height: 45px;
   justify-content: space-between;
   margin: 45px auto 0 auto;
@@ -48,7 +50,6 @@ li {
 }
 
 .logo {
-  display: flex;
   justify-content: flex-start;
   align-items: center;
   font-style: normal;
@@ -56,7 +57,6 @@ li {
   font-size: 20px;
   line-height: 24px;
   color: #0b132a;
-   
 }
 
 .logo img {
@@ -64,7 +64,6 @@ li {
 }
 
 .navigation ul {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -72,7 +71,6 @@ li {
   align-items: center;
   height: 45px;
   padding: 0 20px;
-  display: flex;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -88,7 +86,6 @@ li {
 }
 
 .signup ul {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -98,10 +95,8 @@ li {
   height: 45px;
   width: 150px;
   padding: 0 20px;
-  display: flex;
   margin-left: 10px;
   box-sizing: border-box;
-   
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -116,13 +111,11 @@ li {
 }
 
 .main {
-  display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
 .about-section {
-  display: flex;
   margin: 88px auto 102px auto;
   justify-content: space-between;
   max-width: 1140px;
@@ -159,10 +152,8 @@ h1 {
 
 .about-section_title a,
 a.subscribe-btn {
-  display: flex;
   align-items: center;
   justify-content: center;
-   
   width: 250px;
   height: 60px;
   background: #f53838;
@@ -205,7 +196,6 @@ a.subscribe-btn:hover {
 }
 
 .counter-section {
-  display: flex;
   padding: 20px;
   margin: 0 auto 95px auto;
   box-sizing: border-box;
@@ -221,7 +211,6 @@ a.subscribe-btn:hover {
   height: 65px;
   border-right: 2px solid #eeeff2;
   padding: 30px 0;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
@@ -252,7 +241,6 @@ p.count,
 }
 
 .provide-section {
-  display: flex;
   margin-bottom: 131px;
   justify-content: space-between;
   align-items: center;
@@ -260,19 +248,16 @@ p.count,
 }
 
 .provide-section img {
-  display: flex;
   max-width: calc(50% - 10px);
   flex-grow: 1;
 }
 
 .provide-section_title {
-  display: flex;
   flex-direction: column;
   justify-content: flex-end;
   flex-grow: 2;
   margin-left: 40px;
   max-width: calc(50% - 10px);
-
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -290,7 +275,6 @@ p.count,
 }
 
 .provide-section_title li {
-  display: flex;
   margin: 11px 0 0 0;
 }
 
@@ -301,12 +285,11 @@ p.count,
 
 .plan-wrapp-bg {
   width: 100%;
-  background: linear-gradient(180deg, #f8f8f8 -45%, rgba(248, 248, 248, 0) 88);
+  background: linear-gradient(180deg, #f8f8f8 -45%, rgba(248, 248, 248, 0) 88%);
 }
 
 .plan-section {
   max-width: 1440px;
-  display: flex;
   flex-direction: column;
   margin: 0 auto 150px auto;
 }
@@ -339,7 +322,6 @@ p.count,
 }
 
 .plan-section .plans {
-  display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -349,7 +331,6 @@ p.count,
   border: 2px solid #dddddd;
   border-radius: 10px;
   padding: 80px 70px 50px 70px;
-  display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10px;
@@ -401,11 +382,10 @@ p.count,
   justify-content: center;
   align-items: center;
   height: 45px;
-  display: flex;
   width: 150px;
   margin: 20px 0 0 0;
   box-sizing: border-box;
-   
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -437,7 +417,6 @@ a.border_red {
 }
 
 .sponsored {
-  display: flex;
   flex-wrap: wrap;
   max-width: 1135px;
   height: 208px;
@@ -455,7 +434,6 @@ a.border_red {
 }
 
 .coment-section {
-  display: flex;
   flex-direction: column;
   max-width: 1300px;
   margin: 0 auto;
@@ -466,13 +444,11 @@ a.border_red {
 }
 
 .coment-items {
-  display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .coment-item {
-  display: flex;
   max-width: 400px;
   min-height: 230px;
   margin: 10px;
@@ -491,7 +467,6 @@ a.border_red {
 .coment-autor {
   min-width: 215px;
   height: 50px;
-  display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 30px 0 0 30px;
@@ -522,10 +497,8 @@ a.border_red {
 
 .rate {
   margin: 30px auto;
-  display: flex;
   align-items: center;
   height: 50px;
-
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -540,7 +513,6 @@ a.border_red {
 
 .coment-item p.coment-text {
   margin: 30px;
-
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -550,7 +522,6 @@ a.border_red {
 }
 
 .coment-controls {
-  display: flex;
   flex-wrap: wrap;
   max-width: 1300px;
   height: 60px;
@@ -564,7 +535,6 @@ a.border_red {
 }
 
 .dots {
-  display: flex;
   height: 60px;
   width: 140px;
   align-content: center;
@@ -626,7 +596,6 @@ a.arrow-right:hover {
 }
 
 .subscribe-section {
-  display: flex;
   background: #fff;
   max-width: 1440px;
   margin-bottom: -115px;
@@ -637,7 +606,6 @@ a.arrow-right:hover {
 }
 
 .subscribe-section_box {
-  display: flex;
   width: calc(100% - 250px);
   height: 234px;
   background: #fff;
@@ -682,13 +650,11 @@ a.arrow-right:hover {
 .footer-section {
   max-width: 1140px;
   margin: 180px auto 0 auto;
-  display: flex;
   justify-content: space-between;
   padding: 0 150px;
 }
 
 .footer-left {
-  display: flex;
   flex-direction: column;
   max-width: 340px;
 }
@@ -710,7 +676,6 @@ a.arrow-right:hover {
 }
 
 .footer-left .social {
-  display: flex;
   margin: 30px 0;
 }
 
@@ -745,12 +710,13 @@ a.arrow-right:hover {
 }
 
 .footer-right {
-  display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .footer-right ul {
-  margin: 0 0 100px 125px;
+  padding-left: 60px;
 }
 
 .footer-right li.nav-title {
@@ -767,8 +733,8 @@ a.arrow-right:hover {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  white-space: nowrap;
   color: #4f5665;
-   
   display: flex;
   height: 30px;
   margin-bottom: 10px;
@@ -800,7 +766,6 @@ a.arrow-right:hover {
   }
 
   .header {
-    display: flex;
     justify-content: space-evenly;
     margin: 45px auto 0 auto;
     height: auto;
@@ -813,14 +778,12 @@ a.arrow-right:hover {
   }
 
   .subscribe-section {
-    display: flex;
     background: #fff;
     margin-bottom: 0px;
     height: 234px;
   }
 
   .subscribe-section_box {
-    display: flex;
     width: 100%;
     height: 234px;
     background: #fff;
@@ -852,6 +815,11 @@ a.arrow-right:hover {
   .footer-section {
     padding-top: 100px;
   }
+
+  .footer-right a {
+    font-size: 14px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -884,7 +852,6 @@ a.arrow-right:hover {
   .coment-section,
   .about-section,
   .plan-section {
-    /* padding: 10px 10px 45px 10px; */
     margin: 0px;
     width: 100%;
     overflow: hidden;
@@ -897,7 +864,6 @@ a.arrow-right:hover {
   }
 
   .header {
-    display: flex;
     position: sticky;
     margin-top: 0;
     top: 0;
@@ -933,12 +899,7 @@ a.arrow-right:hover {
     right: 35px;
   }
 
-  .navigation {
-    display: flex;
-  }
-
   .navigation ul {
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
@@ -962,6 +923,7 @@ a.arrow-right:hover {
   a.subscribe-btn {
     width: 100%;
   }
+
   .about-section img,
   .provide-section img,
   .global-section img {
@@ -1000,14 +962,12 @@ a.arrow-right:hover {
   }
 
   .subscribe-section {
-    display: flex;
     background: #fff;
     margin: 0;
     padding: 10px 10px 45px 10px;
   }
 
   .subscribe-section_box {
-    display: flex;
     width: 100%;
     background: #fff;
     z-index: 0;
@@ -1033,12 +993,18 @@ a.arrow-right:hover {
 
   .footer-right {
     order: -1;
+    justify-content: space-between;
   }
 
   .footer-right ul {
     margin: 0 0 10px 0px;
     width: calc(33.3333% - 10px);
     justify-content: space-between;
+    padding: 0;
+  }
+
+  .footer-right li.nav-title {
+    height: 65px;
   }
 
   .footer li a,
