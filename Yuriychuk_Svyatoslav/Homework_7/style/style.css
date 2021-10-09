@@ -9,13 +9,18 @@ html {
 }
 
 body {
+  display: flex;
   padding: 0;
   margin: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
   font-family: "Rubik", sans-serif;
   padding: 35px 0 0 0;
+  width: 1440px;
+  background-color: white;
 }
 
 .box {
@@ -28,17 +33,20 @@ main {
 }
 
 .buttom-padding {
-  padding: 0 180px 0px 180px;
+  width: 1400;
+  padding: 0 150px 0px 105px;
   padding-bottom: 100px;
 }
 
 nav {
-  padding: 0px 180px 50px 180px;
+  padding: 0 180px 0 180px;
   font-weight: 100;
+  width: 1100px;
 }
 
 nav img {
-  position: absolute;
+  margin-left: -55px;
+  padding-right: 10px;
   width: 35px;
   height: 36.23px;
   left: 190px;
@@ -55,21 +63,20 @@ a:hover {
 }
 
 .logo {
+  margin-top: -10px;
   height: 24px;
   width: 104px;
   font-family: "Rubik", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  font-family: "Rubik", sans-serif;
-  font-size: 20px;
+
   padding-right: 100px;
 }
 
 .logo a {
   display: block;
-  padding-left: 10px;
-  padding-top: -20px;
+  margin-top: -30px;
 }
 
 nav ul {
@@ -246,6 +253,7 @@ h2 {
 
 .gray-back {
   background-color: #fbfbfbff;
+  width: 1440px;
 }
 
 #your-plan {
@@ -412,7 +420,7 @@ h2 {
 
 #control-arrow {
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .arrow {
@@ -432,15 +440,35 @@ h2 {
   background-color: var(--red);
 }
 
+footer {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #f8f8f8ff;
+
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.flex-row {
+  width: 1140px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: left;
+}
+
 #subscribe {
-  position: absolute;
   width: 1000px;
-  height: 95px;
-  left: 150px;
-  top: 4570px;
+
+  flex: 1;
+  margin-top: -120px;
   background: #ffffff;
   border-radius: 10px;
-  padding: 70px;
+  padding: 70px 70px 50px 70px;
+  margin-bottom: 50px;
 }
 
 #subscribe h2 {
@@ -458,15 +486,9 @@ h2 {
   margin-top: -120px;
 }
 
-footer {
-  display: flex;
-  flex-direction: row;
-  height: 600px;
-  background-color: #f8f8f8ff;
-  padding: 220px 150px 0 150px;
-}
-
 #social {
+  flex: 0 0 auto;
+
   width: 560px;
 }
 
@@ -490,7 +512,7 @@ footer {
 }
 
 .section-footer {
-  flex: 1 0 auto;
+  flex: 1;
   font-weight: 200;
 }
 
@@ -501,4 +523,13 @@ footer {
 .section-footer a {
   display: block;
   padding-bottom: 15px;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 1440px) {
+  main {
+  }
 }
