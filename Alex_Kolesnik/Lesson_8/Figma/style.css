@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+.plan-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.plan-section__title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+
+.plan-section__description {
+  max-width: 555px;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+  margin-bottom: 60px;
+}
+
+.plan-item {
+  width: 330px;
+  height: 760px;
+  border: 2px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 80px 70px 50px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-item img,
+.plan-item__title {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.plan-item__title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
+}
+
+.plan-item__list li {
+  list-style: none;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+  position: relative;
+}
+
+.plan-item__list li::before {
+  content: url("./img/checkmark.svg");
+  left: -30px;
+  position: absolute;
+}

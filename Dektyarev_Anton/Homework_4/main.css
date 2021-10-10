@@ -1,0 +1,12 @@
+body {
+    margin: 20px;
+    font: Arial;
+}
+.container {
+    background: #999;
+    display: none;
+    width: 300px;
+    height: 200px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+} 
