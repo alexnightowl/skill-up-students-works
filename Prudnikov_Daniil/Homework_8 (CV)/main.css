@@ -1,0 +1,113 @@
+body {
+    background-color: whitesmoke;
+}
+
+.wrapper {
+    background: #ffffff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 14px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    font-family: sans-serif;
+}
+
+aside.sidebar {
+    padding: 40px 15px;
+    background: rgb(61, 101, 139);
+    color: white;
+}
+
+.my_photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 0 10px;
+}
+
+h1 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.name > h3 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.contact_title {
+    margin-top: 0;
+}
+
+.contact_link, .contact_link_type {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+
+
+
+.about_me_cont {
+    background-color: white;
+    padding: 20px;
+}
+
+.objectives_cont > h3,
+.educations_cont > h3,
+.work_exp_cont > h3,
+.courses_cont > h3,
+.practice_cont > h3 {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.btn {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 25px;
+    margin-top: 30px;
+	outline: none;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 50px;
+	font-size: 16px;
+	text-decoration: none;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 2px 3px rgb(0 0 0 / 8%);
+	vertical-align: top;
+	transition: 0.2s;
+    text-align: center;
+}
+.btn:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+.btn:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn:active {
+	background-color: #808080;
+}
+.btn:disabled {
+	background-color: #eee;
+	border-color: #eee;
+	color: #444;
+	cursor: not-allowed;
+}
