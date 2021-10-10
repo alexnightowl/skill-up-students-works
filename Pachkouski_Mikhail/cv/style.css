@@ -1,5 +1,245 @@
-.head_box {
-    width: 500px;
-    height: 300px;
-    border: 3px solid #000;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+body {
+  background-color: #292929;
+}
+
+.wrapper {
+  width: 817px;
+  height: 1146px;
+  background-color: #ffffff;
+  margin: 50px auto;
+  display: flex;
+}
+
+.left_bar {
+  display: flex;
+  flex-direction: column;
+  width: 312px;
+  background-color: #e9e9e9;
+}
+
+.left_bar__person_photo {
+  width: 312px;
+  height: 312px;
+}
+
+/* Left bar ABOUT  */
+
+.left_bar__person_specifications__about {
+  margin: 40px 45px 35px 54px;
+}
+
+.left_bar__title {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 27px;
+  color: #393536;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.left_bar__person_specifications__line {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 15px;
+}
+
+.left_bar__text {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 17px;
+  color: #393536;
+  text-align: justify;
+}
+
+/* Left bar CONTACTS  */
+
+.left_bar__person_specifications__contact,
+.left_bar__person_specifications__skills,
+.left_bar__person_specifications__interest {
+  margin: 0px 45px 35px 54px;
+}
+
+.left_bar__person_specifications__contact__list {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 35px;
+  color: #393536;
+}
+
+.left_bar__person_specifications__contact__list__phone::before {
+  content: url("./img/phone.svg");
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+
+.left_bar__person_specifications__contact__list__mail::before {
+  content: url("./img/mail.svg");
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+
+.left_bar__person_specifications__contact__list__location::before {
+  content: url("./img/location.svg");
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+
+/* Left bar SKILLS  */
+
+.left_bar__person_specifications__skills__list {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 25px;
+  color: #393536;
+  text-align: center;
+}
+
+/* Left bar INTEREST  */
+
+.left_bar__person_specifications__interest__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Right bar  */
+
+.right_bar {
+  width: 100%;
+  height: 100%;
+}
+
+/* Right bar header  */
+
+.right_bar__header {
+  height: 312px;
+  background-color: #393536;
+}
+
+.right_bar__header__wrapper {
+  padding-top: 56px;
+  padding-left: 26px;
+}
+
+.rigth_bar__header__name {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 73.9471px;
+  line-height: 101px;
+  color: #ffffff;
+}
+
+.rigth_bar__header__lastname {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 55.0304px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.right_bar__header__text {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 22.6667px;
+  line-height: 67px;
+  color: #ffffff;
+}
+
+/* Right bar main - experience */
+
+.right_bar__experience {
+  margin: 55px 0 0 33px;
+}
+
+.right_bar__title {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 27px;
+  color: #393536;
+  margin-bottom: 15px;
+}
+
+.right_bar__subtitle {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #393536;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.right_bar__experience__list {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 9.33333px;
+  line-height: 13px;
+  color: #a7a5a6;
+  padding-right: 33px;
+  list-style: circle;
+  text-align: justify;
+}
+
+/* Right bar main - education */
+
+.right_bar__education {
+  margin: 55px 0 0 33px;
+}
+
+.right_bar__education__list {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 9.33333px;
+  line-height: 13px;
+  color: #a7a5a6;
+  padding-right: 33px;
+  list-style: circle;
+  text-align: justify;
+}
+
+/* Right bar HOMEWORK  */
+
+.right_bar__homework {
+  margin: 55px 33px 0 33px;
+}
+
+.right_bar__homework__list {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.right_bar__homework__list__item {
+  display: block;
+  border: 1px solid #393536;
+  width: fit-content;
+  padding: 3px;
+  margin-bottom: 5px;
+  text-decoration: none;
+
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #393536;
+}
+
+.right_bar__homework__list__item:hover,
+.right_bar__homework__list__item:focus {
+  background-color: #393536;
+  color: #fff;
 }
