@@ -1,113 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: whitesmoke;
+    margin-top: 20px;
 }
 
 .wrapper {
-    background: #ffffff;
     display: flex;
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1200px;
+    font-family: Verdana, Tahoma, sans-serif;
+    background: #ffffff;
     border-radius: 14px;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
-    font-family: sans-serif;
 }
+
+/* SIDEBAR CONTENT */
 
 aside.sidebar {
     padding: 40px 15px;
     background: rgb(61, 101, 139);
     color: white;
+    border-radius: 10px;
 }
 
 .my_photo {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    padding: 0 10px;
 }
 
-h1 {
-    margin-bottom: 0px;
+.name {
+    margin: 15px 0 35px 0;
     text-align: center;
 }
 
 .name > h3 {
-    margin-top: 10px;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-h3 {
     font-size: 22px;
 }
 
-.contact_title {
-    margin-top: 0;
-}
-
-.contact_link, .contact_link_type {
-    text-decoration: none;
-    color: white;
+.title {
+    margin-bottom: 7px;
+    margin-top: 35px;
     font-size: 18px;
-}
-
-ul {
-    padding-left: 0;
 }
 
 li {
     list-style-type: none;
-    padding-top: 5px;
     font-size: 18px;
+    line-height: 27px;
 }
 
+.contact_link {
+    color: white;
+    text-decoration: none;
+    line-height: 27px;
+    font-size: 16px;
+}
 
+.contact_link:hover {
+    text-decoration: underline;
+}
 
+/* MAIN CONTENT */
 
 .about_me_cont {
-    background-color: white;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
-.objectives_cont > h3,
-.educations_cont > h3,
-.work_exp_cont > h3,
-.courses_cont > h3,
-.practice_cont > h3 {
-    width: fit-content;
-    margin: 0 auto;
-    padding: 8px;
+.objectives_cont,
+.educations_cont,
+.work_exp_cont,
+.courses_cont,
+.practice_cont {
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+}
+
+.objectives_cont > p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.objectives_cont_title,
+.educations_cont_title,
+.work_exp_title,
+.courses_cont_title,
+.practice_cont_title {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.degree_cont {
+    margin-bottom: 25px;
+}
+
+.master {
+    margin-bottom: 0;
+}
+
+.degree_cont > p,
+.it_cont > p,
+.work > p,
+.eng_cont > p {
+    font-size: 14px;
+    color: rgb(148, 148, 148);
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.eng_cont {
+    margin-bottom: 25px;
 }
 
 .btn {
-	display: inline-block;	
-	box-sizing: border-box;
-	padding: 25px;
-    margin-top: 30px;
-	outline: none;
-	border: 1px solid rgb(255, 255, 255);
-	border-radius: 50px;
-	font-size: 16px;
-	text-decoration: none;
-	background-color: #fff;
-	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 2px 3px rgb(0 0 0 / 8%);
-	vertical-align: top;
-	transition: 0.2s;
-    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid rgb(61, 101, 139);
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    color: rgb(61, 101, 139);
+    transition: 0.3s;
 }
-.btn:focus-visible {
-	border: 1px solid #4c51f9;
-	outline: none;
-}
+
 .btn:hover {
-	transition: all 0.2s;
-	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
-}
-.btn:active {
-	background-color: #808080;
-}
-.btn:disabled {
-	background-color: #eee;
-	border-color: #eee;
-	color: #444;
-	cursor: not-allowed;
+    background-color: rgb(61, 101, 139);
+    color: white;
+    border-radius: 50%;
 }
