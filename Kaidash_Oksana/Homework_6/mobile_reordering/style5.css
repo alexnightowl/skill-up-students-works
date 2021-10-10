@@ -1,0 +1,80 @@
+body {
+    font-family:  sans-serif;
+    margin: 0;
+    background: linear-gradient(to top left, #68d5e4, #f7aab7);
+    padding: 20px 40px;
+}
+
+header, .image, .text, .input, footer {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgba(111, 135, 209, 0.6);
+    color: white;
+    font-weight: 50px;
+    letter-spacing: 1px;
+}
+
+.href ul {
+    border: 1px solid black;
+    display: flex;
+    background: rgba(111, 135, 209, 0.6);
+}
+
+a  { 
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background: rgb(98, 119, 167);
+}
+
+li {
+    list-style-type: none;
+    box-sizing: inherit;
+    display: inline-block;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.icon {
+    width: 20px;
+}
+
+.tw {
+    content: url(./img/twitter.png);
+}
+
+.f {
+    content: url(./img/facebook.png);
+}
+
+.git {
+    content: url(./img/github.png);
+}
+
+.inst {
+    content: url(./img/instagram.png);
+}
+
+input {
+    padding: 10px;
+    border-color: none;
+    border: none;
+}
+
+@media screen  and (max-width: 1000px){
+    .item {
+        flex-wrap: wrap;
+    }
+
+    li {
+        width: 40%;
+    }
+    
+}
