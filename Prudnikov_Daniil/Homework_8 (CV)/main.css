@@ -142,3 +142,7 @@ h5 {
     color: white;
     border-radius: 50%;
 }
+
+a:visited {
+    border: none;
+}
