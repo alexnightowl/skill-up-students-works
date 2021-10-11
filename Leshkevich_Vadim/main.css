@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap");
+
+.main {
+  font-family: "Montserrat", sans-serif;
+  color: #1c1c1c;
+}
+
+.main__container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 30px 20px 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgb(250, 250, 250);
+}
+
+.left_part {
+  width: 350px;
+  border-right: 3px solid #1c1c1c;
+}
+
+.title__text {
+  display: inline-flex;
+  padding: 8px 30px;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.14em;
+  border: 1px solid #1c1c1c;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.name h1 {
+  width: 200px;
+  margin: 0;
+  padding: 25px 0 20px 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.name__title {
+  border-bottom: 3px solid #1c1c1c;
+}
+
+.my__work {
+  padding: 15px 0 0 0;
+}
+
+.my__work__title {
+  padding: 0 0 30px 0;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.work__title {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.14em;
+  padding: 0 0 10px 0;
+}
+
+.work__title a {
+  transition: all 0.3s;
+}
+
+.work__title a:hover {
+  color: darkred;
+  font-size: 11px;
+}
+
+.work__text {
+  font-weight: 200;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.14em;
+  padding: 0 0 25px 0;
+}
+
+.right_part {
+  padding: 0 0 0 20px;
+  width: 200px;
+}
+
+.contact__text {
+  width: 150px;
+  padding: 15px 0 40px 0;
+  line-height: 20px;
+}
