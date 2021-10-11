@@ -4,9 +4,9 @@
     height: 100%;
     position: absolute;  
 }
-.img {
+.picstures_1{
     border: 3px solid blue;
-    width: 17%;
+    width: 235px;
     position: absolute;
     top: 2px ;
     left: 10px ;
@@ -14,15 +14,12 @@
 .box_0 {
     position: absolute;
     border: 1px solid red;
+    width: 150px;
+    height: 100px;
     top: 400px;
+    overflow: auto;
 
 }
-.name {
-    border: 2px solid #000;
-    width: auto;
-    position: absolute;
-    left: 300px;
-} 
 .anketa_inform {
     border: 1px solid#000;
     width: 300px;

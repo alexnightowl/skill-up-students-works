@@ -4,111 +4,63 @@ width: 1440px;
 height: 5189px;
 background: #FFFFFF;
 }
-/* .menu {
 
+.link_wrapper {
+width: 100%;
+height: 30px;
+display: flex;
+}
+
+/* .sus_admin {
+    position: absolute;
+    width: 100%;
+    height: 30px;
 } */
-.menu_1 {
+.menu {
     position: absolute;
-width: 104px;
-height: 24px;
-left: 195px;
-top: 56.12px;
-font-family: Rubik;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #0B132A;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    font-size:16px;
 }
-.menu_2 {
-    position: absolute;
-width: 46px;
-height: 19px;
-left: 456px;
-top: 58.62px;
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-color: #4F5665;
+
+.border_1 {
+width: 555px;
+/* height: ; */
 }
-.menu_3 {
+
+.text_1 {
     position: absolute;
-width: 66px;
-height: 19px;
-left: 542px;
-top: 58.62px;
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-color: #4F5665;
-}
-.menu_4 {
+    /* width: 555px;
+    height: 140px;
+    left: 157px;
+    top: 201px;
+     */
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+} 
+.text_2 _{
     position: absolute;
-width: 52px;
-height: 19px;
-left: 648px;
-top: 58.62px;
+width: 555px;
+height: 60px;
+left: 150px;
+top: 366.77px;
+
 font-family: Rubik;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 30px;
 color: #4F5665;
 }
-.menu_5 {
+.img_figma {
     position: absolute;
-width: 93px;
-height: 19px;
-left: 740px;
-top: 58.62px;
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-color: #4F5665;
-}
-.menu_6 {
-    position: absolute;
-width: 34px;
-height: 19px;
-left: 873px;
-top: 58.62px;
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-color: #4F5665;
-}
-.picstires_1 {
-position: absolute;
 width: 611.24px;
 height: 382.44px;
 left: 745.76px;
 top: 179.11px;
-}
-.sing_1 {
-    position: absolute;
-width: 53px;
-height: 19px;
-left: 1057px;
-top: 58.62px;
-font-family: Rubik;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-color: #0B132A;
-}
-.sing_2 {
-position: absolute;
-width: 150px;
-height: 45px;
-left: 1140px;
-top: 45.62px;
 }
