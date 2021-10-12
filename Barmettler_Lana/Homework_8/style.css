@@ -14,27 +14,18 @@ body {
   font-family: "Rubik", sans-serif;
   color: #4f5665;
   background: #ffffff;
-  width: 100%;
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   margin: auto;
-  width: 100%;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  box-sizing: border-box;
+  margin: auto;
   margin-top: 50px;
 }
 
 .navbar img {
   max-width: 149px;
-  padding: 0;
   max-height: 36.23px;
   margin-right: 157px;
 }
@@ -80,18 +71,19 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 20px 400px;
 }
 
 .intro-section {
   display: flex;
+  margin: auto;
+  padding: 50px;
 }
 
 .intro-section_left {
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
-  width: 50%;
+  margin-right: 100px;
+  margin-left: 0;
 }
 
 .intro-section_left h1 {
@@ -108,8 +100,8 @@ main {
 }
 
 .intro-section_left p {
-  max-width: 555px;
-  max-height: 60px;
+  width: 555px;
+  height: 60px;
   font-size: 16px;
   line-height: 30px;
   color: #4f5665;
@@ -136,7 +128,6 @@ main {
 .intro-section_right {
   display: flex;
   align-items: center;
-  flex-direction: column;
 }
 
 .intro-section_right img {
@@ -205,14 +196,14 @@ main {
 .features-section {
   display: flex;
   align-items: center;
-  margin: 0;
-  padding: 20px;
+  margin: auto;
 }
 
 .feature-section_left {
-  margin-left: 100px;
-  margin-right: 100px;
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 300px;
 }
 
 .features-section img {
@@ -467,20 +458,14 @@ main {
   color: #ffffff;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin: 20px 400px;
-}
-
 .footer-section {
   display: flex;
   background: #f8f8f8;
+  margin: auto;
 }
 
 .footer-logo {
-  width: 50%;
+  margin-right: 100px;
 }
 
 .footer-logo p {
@@ -491,8 +476,6 @@ footer {
 .footer-products {
   display: flex;
   justify-content: space-between;
-  width: 50%;
-  padding: 30px;
 }
 
 .footer-products ul {
@@ -500,12 +483,11 @@ footer {
   flex-direction: column;
   list-style-type: none;
   text-decoration: none;
+  margin-right: 126px;
 }
 
 .footer-products ul li {
-  font-style: none;
   font-size: 20px;
-  display: inline;
   font-size: 10px;
 }
 
