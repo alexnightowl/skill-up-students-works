@@ -1,326 +1,125 @@
-
 * {
-    margin: 0;
     padding: 0;
-}
-
-@font-face {
-    font-family: 'Rubik';
-    src: url(./fonts/Rubik-Bold.ttf);
-    src: url(./fonts/Rubik-Medium.ttf);
-    src: url(./fonts/Rubik-Regular.ttf);
-}
-
-html {
-    background-color: rgb(240, 240, 240);
-}
-
-body {
-    max-width: 1440px;
-    margin: auto;
-    background-color: white;
-    font-family: 'Rubik', sans-serif;
-}
-
-/* NAVIGATION BLOCK */
-
-nav {
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
-    padding-top: 50px;
-}
-
-div.logo > img {
-    width: 150px;
-    height: 36px;
-}
-
-.logo {
-    margin-right: 160px;
-    margin-left: 157px;
-}
-
-li.nav_list, ul.nav_list{
-    display: flex;
-    list-style-type: none;
-    padding-right: 40px;
-    color: #4F5665;
-    align-items: center;
-    margin: 23px 0px;
-}
-
-a.nav_list {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-}
-
-a.nav_list:last-child {
-    margin-right: 70px;
-}
-
-a.nav_list:hover {
-    text-decoration: underline;
-    color: #4F5665;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
+    width: fit-content;
+    margin: 0px;
+    color: #4F5665;
 }
 
-.sign_in > button {
+body {
+    background: #f5f7fa;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 1000px;
+    padding: 46px 150px 0 150px;
+    background: #ffffff;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+nav {
+    display: inline-flex;
+    max-height: 45px;
+    margin-bottom: 88.5px;
+}
+
+.logo > img {
+    margin-right: 150px;
+    margin-top: 3.5px;
+    width: 149px;
+    height: 36px;
+}
+
+.nav_bar {
+    margin-right: 150px;
+    display: block
+}
+
+.nav_list {
+    display: inline-flex;
+    margin-top: 13px;
+    margin-right: 40px;
+    list-style-type: none;
+    font-size: 16px;
+    color: #4F5665;
+}
+
+.help {
+    margin-right: 0px;
+}
+
+.btn_in {
     margin-right: 30px;
+    margin-top: 12px;
     background-color: white;
-    border: 0;
-    color: #0B132A;
+    border: none;
     font-size: 16px;
     font-weight: 500;
 }
 
-.sign_up > button {
-    border: 1px solid #F53855;
-    background-color: white;
-    color: #F53855;
+.btn_up {
     width: 150px;
     height: 45px;
+    background-color: white;
+    color: #F53855;
+    border: 1px solid #F53855;
     border-radius: 50px;
-    font-weight: 500;
     font-size: 16px;
+    font-weight: 500;
 }
 
-div.illustration > img {
-    width: 610px;
-    height: 380px;
+/* MAIN CONT */
+
+.illustration > img {
+    width: 611.24px;
+    height: 382.44px;
 }
 
 .container_1 {
-    display: inline-flex;
-    margin-bottom: 105px;
-    margin-top: 0px;
+    display: flex;
 }
 
-h1 {
-    margin-top: 10px;
-    color: #0B132A;
-    font-size: 50px;
-    line-height: 70px;
+.text {
+    margin-right: 40.76px;
+    margin-top: 27.65px;
+}
+
+.title_cont > h1 {
     font-weight: 500;
+    font-size: 50px;
 }
 
-div.text {
-    margin-left: 150px;
-    margin-right: 50px;
+.title_cont {
+    margin-bottom: 19.77px;
 }
 
 .text > p {
-    color: #4F5665;
     font-size: 16px;
-    line-height: 30px;
-    font-style: normal;
 }
- 
-.button_1 > button {
-    background-color: #F53838;
-    color: white;
-    border: 0;
-    border-radius: 30px;
-    width: 250px;
-    height: 60px;
-    box-shadow: 0px 0px 0px 0px #F53838;
+
+.btn_cont {
     margin-top: 50px;
-    margin-bottom: 0px;
 }
 
-.illustration {
-    margin-right: 85px;
-}
-
-section.info {
-    display: inline-flex;
-    align-items: center;
-    width: 1140px;
-    height: 200px;
-    margin-left: 150px;
-    box-shadow: 0px 0px 5px 5px rgb(231, 231, 231);
-    margin-bottom: 95px;
-}
-
-.content {
-    display: inline-flex;
-    align-items: center;
-    width: 380px;
-    text-align: center;
-    
-}
-
-img.info {
-    width: 55px;
-    height: 55px;
-    float: left;
-    margin: 0px 36.5px 0px 0px;
-    margin-left: 95px;
-}
-
-
-div > h2 {
-    margin-bottom: 0px;
-    font-size: 25px;
-    line-height: 30px
-}
-
-div > p {
-    margin-top: 5px;
-    font-size: 20px;
-    line-height: 30px;
-}
-
-img.illustration_2 {
-    width: 510px;
-    height: 415px;
-}
-
-ul.list, li.list {  
-    list-style-type: none;
-    text-decoration: none;
-    padding: 0;
-}
-
-.info_1 {
-    display: flex;
-    margin-left: 185px;
-    margin-right: 150px;
-    padding-bottom: 130px;
-}
-
-.illustration_2 {
-    margin-right: 0px;
-}
-
-.text_block {
-    width: 430px;
-    height: 365px;
-    margin-left: 170px;
-    padding-top: 55px;
-}
-
-li.list::before {
-    content: url(./image/group.png);
-}
-
-li.list {
-    display: flex;
-    align-items: center;
-}
-
-hr {
-    margin: 0;
-}
-
-.plan {
-    width: 330px;
-    height: 760px;
-    margin-right: 50px;
-    text-align: center;
-    border: 2px solid #DDDDDD;
-    border-radius: 10px;
-}
-
-.plan:last-child {
-    margin-right: 0px;
-}
-
-.plan_conteiner {
-    display: flex;
-    margin: 0 175px;
-}
-
-section.choose_plan {
-    margin: auto;
-}
-
-.plan > img {
-    width: 145px;
-    height: 165px;
-    margin-top: 80px;
-    margin-bottom: 30px;
-}
-
-.wraper {
-    text-align: center;
-    padding: 0;
-    margin-top: 80px;
-    margin-bottom: 60px;
-}
-
-.plan_list {
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
-}   
-
-.plan_list > ul > li {
-    list-style-type: none;
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-
-.plan > h4 {
-    margin: 0;
-}
-
-ul {
-    margin-top: 30px;
-    padding: 0;
-    line-height: 30px;
-}
-
-.plan_list > ul > li::before {
-    content: url(./image/jam_check.png);
+.btn > a {
+    color: white;
 }
 
 .btn {
-    background-color: white;
-    border: 0;
-    border-radius: 50px;
-    border: 2px solid #F53838;
-    width: 175px;
-    height: 45px; 
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-.free > h3 {
-    margin-bottom: 0px;
-    margin-top: 123px;
-}
-
-.standard > h3 {
-    margin-bottom: 0px;
-    margin-top: 83px;
-}
-
-.premium > h3 {
-    margin-bottom: 0px;
-    margin-top: 43px;
-}
-
-
-
-
-
-
-
-
-
-
-section.map {
-    margin-top: 150px;
-}
-
-section.map > img {
-    width: 1060px;
-    height: 540px;
-    margin-top: 155px;
+    width: 250px;
+    height: 60px;
+    border: none;
+    background: #F53838;
+    border-radius: 10px;
+    font-size: 16px;
 }
