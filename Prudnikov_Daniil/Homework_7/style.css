@@ -14,6 +14,7 @@ body {
 
 .main_conteiner {
     max-width: 1440px;
+    height: 3933.16px;
     margin: auto;
     padding: 45.62px 150px 0 150px;
     background-color: white;
@@ -101,7 +102,7 @@ h1 {
 .hero_cont > p {
     margin-top: 19.77px;
     margin-bottom: 50px;
-    font-family: Rubik;
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -194,6 +195,7 @@ h1 {
 .wrapper_info {
     display: flex;
     padding-bottom: 126.73px;
+    border-bottom: 1px solid black;
 }
 
 .illustration_second {
@@ -239,27 +241,257 @@ h1 {
     content: url(./image/Group.png);
 }
 
+/* CHOOSE CONTAINER */
 
+.wrapper_choose {
+    margin-top: 80.27px;
+    margin-bottom: 150px;
+}
 
+.plan_title {
+    text-align: center;
+    margin-bottom: 60px;
+}
 
+.plan_title > h2 {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
 
+.plan_title > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
 
+.choose_cont {
+    display: flex;
+    position: relative;
+    padding: 0 25px;
+    justify-content: space-between;
+}
 
+.plan {
+    width: 330px;
+    height: 760px;
+    padding-top: 79.63px;
+    text-align: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
 
+.free_plan_title,
+.standard_plan_title,
+.premium_plan_title {
+    margin: 30px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
 
+.item {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+}
 
+.choose_free, 
+.choose_standard,
+.choose_premium {
+    width: 330px;
+    position: absolute;
+    align-items: center;
+    bottom: 50px;    
+}
 
+.choose_free > h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
 
+.btn_select {
+    margin-top: 20px;
+    width: 177.88px;
+    height: 45px;
+    border: none;
+    background-color: white;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+}
 
+.select_link {
+    text-decoration: none;
+    color: #F53838;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
 
+.item::before {
+    content: url(./image/jam_check.png);
+}
 
+.global_cont {
+    text-align: center;
+    margin-bottom: 155.81px;
+}
 
+.global_title {
+    margin-bottom: 20px;
+}
 
+.global_title > h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+}
 
+.global_cont > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.map_cont {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 35.81px;
+}
 
+.users_cont {
+    display: flex;
+    align-items: center;
+    width: 1135px;
+    height: 208px;
+}
 
+.users_cont > img {
+    width: 20%;
+}
 
+.sub_cont {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 58.5px 70px;
+    box-shadow: 1px 1px 3px 3px rgb(202, 202, 202) ;
+    background-color: white;
+    border-radius: 10px;
+}
 
+.sub_title {
+    margin-bottom: 20px;
+}
 
+.sub_title >h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.sub_text > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.btn_sub {
+    width: 250px;
+    height: 60px;
+    border: 0;
+    background: #F53838;
+    border-radius: 10px;
+}
+
+.sub_link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    padding: 200px 150px 100px 150px;
+    background: #F8F8F8;
+}
+
+.footer_cont {
+    display: flex;
+    max-width: 1440px;
+}
+
+.product_item,
+.engage_item,
+.earn_item {
+    padding-bottom: 10px;
+    list-style-type: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.product_link,
+.engage_link,
+.earn_link {
+    text-decoration: none;
+    color: #4F5665;
+}
+
+.product_cont > h4,
+.engage_cont > h4,
+.earn_cont > h4 {
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.social_cont > img {
+    margin-bottom: 20px;
+}
+
+.social_cont {
+    margin-right: 230px;
+}
+
+.social_text,
+.social_img {
+    margin-bottom: 30px;
+}
+
+.engage_cont {
+    margin: 0 125px 0 125px;
+}
 
 
