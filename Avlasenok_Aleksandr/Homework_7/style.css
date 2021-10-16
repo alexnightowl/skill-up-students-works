@@ -228,12 +228,17 @@ h4 span{
    position: relative;
    display: flex;
    flex-direction: row-reverse;
+   justify-content: space-between;
    width: 100%;
    background-color: #F6F6F6;
+   margin-top: 500px;
+}
+.illustr2 {
+   position: relative;
+   margin-left: 184px;
 }
 .provide{
    position: relative;
-   margin-left: 169px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -284,7 +289,7 @@ li{
 }
 .plan{
    position: absolute;
-   margin-top: 1139px;
+   margin-top: 126px;
    width: 100%;
 }
 .title3{
@@ -335,19 +340,19 @@ h8{
    width: 330px;
    height: 760px;
    background-color: #fff;
-   border: 2px Inner #DDDDDD
+   text-align: center;
 }
 .standard-plan{
    width: 330px;
    height: 760px;
    background-color: #fff;
-   border: 2px Inner #DDDDDD
+   text-align: center;
 }
 .premium-plan{
    width: 330px;
    height: 760px;
    background-color: #fff;
-   border: 2px Inner #DDDDDD
+   text-align: center;
 }
 .cake{
    position: relative;
