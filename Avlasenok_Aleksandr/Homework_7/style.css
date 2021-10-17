@@ -280,8 +280,14 @@ h6{
    line-height: 30px;
    color: #4F5665;
 }
-ul{
-   list-style-image: url(./image/galka.svg);
+.marker{
+	list-style: none;
+	padding: 0;
+	margin: 20px 0;
+}
+.marker li{
+	background: url("./image/galka.svg") no-repeat left center;
+	padding-left: 40px;
 }
 li{
    list-style-type: none;
@@ -337,25 +343,57 @@ h8{
    margin-left: 174px;
 }
 .free-plan{
+   display: flex;
+   flex-direction: column;
    width: 330px;
    height: 760px;
    background-color: #fff;
-   text-align: center;
+   border: 2px solid #DDDDDD;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+.free-plan:hover{
+   border: 3px solid blue;
 }
 .standard-plan{
+   display: flex;
+   flex-direction: column;
    width: 330px;
    height: 760px;
    background-color: #fff;
-   text-align: center;
+   border: 2px solid #DDDDDD;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+.standard-plan:hover{
+   border: 3px solid blue;
 }
 .premium-plan{
+   display: flex;
+   flex-direction: column;
    width: 330px;
    height: 760px;
    background-color: #fff;
-   text-align: center;
+   border: 2px solid #DDDDDD;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+.premium-plan:hover{
+   border: 3px solid blue;
 }
 .cake{
-   position: relative;
+   position: absolute;
    padding: 79px 92px 515px;
-   margin-bottom: 30px;
+}
+h9{
+   position: relative;
+   margin-top: 275px;
+   text-align: center;
+
+   font-family: "Rubik";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 30px;
+   color: #0B132A;
 }
