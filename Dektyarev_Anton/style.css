@@ -124,6 +124,18 @@ header p:nth-child(5) {
     border-radius: 50%;
 }
 
+.myphoto-box-mobile img:hover {
+    opacity: 0.9;
+}
+
+.header-mobile a:nth-child(5) {
+    transition: 1s;
+}
+
+.header-mobile a:nth-child(5):hover {
+    transform: scale(1.2);
+}
+
 .header-mobile a img {
     animation-name: icon-flash;
     animation-duration: 1.5s;
@@ -161,7 +173,12 @@ nav:hover {
 }
 
 .navbox p {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
     text-shadow: 0px 1px 1px #bbb;
     font-weight: bold;
     animation-name: navtext-glow;
@@ -259,6 +276,7 @@ footer:hover {
 
 footer p {
     margin: 5px;
+    font-size: 18px;
     font-family: Diablo;
     text-align: center;
     text-shadow: 0px 1px 1px #000;
@@ -428,7 +446,7 @@ footer p {
         text-shadow: 0px -2px 2px #000;
         color: #A59263;
         top: 113px; 
-        left: 198px;
+        left: 200px;
      }
     /* mobile block */
 
@@ -457,7 +475,7 @@ footer p {
     }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:550px) {
     main {
         flex-direction: column;
     }
