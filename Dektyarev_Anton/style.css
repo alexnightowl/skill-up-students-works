@@ -153,6 +153,7 @@ header p:nth-child(5) {
     padding-bottom: 4px;
     border-top: 2px solid #A59263;
     border-bottom: 2px solid #A59263;
+    margin-bottom: 5px;
 }
 
 nav {
@@ -187,13 +188,96 @@ nav:hover {
     animation-timing-function: ease-in;
 }
 
+.menu {
+    width: 100%;
+    height: 32px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu>* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul {
+    display: flex;
+    height: 100%;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.menu ul li:first-child {
+    margin-left: auto;
+    margin-right: 1px;
+}
+
+.menu ul li:last-child {
+    margin-right: auto;
+    margin-left: 1px;
+}
+
+.menu ul li:nth-child(2) {
+    margin-right: 1px;
+}
+
+.menu ul li:nth-child(3) {
+    margin-right: 1px;
+}
+
+.menu-button {
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    width: 180px;
+    height: 25px;
+    border: solid 1px #000;
+    z-index: 1;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.menu-button:hover {
+    height: 150px;
+    background: rgb(53, 184, 103);
+    opacity: 0.8;
+}
+
+.menu-button ul {
+    display: block;
+    width: 100%;
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
+.menu-button li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+
+.menu-button li:first-child {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+.menu-button li a {
+    text-decoration: none;
+}
+
+.menu-button li a:visited {
+    color: #000;
+}
+
 main {
     display: flex;
-    background: rgb(158, 101, 101);
+    height: calc(100vh - 349px);
+    background: linear-gradient(to right, rgb(158, 101, 101) 0%, rgb(108, 51, 51) 33.3%, rgb(0, 0, 0) 66.6%);
     padding-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
-    overflow: auto;
+    overflow-y: auto;
 }
 
 article {
@@ -253,7 +337,6 @@ aside {
     font-size: 14px;
     line-height: 18px;
     text-shadow: 0px 1px 1px #333;
-    word-break: break-all;
 }
 
 .footer-wrapper {
@@ -276,7 +359,7 @@ footer:hover {
 
 footer p {
     margin: 5px;
-    font-size: 18px;
+    font-size: 12px;
     font-family: Diablo;
     text-align: center;
     text-shadow: 0px 1px 1px #000;
@@ -464,6 +547,7 @@ footer p {
      main {
         padding-left: 40px;
         padding-right: 40px;
+        height: calc(100vh - 428px);
     }
 
     .upper_block p {
@@ -478,6 +562,7 @@ footer p {
 @media screen and (max-width:550px) {
     main {
         flex-direction: column;
+        height: calc(100vh - 428px);
     }
 
     article {
