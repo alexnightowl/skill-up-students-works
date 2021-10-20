@@ -1,0 +1,95 @@
+body {
+    background:
+    url(http://subtlepatterns.com/patterns/subtlenet2.png);
+    font: 1em 'PT Sans', Tahoma, Arial;
+    text-transform: uppercase;
+}
+
+/* Main menu*/
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+    width: 50px;
+    opacity: .5;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+
+.nav:hover {
+    opacity: 1;
+}
+
+.nav li {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    -moz-transition: width .2s ease-in-out, height .2s ease-in-out .2s;
+    -webkit-transition: width .2s ease-in-out, height .2s ease-in-out .2s;
+    -o-transition: width .2s ease-in-out, height .2s ease-in-out .2s;
+    transition: width .2s ease-in-out, height .2s ease-in-out .2s;
+}
+
+.nav li:hover {
+    width: 200px;
+    height: 175px;
+}
+
+.nav li a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background: #bbb;
+    margin: 1px;
+    color: #fff;
+    padding-left: 15px;
+    cursor: pointer;
+    -moz-transition: background .2s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
+}
+
+.nav li a:hover {
+    background: #2fc5ff;
+}
+
+.nav li a:first-child {
+    font-size: 1.1em;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-indent: 36px;
+}
+
+.nav li a:first-child::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 9px;
+    left: 9px;
+
+
+}
+
+.main-menu a:first-child::before {
+    background: url(home.png) center no-repeat;
+}
+
+.settings a:first-child::before {
+    background: url(settings.png) center no-repeat;
+}
+
+.link a:first-child::before {
+    background: url(link.png) center no-repeat;
+}
+
+.search a:first-child::before {
+    background: url(search.png) center no-repeat;
+}
