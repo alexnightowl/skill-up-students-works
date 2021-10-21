@@ -4,12 +4,20 @@
     height: 100%;
     position: absolute;  
 }
-.picstures_1{
+
+.img {
+    border: 3px solid blue;
+    width: 100px;
+    position: absolute;
+    top: 2px ;
+    left: 10px 
+}
+/* .picstures_1{
     border: 3px solid blue;
     width: 235px;
     position: absolute;
     top: 2px ;
-    left: 10px ;
+    left: 10px ; */
 }
 .box_0 {
     position: absolute;
