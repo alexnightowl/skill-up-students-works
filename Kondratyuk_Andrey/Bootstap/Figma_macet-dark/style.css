@@ -1,4 +1,4 @@
-.container-sm {
+.container {
     background: #1F2E35;
 }
 
@@ -12,3 +12,10 @@
     justify-content: center;
     
 }
+
+.container element {
+    background-color: #EEDDFF;
+  border: 6px solid #7922CC;
+  border-radius: 25px;
+}
+
