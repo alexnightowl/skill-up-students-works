@@ -1,3 +1,146 @@
-#main_nav {
+body {
+    background-color: #1F2E35;
+}
+
+.nav-cont {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     color: #fff;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: #fff;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.sub-text {
+    margin: 0ex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.logo-name {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.nav-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.btn-sign-in {
+    width: 102px;
+    height: 43px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    border: 1px solid #BCD0E5;
+}
+
+.btn-sign-up {
+    width: 110px;
+    height: 43px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #02897A;
+    color: #fff;
+    border: 0;
+}
+
+.btn-sign-up:hover {
+    color: #fff;
+}
+
+.btn-sign-in:hover {
+    color: #fff;
+}
+
+.card-body {
+    padding: 24px 0 32px 0;
+}
+
+.card-title {
+    margin-bottom: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.card-subtitle { 
+    margin-bottom: 12px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.card-body > svg {
+    margin-bottom: 16px;
+}
+
+.list-unstyled > li {
+    padding-bottom: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.list-unstyled {
+    margin-bottom: 22px;
+}
+
+.btn-order {
+    width: 139px;
+    height: 44px;
+    background-color: #02897A;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.price-cont {
+    margin-bottom: 150px;
+}
+
+.enterprice-cont {
+    margin-bottom: 150px;
+    padding: 52px 0;
+    background-color: #22343D;
 }
