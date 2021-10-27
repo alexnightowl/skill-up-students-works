@@ -4,7 +4,8 @@ body {
     background-color: #1F2E35;
 }
 
-.nav-cont {
+nav {
+    margin-bottom: 50px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: #fff;
@@ -37,7 +38,7 @@ h3 {
 .sub-text {
     margin: 0ex;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     color: #fff;
 }
@@ -79,10 +80,7 @@ h3 {
     border: 0;
 }
 
-.btn-sign-up:hover {
-    color: #fff;
-}
-
+.btn-sign-up:hover,
 .btn-sign-in:hover {
     color: #fff;
 }
@@ -140,6 +138,13 @@ h3 {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
+    transition: 0.4s;
+}
+
+.btn-order:hover {
+    border: 2px solid #02897A;
+    color: #02897A;
+    background-color: #fff;
 }
 
 .price-cont {
@@ -187,6 +192,151 @@ h3 {
 
     /* AREA OF USE */
 
-.enterpreneur-title::before {
-    content: url(./img/Feature\ Icon\ with\ circle.png);
+.use-cont {
+    margin-bottom: 150px;
+}
+
+.use-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+}
+
+.use-wrapper {
+    margin-bottom: 32px;
+}
+
+    /* QA */
+
+.qa-cont {
+    margin-bottom: 150px;
+}
+
+.qa-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+}
+
+.accordion-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #1F2E35;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #1F2E35;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #1F2E35;
+    color: #fff;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-button::before {
+    content: url("data:image/svg+xml; utf8, <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M0 12C0 5.376 5.376 0 12 0C18.624 0 24 5.376 24 12C24 18.624 18.624 24 12 24C5.376 24 0 18.624 0 12ZM13.2 13.2H18V10.8H13.2V6H10.8V10.8H6V13.2H10.8V18H13.2V13.2Z'/></svg>");
+}
+
+    /* USERS CONT */
+
+.users-cont {
+    margin: auto;
+    margin-bottom: 167px;
+    background-color: #02897A;
+    border-radius: 32px;
+}
+
+.users-title {
+    padding: 50px 0 60px 50px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151.4%;
+    color: #fff;
+}
+
+.btn-get {
+    margin: 0 0 55px 50px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #22343D;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* FOOTER */
+
+.footer {
+    padding-bottom: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #fff;
+}
+
+.social-cont {
+    margin-top: 25px;
+}
+
+.footer-list-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.footer-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer-form-title {
+    margin-bottom: 34px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer-textarea {
+    width: 325px;
+    height: 48px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.btn-footer {
+    width: 130px;
+    height: 40px;
+    margin-top: 21px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #02897A;
+    border-radius: 10px;
+    border: 0;
 }
