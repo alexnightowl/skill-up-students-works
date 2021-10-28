@@ -66,6 +66,7 @@ h3 {
     line-height: 24px;
     color: #fff;
     border: 1px solid #BCD0E5;
+    transition: 0.4s;
 }
 
 .btn-sign-up {
@@ -78,6 +79,7 @@ h3 {
     background-color: #02897A;
     color: #fff;
     border: 0;
+    transition: 0.4s;
 }
 
 .btn-sign-up:hover,
@@ -85,14 +87,31 @@ h3 {
     color: #fff;
 }
 
+.btn-sign-up:hover {
+    background-color: #fff;
+    color: #02897A;
+} 
+
+.btn-sign-in:hover {
+    background-color: #BCD0E5;
+    color: #02897A;
+}
+
 /* MAIN CONTENT */
     /* PRICING */
 
-.card-body {
-    padding: 24px 0 32px 0;
+.price-cont {
+    margin-bottom: 150px;
 }
 
-.card-title {
+.price-wrapper {
+    padding-top: 24px;
+    padding-bottom: 32px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.price-title {
     margin-bottom: 12px;
     font-family: 'Poppins';
     font-style: normal;
@@ -101,8 +120,8 @@ h3 {
     line-height: 40px;
 }
 
-.card-subtitle { 
-    margin-bottom: 12px; 
+.price-subtitle {
+    margin-bottom: 12px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -110,12 +129,11 @@ h3 {
     line-height: 40px;
 }
 
-.card-body > svg {
+.price-wrapper > svg {
     margin-bottom: 16px;
 }
 
-.list-unstyled > li {
-    padding-bottom: 16px;
+.price-list-item {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -123,11 +141,8 @@ h3 {
     line-height: 22px;
 }
 
-.list-unstyled {
-    margin-bottom: 22px;
-}
-
 .btn-order {
+    margin-top: 38px;
     width: 139px;
     height: 44px;
     background-color: #02897A;
@@ -147,9 +162,10 @@ h3 {
     background-color: #fff;
 }
 
-.price-cont {
-    margin-bottom: 150px;
-}
+/* .active {
+    background-color: #02897A;
+    color: #fff;
+} */
 
     /* ENTERPRICE */
 
@@ -206,6 +222,16 @@ h3 {
     margin-bottom: 32px;
 }
 
+@media (min-width: 320px) and (max-width: 550px) {
+    .illustration-img {
+        display: none;
+    }
+
+    .illustration-cont {
+        content: url(./img/illustration.png);
+    }
+}
+
     /* QA */
 
 .qa-cont {
@@ -234,6 +260,14 @@ h3 {
     box-shadow: none;
 }
 
+.accordion-button:not(.collapsed)::after {
+    background-image: url(./img/minus_circle.png);
+}
+
+.accordion-button::after {
+    background-image: url(./img/plus_circle.png);
+}
+
 .accordion-button:focus {
     box-shadow: none;
 }
@@ -246,14 +280,7 @@ h3 {
     line-height: 24px;
     background-color: #1F2E35;
     color: #fff;
-}
-
-.accordion-button::after {
-    display: none;
-}
-
-.accordion-button::before {
-    content: url("data:image/svg+xml; utf8, <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M0 12C0 5.376 5.376 0 12 0C18.624 0 24 5.376 24 12C24 18.624 18.624 24 12 24C5.376 24 0 18.624 0 12ZM13.2 13.2H18V10.8H13.2V6H10.8V10.8H6V13.2H10.8V18H13.2V13.2Z'/></svg>");
+    border-bottom: 0;
 }
 
     /* USERS CONT */
@@ -281,12 +308,39 @@ h3 {
     height: 50px;
     background-color: #fff;
     border-radius: 8px;
-    color: #22343D;
+    color: #02897A;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
+    transition: 0.4s;
+}
+
+.btn-get:hover {
+    box-shadow: 0px 15px 30px -15px #fff;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+    .users-cont {
+        padding: 0;
+        text-align: center;
+    }
+
+    .users-title {
+        padding: 15px 15px 15px 15px ;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .btn-get {
+        margin: 0;
+    }
+
+    .modal-illustration-img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 /* FOOTER */
@@ -314,6 +368,16 @@ h3 {
     line-height: 30px;
 }
 
+.footer-link-item {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-link-item:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
 .footer-form-title {
     margin-bottom: 34px;
     font-weight: 500;
@@ -322,10 +386,15 @@ h3 {
 }
 
 .footer-textarea {
+    padding-left: 10px;
     width: 325px;
     height: 48px;
     border-radius: 10px;
     border: 0;
+}
+
+.footer-textarea:focus { 
+    outline: none;
 }
 
 .btn-footer {
@@ -339,4 +408,16 @@ h3 {
     background-color: #02897A;
     border-radius: 10px;
     border: 0;
+    transition: 0.4s;
+}
+
+.btn-footer:hover {
+    background-color: #fff;
+    color: #02897A;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .footer {
+        text-align: center;
+    }
 }
