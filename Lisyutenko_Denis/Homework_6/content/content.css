@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-size: 100px;
+  border: 10px solid goldenrod;
+}
+
+.box {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.box1 {
+  background: #1abc9c;
+}
+.box2 {
+  background: #3498db;
+}
+.box3 {
+  background: #9b59b6;
+}
+.box4 {
+  background: #34495e;
+}
+.box5 {
+  background: #f1c40f;
+}
+.box6 {
+  background: #e67e22;
+}
+.box7 {
+  background: #e74c3c;
+}
+.box8 {
+  background: #bdc3c7;
+}
+.box9 {
+  background: #2ecc71;
+}
+.box10 {
+  background: #16a085;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  font-size: 100px;
+  height: 100vh;
+}
+
+.box {
+  width: 33.33%;
+}

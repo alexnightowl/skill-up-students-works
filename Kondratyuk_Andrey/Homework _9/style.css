@@ -1,0 +1,44 @@
+/* .resize-block {
+    width: 100%;
+    height: 100px;
+    background: green;
+}
+
+@media screen {max-width:768px;}{
+    .resize-block {
+        background: greenyellow;
+    }
+}
+
+@media screen {max-width: 425px;}{
+    .resize-block {
+        background: red;
+    }
+} 
+
+
+ 
+.hero-boner {
+    display: flex;
+}
+
+.hero-boner__first ,
+.hero-boner__second {
+    width: 50%;
+    height: 300px;
+    margin: 15px;
+    display: flex;
+    background: red;
+}
+@media screen {max-width:768px;}{
+
+    .hero-boner {
+        display: column;
+    }
+    
+    .hero-boner__first ,
+    .hero-boner__second {
+        width:calc(100%-23px);
+
+    }
+}  */
