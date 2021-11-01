@@ -4,6 +4,21 @@ body {
     background: #1F2E35;
 }
 
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.a-left {
+    justify-content: start;
+}
+
 .list-group-item {
     display: flex;
     align-items: center;
@@ -365,7 +380,7 @@ column-center-block {
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
-    margin-bottom: 22px;
+    margin-bottom: 0px;
 }
 
 .round-icon2 {
@@ -378,7 +393,7 @@ column-center-block {
 }
 
 .text1h {
-    width: 375px;
+    width: 425px;
     height: 27px;
     left: 280px;
     top: 2308px;
@@ -388,6 +403,7 @@ column-center-block {
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
+    margin-bottom: 8px;
 }
 
 .text1i {
@@ -414,8 +430,8 @@ column-center-block {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    color: #22343D;
-    border-bottom: 22px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
 }
 
 .text1l {
@@ -429,7 +445,7 @@ column-center-block {
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
-    border-bottom: 22px;
+    margin-bottom: 0px;
 }
 
 .info-box5 {
@@ -470,7 +486,7 @@ column-center-block {
 .get-this-button {
     position: absolute;
     bottom: 56px;
-    left: 51;
+    left: 51px;
 }
 
 .text1o {
@@ -557,3 +573,25 @@ column-center-block {
     text-align: center;
     margin-bottom: 29px;
 } 
+
+.accordion > * {
+    background-color:#1F2E35;
+}
+
+.accordion-button {
+    background-color:#1F2E35;
+    border-bottom: 1px solid #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color:#1F2E35;
+}
+
+.social-box img:first-child {
+    margin-left: 12px;
+}
+
+.social-box {
+    display: flex;
+    justify-content: start;
+}
