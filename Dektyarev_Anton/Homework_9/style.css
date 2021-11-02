@@ -9,6 +9,7 @@ a {
     justify-content: center;
     text-decoration: none;
     color: inherit;
+    padding: 0px;
 }
 
 a:hover {
@@ -17,6 +18,8 @@ a:hover {
 
 .a-left {
     justify-content: start;
+    width: fit-content;
+    padding: 0px;
 }
 
 .list-group-item {
@@ -509,7 +512,7 @@ column-center-block {
     width: 40px;
     height: 40px;
     padding: 0px;
-    margin-right: 16px;
+    margin: 0;;
 }
 
 .text1p {
@@ -587,11 +590,68 @@ column-center-block {
     background-color:#1F2E35;
 }
 
-.social-box img:first-child {
-    margin-left: 12px;
+.social-box img:nth-child(1) {
+   margin-right: 16px;
 }
 
 .social-box {
     display: flex;
     justify-content: start;
+}
+
+.info-box6 {
+    margin-bottom: 25px;
+}
+
+.nav-text2 {
+    height: fit-content;
+    margin-top: 27px;
+}
+
+.nav-text2:nth-child(1):hover {
+    color: #F3CD03;
+}
+
+.nav-text2:nth-child(2):hover {
+    color: #F3CD03;
+}
+
+.nav-text2:nth-child(3):hover {
+    color: #F3CD03;
+}
+
+.nav-text2:nth-child(4):hover {
+    color: #F3CD03;
+}
+
+.footer-links:nth-child(1):hover {
+    color: #F3CD03;
+}
+
+.footer-links:nth-child(2):hover {
+    color: #F3CD03;
+}
+
+.footer-links:nth-child(3):hover {
+    color: #F3CD03;
+}
+
+.footer-links:nth-child(4):hover {
+    color: #F3CD03;
+}
+
+.footer-links:nth-child(5):hover {
+    color: #F3CD03;
+}
+
+.footer-links:nth-child(6):hover {
+    color: #F3CD03;
+}
+
+.footer-links:nth-child(7):hover {
+    color: #F3CD03;
+}
+
+.footer-links:nth-child(8):hover {
+    color: #F3CD03;
 }

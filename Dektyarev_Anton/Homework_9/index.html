@@ -35,8 +35,10 @@
                     <li class="list-group-item me-3 nav-text2"><a href="#">Customers</a></li>
                     <li class="list-group-item me-3 nav-text2"><a href="#">Pricing</a></li>
                     <li class="list-group-item me-3 nav-text2"><a href="#">Resources</a></li>
-                    <li class="list-group-item me-3"><a href="#"><img src="files/Button-nav.png"></a></li>
-                    <li class="list-group-item me-3"><a href="#"><img src="files/Button-nav2.png"></a></li>
+                    <li class="list-group-item me-3"><a href="#"><img class="navbutton" src="files/Button-nav.png"></a>
+                    </li>
+                    <li class="list-group-item me-3"><a href="#"><img class="navbutton" src="files/Button-nav2.png"></a>
+                    </li>
                     <li class="list-group-item"><a href="#"><img src="files/Frame-nav.png"></a></li>
                 </div>
 
@@ -71,7 +73,7 @@
                 <p class="text5">Brief price description</p>
                 <img class="pice-img" src="files/price1.png">
                 <img class="pice-description-img" src="files/price1-description.png">
-                <a href="#"><img src="files/order-green.png"></a>
+                <a href="#"><img class="orderbutton" src="files/order-green.png"></a>
             </div>
 
             <div class="col-4 column-center-block box-green">
@@ -79,7 +81,7 @@
                 <p class="text5 white">Brief price description</p>
                 <img class="pice-img" src="files/price2.png">
                 <img class="pice-description-img" src="files/price2-description.png">
-                <a href="#"><img src="files/order-white.png"></a>
+                <a href="#"><img class="orderbutton" src="files/order-white.png"></a>
             </div>
 
             <div class="col-4 column-center-block box-white">
@@ -87,7 +89,7 @@
                 <p class="text5">Brief price description</p>
                 <img class="pice-img" src="files/price3.png">
                 <img class="pice-description-img" src="files/price3-description.png">
-                <a href="#"><img src="files/order-green.png"></a>
+                <a href="#"><img class="orderbutton" src="files/order-green.png"></a>
             </div>
 
         </div>
@@ -269,35 +271,38 @@
 
                     <div class="row row-flex social-box">
 
-                        <img class="social-img" src="files/insta.png">
-                        <img class="social-img" src="files/facebook.png">
-                        <img class="social-img" src="files/twitter.png">
-                        
+                        <a class="a-left" href="https://www.instagram.com"><img class="social-img"
+                                src="files/insta.png"></a>
+                        <a class="a-left" href="https://www.facebook.com"><img class="social-img"
+                                src="files/facebook.png"></a>
+                        <a class="a-left" href="https://twitter.com"><img class="social-img"
+                                src="files/twitter.png"></a>
+
                     </div>
 
                 </div>
 
                 <div class="col-2">
                     <p class="text1p">Resource</p>
-                    <p class="text1q">About Us</p>
-                    <p class="text1q">Blog</p>
-                    <p class="text1q">Contact</p>
-                    <p class="text1q">FAQ</p>
+                    <p class="text1q"><a class="a-left footer-links" href="#">About Us</a></p>
+                    <p class="text1q"><a class="a-left footer-links" href="#">Blog</a></p>
+                    <p class="text1q"><a class="a-left footer-links" href="#">Contact</a></p>
+                    <p class="text1q"><a class="a-left footer-links" href="#">FAQ</a></p>
                 </div>
 
                 <div class="col-2">
                     <p class="text1p">Legal Stuff</p>
-                    <p class="text1q">Disclaimer</p>
-                    <p class="text1q">Financing</p>
-                    <p class="text1q">Privacy Policy</p>
-                    <p class="text1q">Terms of Service</p>
+                    <p class="text1q"><a class="a-left footer-links" href="#">Disclaimer</a></p>
+                    <p class="text1q"><a class="a-left footer-links" href="#">Financing</a></p>
+                    <p class="text1q"><a class="a-left footer-links" href="#">Privacy Policy</a></p>
+                    <p class="text1q"><a class="a-left footer-links" href="#">Terms of Service</a></p>
                 </div>
 
                 <div class="col-4">
                     <p class="text1r ">knowing you're always on the best energy deal.
                     </p>
                     <input class="reg-input" type="text">
-                    <img src="files/button-signup-now.png">
+                    <a class="a-left" href="#"><img class="signup-now-button" src="files/button-signup-now.png"></a>
                 </div>
 
             </div>
@@ -307,7 +312,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="text1s">Made With Love By Figmaland All Right Reserved
+                    <p class="text1s">Made With Love By <b>Deguz</b> and Figmaland (All Right Reserved)
                     </p>
                 </div>
             </div>
@@ -316,6 +321,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
+
+        <script src="main.js"></script>
 </body>
 
 </html>
