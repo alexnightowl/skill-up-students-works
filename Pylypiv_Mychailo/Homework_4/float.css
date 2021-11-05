@@ -1,0 +1,12 @@
+.float-left {
+    float: left;
+}
+
+img {
+    margin: 10px 10px 10px 0;
+}
+
+div p {
+    text-align: justify;
+    margin: 5px 10px 30px 0;
+}

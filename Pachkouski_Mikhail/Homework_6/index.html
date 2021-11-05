@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework_6</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Flexbox</header>
+    <div class="wrapper">
+      <article class="text_block">
+        <p>
+          Flexbox по праву можно назвать удачной попыткой решения огромного
+          спектра проблем при построении лейаутов в css. Но прежде чем перейти к
+          его описанию, давайте выясним, что же не так со способами верстки,
+          которыми мы пользуемся сейчас?
+        </p>
+        <p>
+          Любой верстальщик знает несколько путей выровнять что-либо по
+          вертикали или сделать 3-х колоночный макет с резиновой средней
+          колонкой. Но давайте признаем, что все эти способы довольно странные,
+          похожи на хак, подходят не во всех случаях, сложны для восприятия и не
+          работают при несоблюдении определенных магических условий, которые
+          сложились исторически. Случилось так потому, что html и css
+          развивались эволюционно. В начале веб-страницы были похожи на
+          однопоточные текстовые документы, чуть позже разбиение страницы на
+          блоки делали таблицами, затем стало модным верстать float-ами, а после
+          официальной смерти ie6 добавились еще и приемы с inline-block. В итоге
+          мы получили в наследство гремучую смесь всех этих приемов,
+          используемую для построения лейаутов 99,9% всех существующих
+          веб-страниц.
+        </p>
+        <p>
+          Спецификация CSS Flexible Box Layout Module (в народе Flexbox)
+          призвана кардинально изменить ситуацию в лучшую сторону при решении
+          огромного количества задач. Flexbox позволяет контролировать размер,
+          порядок и выравнивание элементов по нескольким осям, распределение
+          свободного места между элементами и многое другое.
+        </p>
+      </article>
+      <aside class="link_bar">
+        <ul>
+          <li class="name_box"><span id="span">Примеры свойств</span></li>
+          <li class="box"><a href="./direction/index.html">flex-direction</a></li>
+          <li class="box"><a href="./wrap/index.html">flex-wrap</a></li>
+          <li class="box"><a href="./ordering/index.html">flexbox-ordering</a></li>
+          <li class="box"><a href="./a_content/index.html">align-content</a></li>
+          <li class="box"><a href="./page_desktop/index.html">page-desktop</a></li>
+        </ul>
+      </aside>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+body {
+   background-color: rgb(221, 192, 192);
+   font-family: Verdana;
+}
+
+h1,h3 {
+   color: rgb(241, 232, 232);
+   font-size: 45px;
+   text-align: center;
+   border-bottom: 2px solid brown;
+}
+
+h2 {
+   color: red;
+   font-size: 40px;
+   text-align: center;
+}
+
+li:nth-child(odd) {
+   color: darkmagenta;
+   font-size: 15px;
+   font-style: italic;
+   text-decoration: underline;
+}
+
+li:nth-child(even) {
+   color: green;
+   font-size: 15px;
+   font-style: italic;
+   list-style: none;
+}
+
+h1::after{
+   content: "(Mensk)";
+   font-size: 20px;
+   font-style: italic;
+}
+
+

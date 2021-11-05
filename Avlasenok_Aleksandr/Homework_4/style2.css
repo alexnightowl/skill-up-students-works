@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.content1{
+	width: 100%;
+	color: white;
+	position: absolute;
+	top: 23%;
+	text-align: center;
+	font-size: 70px;
+	box-sizing: border-box;
+	display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+.col11 {
+	height: 80px;
+	background-color: rgb(3, 180, 157);
+   flex: 0 0 33.3333%;
+
+}
+.col12 {
+	height: 80px;
+	background-color: rgb(31, 156, 214);
+   flex: 0 0 33.3333%;
+}
+.col13 {
+	height: 80px;
+	flex: 0 0 33.3333%;
+	background-color: rgb(158, 9, 245);
+}
+.col14 {
+	height: 80px;
+	flex: 0 0 33.3333%;
+	background-color: rgb(13, 44, 73);
+}
+.col15 {
+	height: 80px;
+	flex: 0 0 33.3333%;
+	background-color: rgb(172, 172, 13);
+}
+.col16 {
+	height: 80px;
+	flex: 0 0 33.3333%;
+	background-color: orange;
+}
+.col17 {
+	height: 80px;
+	flex: 0 0 33.3333%;
+	background-color: rgb(185, 13, 13);
+}
+.col18 {
+	height: 80px;
+	flex: 0 0 33.3333%;
+	background-color: grey;
+}
+.col19 {
+	height: 80px;
+	flex: 0 0 33.3333%;
+	background-color: rgb(88, 182, 100);
+}
+.col20 {
+	height: 80px;
+	flex: 0 0 33.3333%;
+	background-color: rgb(43, 110, 112);
+}
