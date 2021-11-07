@@ -1,0 +1,32 @@
+body {
+  font: 1em sans-serif;
+  font-weight: 600;
+}
+
+.main {
+  padding-top: 5px;
+  width: 350px;
+  height: 250px;
+  margin: 50px auto;
+  text-align: center;
+  background: linear-gradient(45deg, rgb(241, 66, 13), rgb(77, 77, 233));
+  border-radius: 10px;
+}
+
+.main__title {
+  font-size: 2em;
+  color: rgb(199, 193, 193);
+}
+
+.main__list {
+  list-style: none;
+  padding: 0;
+  height: 100px;
+}
+
+.main__list__item a {
+  display: block;
+  text-decoration: none;
+  color: rgb(233, 232, 227);
+  line-height: 32px;
+}

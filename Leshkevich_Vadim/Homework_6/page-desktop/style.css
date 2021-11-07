@@ -1,0 +1,90 @@
+body {
+  background: rgb(178, 238, 255);
+}
+
+.wrapper {
+  margin: 0px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  background: #68c6f5;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  background: #68c6f5;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.nav li {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  flex: 1 1 50%;
+}
+
+.nav .social {
+  text-align: center;
+  flex: 1 1 25%;
+}
+
+.photo {
+  background: #68c6f5;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.text {
+  background: #68c6f5;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.form {
+  text-align: center;
+  background: #68c6f5;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+button {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+footer {
+  text-align: center;
+  background: #68c6f5;
+  padding: 10px;
+}

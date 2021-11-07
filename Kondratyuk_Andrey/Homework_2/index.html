@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-work-2</title>
+</head>
+<body>
+    <giv aling="center">
+        <h1><p>Ведіть Логин та Пароль</p></h1>
+            <form action="logandpaas">
+                <p><strong>Email</strong></label>
+                <label for="email">
+                <input id="login" placeholder="email" type="email" required=""></input></p>
+                <p><strong>password</strong>
+                <input id="password" placeholder="password" type="password" maxlength="8" size="8" name="password" required=""></input></p>
+                <input type="submit"></input>
+                </label>
+            </form>
+        </giv>
+        <hr>
+        <h1>Список хто не зявився на презинтацію</h1>
+        <table border="1" width="100%">
+            <tbody>
+                <tr>
+                    <th width="300px">Імя</th>
+                    <th width="300px">Фамилия</th>
+                    <th width="300px">Адрес Проживання</th>
+                </tr>
+                <tr>
+                    <th>Наташа</th>
+                    <th>Кузнєцова</th>
+                    <th>Вул.лебедя</th>
+                </tr>
+                <tr>
+                    <th>Олег</th>
+                    <th>Смеренцов</th>
+                    <th>пров.Гагаріна</th>
+                </tr>
+                <tr>
+                    <th>Донус</th>
+                    <th>Матфейович</th>
+                    <th>Вул.Тараса шевченка</th>
+                </tr>
+            </tbody>
+            <hr>
+        </table>
+    <div class="regForm">
+        <form action="registrationForm">
+            <div class="formItems">
+                <label for="name"><strong>name</strong></label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="name" required>
+            </div>
+            <div class="formItems">
+                <label for="last-name"><strong>last-name</strong></label>
+                <br>
+                <input type="text" name="lastName" id="lastName" placeholder="last-name" required>
+            </div>
+
+            <address class="formItems">
+                <label for="address"><strong>Address</strong></label>
+                <br>
+                <input type="text" name="address" id="address" placeholder="address" required>
+            </address>
+
+            <div class="formItems">
+                <label for="age"><strong> вам є 18 років?</strong></label>
+                <br>
+                <input type="checkbox" name="age" id="age" required>               
+            </div>
+
+            <div class="formItems">
+                <label for="country"><strong> Вкажіть місце Проживання </strong></label>
+                <br>
+                <select name="country" id="country" required>
+                    <option></option>
+                    <option>Україна</option>
+                    <option>Польша</option>
+                    <option>Франція</option>
+                    <option>США</option>
+                    <option>Австралія</option>
+                </select>
+            </div>
+
+            <div class="formItems">
+                <label for="clothingSize"><strong> виберіть свій розмір</strong></label>
+                <br>
+                <label for="clothingSize">XS</label>
+                <input type="radio" name="clothingSize" id="clothingSize">
+
+                <label for="clothingSize">S</label>
+                <input type="radio" name="clothingSize" id="clothingSize">
+
+                <label for="clothingSize">M</label>
+                <input type="radio" name="clothingSize" id="clothingSize">
+
+                <label for="clothingSize">L</label>
+                <input type="radio" name="clothingSize" id="clothingSize">
+
+                <label for="clothingSize">XL</label>
+                <input type="radio" name="clothingSize" id="clothingSize">
+            </div>
+
+            <div class="formItems">
+                <input type="submit" value="Sign up">
+            </div>       
+        </form>
+    </div>
+</body>
+</html>

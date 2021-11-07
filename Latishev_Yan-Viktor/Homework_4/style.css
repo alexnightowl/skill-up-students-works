@@ -1,0 +1,46 @@
+body {
+  font: 1em Arial;
+  background: linear-gradient(45deg, #03001e, #7303c0, #ec38bc, #fdeff9);
+  background-size: 400% 400%;
+  animation: gradient 10s ease-in infinite;
+}
+
+body, html {
+  height: 100%;
+}
+
+.container {
+  background: rgb(179, 170, 170);
+  display:block;
+  width: 300px;
+  height: 200px;
+  overflow-x: scroll;
+  overflow-y: auto;
+  margin: 5% auto;
+  border-bottom: black 3px solid;
+  border-style: outset;
+  border-color: brown;
+}
+
+a {
+  display: block;
+  background-color:#7303c0;
+  padding: 20px;
+  margin: 5px auto;
+  border: brown 3px solid;
+  text-align: center;
+  color: #03001e;
+  width: 20%;
+}
+
+@keyframes gradient{
+  0% {
+    background-position:  0 50%;
+  }
+  50% {
+    background-position:  100% 50%;
+  }
+  100% {
+    background-position:  0 50%;
+  }
+}

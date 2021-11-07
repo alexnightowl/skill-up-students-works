@@ -5,3 +5,9 @@ h1{
 	text-align: center;
 	background-color: aquamarine;
 }
+p{
+	font-size: 25px;
+	font-weight: bold;
+	color: rgb(15, 27, 185);
+	text-align: center;
+}

@@ -1,0 +1,69 @@
+/* #2f80ed; */
+/* #333333 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  padding: 10px 20px;
+  display: flex;
+}
+
+
+* {
+  color: #333333;
+}
+
+h1 {
+  color: #2f80ed;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: #333333;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: #2f80ed;
+}
+
+a {
+  color: #2f80ed;
+}
+
+section{
+  margin-bottom: em;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: flex;
+  min-width: 60px;
+}
+
+
+
+.experiance {
+  display: flex;
+}
+
+.experiance__date {
+  min-width: 185px;
+}
+
+.experiance__name {
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+body {
+font-family: sans-serif; 
+margin: 0;
+background: #3494E6;
+}
+a {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px 5px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    transition:all 0.5s;
+    box-sizing: border-box;
+}
+a:hover { background:rgba(0,0,0,0.3); }

@@ -1,0 +1,163 @@
+.border {
+    display: block;
+    position: static;
+    width: 600px;
+    height: 400px;
+    border: 1px solid #000;
+
+}
+
+.traffic-lights {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    top: 55px;
+    left: 200px;
+}
+.circle1 {
+    position: relative;
+    background: red;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    height: 4.5em;
+    width: 4.5em;
+    top: 25px;
+    left: 60px;
+}
+.circle2 {
+    position: relative;
+    background: yellow;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    height: 4.5em;
+    width: 4.5em;
+    top: 30px;
+    left: 60px;
+
+}
+.circle3 {
+    position: relative;
+    background: green;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    height: 4.5em;
+    width: 4.5em;
+    top: 35px;
+    left: 60px;
+}
+
+.block {
+    display: block;
+    position: static;
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000;
+}
+.static1 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background: red;
+    top: 40px;
+    left: 40px;   
+}
+.static2 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background:blue;
+    top: 13px;
+    left: 70px;
+    z-index: 1;
+}
+.static3 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background: green;
+    top: -15px;
+    left: 105px;
+}
+
+.block2 {
+    display: block;
+    position: static;
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000;
+}
+.static4 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background: red;
+    top: 40px;
+    left: 40px;
+    z-index: 2;   
+}
+
+.static5 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background:blue;
+    top: 13px;
+    left: 70px;
+    z-index: 0;
+}
+
+.static6 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background:green;
+    top: -15px;
+    left: 105px;
+}
+
+.block3 {
+    display: block;
+    position: static;
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000;
+}
+.static7 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background: red;
+    top: 40px;
+    left: 40px;
+    z-index: 4;
+}
+
+.static8 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background: blue;
+    top: 13px;
+    left: 70px;
+    z-index: 3;
+}
+
+.static9 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    background: green;
+    top: -15px;
+    left: 105px;
+    z-index: 2;
+}
