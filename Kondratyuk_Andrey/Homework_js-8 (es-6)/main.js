@@ -2,6 +2,7 @@
 //     return x%y
 // }
 
-// console.log(helper(10,3));
-// console.log(helper(10));
+// const getValueFromdj - (obj) -> {
+//     return
+// }
 
