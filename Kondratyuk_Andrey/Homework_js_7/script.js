@@ -13,8 +13,7 @@ function fun1 () {
     ttl.value=rtl;
     ttr.value=rtr;
     tbr.value=rbr;
-    rbl.value=rbl;
+    tbl.value=rbl;
 
-    block.style.borderRadius=rtl+'px ' +rtr +'px ' +rbr +'px '+rbl+'px ';
-    
+    block.style.borderRadius=rtl+'px ' +rtr +'px ' +rbr +'px '+rbl+'px ';   
 }
