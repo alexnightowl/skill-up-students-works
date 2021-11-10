@@ -604,6 +604,10 @@ column-center-block {
 }
 
 .nav-text2 {
+    transition: 0.6s;
+}
+
+.nav-text2 {
     height: fit-content;
     margin-top: 27px;
 }
@@ -624,6 +628,10 @@ column-center-block {
     color: #F3CD03;
 }
 
+.footer-links {
+    transition: 0.6s;
+}
+    
 .footer-links:nth-child(1):hover {
     color: #F3CD03;
 }
@@ -655,3 +663,4 @@ column-center-block {
 .footer-links:nth-child(8):hover {
     color: #F3CD03;
 }
+

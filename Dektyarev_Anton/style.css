@@ -158,6 +158,8 @@ header img:nth-child(6) {
     border-top: 2px solid #A59263;
     border-bottom: 2px solid #A59263;
     margin-bottom: 5px;
+    animation-name: manifestation;
+    animation-duration: 3.5s;
 }
 
 nav {
@@ -200,6 +202,7 @@ nav:hover {
 .menu {
     width: 100%;
     height: 32px;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -214,6 +217,10 @@ nav:hover {
     height: 100%;
     list-style-type: none;
     padding-inline-start: 0px;
+}
+
+.mobile-menu {
+    display: none;
 }
 
 .menu ul li:first-child {
@@ -249,7 +256,7 @@ nav:hover {
 
 .menu-button:hover {
     height: 145px;
-    background: rgb(53, 184, 103);
+    background: rgb(40, 187, 187);
     opacity: 0.98;
 }
 
@@ -274,7 +281,7 @@ nav:hover {
     line-height: 27px;
     color: #000;
     border: 0px;
-    transition: 1.5s;
+    transition: 0.5s;
     position: relative;
 }
 
@@ -307,7 +314,8 @@ nav:hover {
 
 .menu-button li a {
     text-decoration: none;
-    transition: 0.3s;
+    color: #333;
+    transition: 0.6s;
 }
 
 .menu-button li a:visited {
@@ -393,12 +401,16 @@ aside {
     padding-bottom: 4px;
     border-top: 2px solid #A59263;
     border-bottom: 2px solid #A59263;
+    animation-name: manifestation;
+    animation-duration: 3.5s;
 }
 
 footer {
     width: 100%;
     min-height: 20px;
     background-color: #A59263;
+    animation-name: manifestation;
+    animation-duration: 3.5s;
 }
 
 footer:hover {
@@ -458,6 +470,15 @@ footer p {
     }
     100% {
     box-shadow: 0px 0px 10px 1px #000;
+    }
+}
+
+@keyframes manifestation {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
     }
 }
 /* animations */
@@ -613,6 +634,43 @@ footer p {
 
     .textblock p {
         font-size: 14px;
+    }
+
+    .menu {
+        width: 100%;
+        height: 30px;
+        z-index: 1;
+        transition: 3s;
+    }
+
+    .menu:hover {
+        height: auto;
+    }
+
+    .menu ul {
+        width: 100%;
+        flex-direction: column;
+        overflow: hidden;
+    } 
+
+    .menu ul li:first-child {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .menu-button li:last-child::after {
+        content: none;
+        height: 0px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        color: #ffd700;    
+        font-size: 18px;
     }
 }
 
