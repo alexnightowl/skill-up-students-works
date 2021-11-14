@@ -63,6 +63,7 @@ header p:nth-child(2) {
     color: #A59263;
     top: 30px;
     left: 200px;
+    cursor: default;
 }
 
 header p:nth-child(3) {
@@ -75,6 +76,7 @@ header p:nth-child(3) {
     text-shadow: 0px 2px 2px #777;
     top: 75px;
     left: 200px;
+    cursor: default;
 }
 
 header a:nth-child(4) {
@@ -110,15 +112,7 @@ header p:nth-child(5) {
    color: #888;
    top: 145px; 
    left: 260px;
-}
-
-header img:nth-child(6) {
-    height: 200px;
-    position: absolute;
-    z-index: -1;
-    top: 0px;
-    left: 200px;
-    opacity: 0.3;
+   cursor: default;
 }
 
 /* mobile block */
@@ -202,6 +196,14 @@ nav:hover {
 .navbox p a {
     text-decoration: none;
     color: inherit;
+}
+
+.phonenumbertext {
+    cursor: default;
+}
+
+.locationtext {
+    cursor: default;
 }
 
 .menu {
@@ -292,6 +294,7 @@ nav:hover {
     border: 0px;
     transition: 0.5s;
     position: relative;
+    cursor: default;
 }
 
 .menu-button li:first-child:hover {
@@ -359,6 +362,49 @@ aside {
     margin-right: auto;
     flex-direction: column;
 }
+
+.myworks {
+    height: 150px;
+    overflow: hidden;
+}
+
+#workprev {
+    width: 42px;
+    height: 20px;
+    margin-left: 15px;
+    transition: 1.5s;
+    border: 2px solid #A59263;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#worknext {
+    width: 42px;
+    height: 20px;
+    margin-left: 5px;
+    transition: 1.5s;
+    border: 2px solid #A59263;
+    box-sizing: border-box;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#workprev:hover {
+    background: #A59263;
+}
+
+#worknext:hover {
+    background: #A59263;
+}
+
+#workprev:focus {
+    outline: none;
+}
+
+#worknext:focus {
+    outline: none;
+} 
 
 .info-block {
     display: flex;
@@ -563,6 +609,7 @@ footer p {
         color: #A59263;
         top: 10px;
         left: 170px;
+        cursor: default;
     }
 
     .header-mobile p:nth-child(3) {
@@ -576,6 +623,7 @@ footer p {
         color: #A59263;
         top: 36px;
         left: 170px;
+        cursor: default;
     }
 
     .header-mobile p:nth-child(4) {
@@ -588,6 +636,7 @@ footer p {
         text-shadow: 0px 2px 2px #777;
         top: 68px;
         left: 170px;
+        cursor: default;
     } 
 
     .header-mobile a:nth-child(5) {
@@ -607,6 +656,7 @@ footer p {
         color: #888;
         top: 113px; 
         left: 200px;
+        cursor: default;
     }
 
     .header-mobile img:nth-child(7) {
@@ -620,8 +670,10 @@ footer p {
     /* mobile header */
 
     .nav-wrapper {
+        height: 120px;
         margin-top: 10px;
         margin-bottom: 8px;
+        border-bottom: 0px;
     }
 
     nav {
@@ -634,7 +686,7 @@ footer p {
     main {
         padding-left: 40px;
         padding-right: 40px;
-        height: calc(100vh - 378px);
+        height: calc(100vh - 368px);
     }
 
     .upper_block p {
@@ -711,6 +763,18 @@ footer p {
         margin-bottom: 5px;
     }
 
+    .menutext::after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 2px;
+        width: 25px;
+        background: #000;
+        top: 4px;
+        right: 23px;
+        z-index: -1;
+    }
+
     .mobile-menu::after {
         content: "";
         display: block;
@@ -718,8 +782,9 @@ footer p {
         height: 2px;
         width: 25px;
         background: #000;
-        top: 5px;
-        right: 15px;
+        top: 10px;
+        right: 23px;
+        z-index: -1;
     }
 
     .mobile-menu::before {
@@ -729,8 +794,9 @@ footer p {
         height: 2px;
         width: 25px;
         background: #000;
-        top: 13px;
-        right: 15px;
+        top: 16px;
+        right: 23px;
+        z-index: -1;
     }
 
     .menu-button {
@@ -749,7 +815,7 @@ footer p {
 @media screen and (max-width:550px) {
     main {
         flex-direction: column;
-        height: calc(100vh - 378px);
+        height: calc(100vh - 368px);
     }
 
     article {
@@ -764,6 +830,10 @@ footer p {
         margin-right: auto;
         max-width: 100%;
         min-width: 100%;
+    }
+
+    .myworks {
+        width: 288px;
     }
 }
 

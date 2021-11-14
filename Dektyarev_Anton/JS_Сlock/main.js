@@ -59,7 +59,7 @@ function time() {
   let minuteHandDefaultPosition = -90;
   let minuteHandDivisionPrice = 6;
   let minuteHandCurrentPosition =
-    minuteHandDefaultPosition + minutes * minuteHandDivisionPrice;
+    minuteHandDefaultPosition + minutes * minuteHandDivisionPrice + seconds * 0.1;
 
   if (minuteHandCurrentPosition == 270) {
     minuteHandCurrentPosition = minuteHandDefaultPosition;
@@ -68,7 +68,7 @@ function time() {
   let hourHandDefaultPosition = -90;
   let hourHandDivisionPrice = 30;
   let hourHandCurrentPosition =
-    hourHandDefaultPosition + hour * hourHandDivisionPrice;
+    hourHandDefaultPosition + hour * hourHandDivisionPrice + minutes * 0.5;
 
   if (hourHandCurrentPosition == 270) {
     hourHandCurrentPosition = hourHandDefaultPosition;

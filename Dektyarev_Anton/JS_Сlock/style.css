@@ -27,6 +27,10 @@ body {
     animation-iteration-count: infinite;
 }
 
+#day {
+    font-size: 48px;
+}
+
 .analogclock {
     width: 250px;
     height: 250px;
