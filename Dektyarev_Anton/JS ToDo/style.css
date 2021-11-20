@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000;
+}
+
+#wrapper {
+    max-width: 1080px;
+    height: 90vh;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 10px;
+    overflow: auto;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    animation-name: manifestation-translation;
+    animation-duration: 4.5s;
+    animation-fill-mode: both;
+}
+
+#todo-box {
+    height: 100px;
+    min-height: 100px;
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    border-bottom: 1px solid #fff;
+} 
+
+#mainparagraph {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#todoform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#confirmbutton {
+    width: 84px;
+    height: 29px;
+    background: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 1.5s;
+}
+
+#confirmbutton:hover {
+    background: yellowgreen;
+    color: #000;
+}
+
+#todotext {
+    height: 25px;
+    padding-left: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#todotext:focus {
+    outline: none;
+    background-color: blanchedalmond;
+}
+
+#todos-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.todos {
+    width: 300px;
+    height: 60px;
+    position: relative;
+    margin-top: 5px;
+    padding: 5px;
+    padding-bottom: 0px;
+    background: rgba(50, 82, 71,0.3);
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 1.5s;
+}
+
+.todo-inner-text {
+    width: 230px;
+    max-height: 42px;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: 21px;
+    line-height: 21px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.delete-button {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 246px;
+    color: brown;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 1.5s;
+}
+
+.delete-button:hover {
+    background: red;
+    color: black;
+} 
+
+.delete-button::before {
+    content: "";
+    width: 2px;
+    height: 63px;
+    position: absolute;
+    background: rgba(255,255,255,0.3);
+    top: -31px;
+    left: -8px;
+}
+
+.todo-marker {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    left: 285px;
+    transition: 0.7s;
+}
+
+.todo-marker:hover {
+    outline: 1px solid red;
+}
+
+.todo-marker::before {
+    content: "Done";
+    position: absolute;
+    top: 3px;
+    left: -38px;
+    color: aquamarine;
+}
+
+.time-registration {
+    position: absolute;
+    top: 48px;
+    left: 6px;
+    color: yellow;
+    font-size: 11px;
+}
+
+.checked {
+    text-decoration: line-through;
+    background: grey;
+    opacity: 0.6;
+}
+
+@keyframes manifestation-translation {
+    0% {
+    opacity: 0;
+    transform: translateY(0px);
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(25px);
+    }
+}
