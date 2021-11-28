@@ -23,9 +23,16 @@ var workLink = document.querySelector("#workimagelink");
 var workExamplesImages = [
   "index.files/workexample1.gif",
   "index.files/workexample2.gif",
+  "index.files/workexample3.gif",
+  "index.files/workexample4.gif",
 ];
 
-var workExamplesLinks = ["JS_Сlock/index.html", "JS_Pratice/index.html"];
+var workExamplesLinks = [
+  "JS_Сlock/index.html",
+  "JS_Pratice/index.html",
+  "JS_ToDo/index.html",
+  "JS_Galaxy/index.html",
+];
 
 var imageIndex = 0;
 var imageLinkIndex = 0;
@@ -80,4 +87,4 @@ function sliderOnTimeChange() {
   workLink.href = `${workExamplesLinks[imageLinkIndex]}`;
 }
 
-setInterval(sliderOnTimeChange, 25000);
+setInterval(sliderOnTimeChange, 35000);
