@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework_9</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header row">
+
+        <!-- NavBar  -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-#1F2E35">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Product</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul
+                class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll"
+                style="--bs-scroll-height: 100px"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active header_navbar_link_first" aria-current="page" href="#"
+                    >Product</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header_navbar_link_second" href="#">Customers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header_navbar_link_second" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header_navbar_link_second" href="#">Resources</a>
+                </li>
+                
+              </ul>
+              <button type="button" class="btn-lg btn-success header_button_in">
+                Sign In
+              </button>
+              <button type="button" class="btn-lg btn-success header_button_up">
+                Sign In
+              </button>
+              <img src="./img/header_icon.png" alt="icon">
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- WORK -->
+      <section class="row work align-items-center">
+        <div class="col-md-7 order-md-2 col_work">
+          <div class="card card_work" style="width: 100%">
+            <img
+              src="./img/workpeople.svg"
+              class="card-img-top card-img_header"
+              alt="People"
+            />
+          </div>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <div class="card-body card_body_wrapper text-center text-md-start">
+            <h5 class="card-title footer_listr card-title_format">
+              Work at the speed of thought
+            </h5>
+            <p class="card-footer_listr card-text_format">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <div class="work_button_wrapper">
+              <a href="#" class="btn btn-primary work_button_item"
+                >Get started</a
+              >
+              <a href="#" class="card-link work_link_item">Watch the Video</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCT -->
+      <section class="product">
+        <div class="row justify-content-center">
+          <div class="col-10 col-md-6 product_title">
+            <h1>Product was Built Specifically for You</h1>
+          </div>
+        </div>
+        <div class="row align-content-center align-items-md-between flex-column flex-md-row">
+          <div class="col-md-3 product_card col-6">
+            <img src="./img/icon_click.png" class="card-img-top mx-auto mx-md-0 d-block" alt="Click" />
+            <div class="product_card_description text-center text-md-start">
+              <h5 class="product_card_title">First click tests</h5>
+              <p class="product_card_text">
+                While most people enjoy casino gambling.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 product_card col-6">
+            <img src="./img/icon_design.png" class="card-img-top mx-auto mx-md-0 d-block" alt="Click" />
+            <div class="product_card_description text-center text-md-start">
+              <h5 class="product_card_title">Design surveys</h5>
+              <p class="product_card_text">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 product_card col-6">
+            <img src="./img/icon_heart.png" class="card-img-top mx-auto mx-md-0 d-block" alt="Click" />
+            <div class="product_card_description text-center text-md-start">
+              <h5 class="product_card_title">Preference tests</h5>
+              <p class="product_card_text">
+                The Myspace page defines the individual.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 product_card col-6">
+            <img src="./img/icon_clock.png" class="card-img-top mx-auto mx-md-0 d-block" alt="Click" />
+            <div class="product_card_description text-center text-md-start">
+              <h5 class="product_card_title">Five second tests</h5>
+              <p class="product_card_text">
+                Personal choices and the overall personality of the person.
+              </p>
+            </div>
+          </div>
+          <button type="button" class="btn-lg btn-success product_button">
+            SIGN UP NOW
+          </button>
+        </div>
+      </section>
+
+      <!-- MANAGEMENT  -->
+      <section class="management row justify-content-between mx-4">
+        <div class="management_img col-md-6 order-md-1">
+          <img src="./img/management_img.png" alt="Management" />
+        </div>
+        <div class="management_text col-md-5">
+          <h5>Effortless Validation for</h5>
+          <h2>Management</h2>
+          <p>
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <h5>Accessory makers</h5>
+          <p>
+            While most people enjoy casino gambling, sports betting, lottery and
+            bingo playing for the fun
+          </p>
+          <h5>Alterationists</h5>
+          <p>
+            If you are looking for a new way to promote your business that won’t
+            cost you more money,
+          </p>
+        </div>
+      </section>
+
+      <!-- SUPPORT  -->
+      <section class="support row align-items-center mx-3">
+        <div class="support_img col-md-6">
+          <img src="./img/support.svg" alt="Support" />
+        </div>
+        <div class="support_text offset-md-1 col-md-5">
+          <h5>Easier decision making for</h5>
+          <h2>Customer Support</h2>
+          <p>
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <ul class="support_list">
+            <li class="support_list_item_orange">
+              Never worry about overpaying for your energy again.
+            </li>
+            <li class="support_list_item_red">
+              We will only switch you to energy companies that we trust and will
+              treat you right
+            </li>
+            <li class="support_list_item_blue">
+              We track the markets daily and know where the savings are.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- COLLABORAT  -->
+      <section class="collaborat row justify-content-between align-items-center mx-3">
+        <div class="collaborat_img col-md-6 order-md-1">
+          <img src="./img/collaborat_img.svg" alt="Collaborative" />
+        </div>
+        <div class="collaborat_text col-md-5">
+          <h5>Optimisation for</h5>
+          <h2>Collaborative</h2>
+          <p>
+            Few would argue that, despite the advancements of feminism over the
+            past three decades, women still face a double standard when it comes
+            to their behavior.
+          </p>
+          <h5>Accessory makers</h5>
+          <p>
+            While most people enjoy casino gambling, sports betting, lottery and
+            bingo playing for the fun
+          </p>
+          <h5>Alterationists</h5>
+          <p>
+            If you are looking for a new way to promote your business that won’t
+            cost you more money.
+          </p>
+        </div>
+      </section>
+
+      <!-- PROCESS  -->
+      <section>
+        <div class="process row mx-2">
+          <div class="process_text offset-md-3 col-md-6">
+            <h2>Quick & Easy Process</h2>
+            <p>
+              Do you require some help for your project: Conception workshop,
+              prototyping, marketing strategy, landing page, Ux/UI?
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="process_person_wrap1 col-xl-6">
+            <div class="process_person_1">
+              <img src="./img/process_person_1_full.png" alt="Person_1" />
+            </div>
+            <div class="process_person_2">
+              <img src="./img/process_person_2_full.png" alt="Person_2" />
+            </div>
+          </div>
+          <div class="process_person_wrap2 col-xl-6">
+            <div class="process_person_3">
+              <img src="./img/process_person_3_full.png" alt="Person_3" />
+            </div>
+            <div class="process_person_4">
+              <img src="./img/process_person_4_full.png" alt="Person_4" />
+            </div>
+          </div>
+          <div class="offset-md-4 col-md-4">
+            <div>
+              <button type="button" class="btn-lg btn-success process_button">
+                Contact our expert
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTENT STRATEGIES  -->
+      <section class="contents">
+        <div class="row">
+          <div class="col-xs-12 text-center text-md-start">
+            <h2 class="contents_title">Contents Strategies</h2>
+            <p class="contents_text">
+              We focus on ergonomics and meeting you where you work. It's only a
+              keystroke away.
+            </p>
+          </div>
+          <div class="contents_cards_wrapper">
+            <div class="contents_card_wrapper col-lg-4">
+              <div class="contents_card card" style="width: 18rem">
+                <img
+                  src="./img/card_img_1.png "
+                  class="card-img-top"
+                  alt="Card_1"
+                />
+                <div class="card-body">
+                  <h5 class="contents_card_title card-title">
+                    By <span>Wahid Ari |</span> 03 March 2019
+                  </h5>
+                  <p class="contents_card_text card-text">Increasing Prosperity With Positive Thinking</p>
+                </div>
+              </div>
+            </div>
+            <div class="contents_card_wrapper col-lg-4">
+              <div class="contents_card card" style="width: 18rem">
+                <img
+                  src="./img/card_img_2.png "
+                  class="card-img-top"
+                  alt="Card_2"
+                />
+                <div class="card-body">
+                  <h5 class="contents_card_title card-title">
+                    By <span>Wahid Ari |</span> 03 March 2019
+                  </h5>
+                  <p class="contents_card_text card-text">Motivation Is The First Step To Success</p>
+                </div>
+              </div>
+            </div>
+            <div class="contents_card_wrapper col-lg-4">
+              <div class="contents_card card" style="width: 18rem">
+                <img
+                  src="./img/card_img_3.png "
+                  class="card-img-top"
+                  alt="Card_3"
+                />
+                <div class="card-body">
+                  <h5 class="contents_card_title card-title">
+                    By <span>Wahid Ari |</span> 03 March 2019
+                  </h5>
+                  <p class="contents_card_text card-text">Success Steps For Your Personal Or Business</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contents_card_dots">
+            <img src="./img/card_dots.svg" alt="dots" />
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICE TABLE  -->
+      <section class="price">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="price_title">Price Table</h2>
+            <p class="price_text">We offer competitive price</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="price_item_wrapper col-md-4">
+            <a href="#" class="price_item">
+              <div class="price_item_title">
+                <h5>Free</h5>
+                <p>Brief price description</p>
+              </div>
+              <div class="price_item_price">
+                <p class="price_item_price_number">0</p>
+                <p class="price_item_price_symbol">$</p>
+                <p class="price_item_price_per">Per / month</p>
+              </div>
+              <div class="price_item_description">
+                <ul>
+                  <li>Only 2 Operators</li>
+                  <li>Notifications</li>
+                  <li>Landing Pages</li>
+                </ul>
+              </div>
+              <div class="">
+                <input
+                  type="button"
+                  value="Order Now"
+                  class="price_item_button"
+                />
+              </div>
+            </a>
+          </div>
+          <div class="price_item_wrapper col-md-4">
+            <a href="#" class="price_item">
+              <div class="price_item_title">
+                <h5>Standard</h5>
+                <p>Brief price description</p>
+              </div>
+              <div class="price_item_price">
+                <p class="price_item_price_number">5</p>
+                <p class="price_item_price_symbol">$</p>
+                <p class="price_item_price_per">Per / month</p>
+              </div>
+              <div class="price_item_description">
+                <ul>
+                  <li>5+ Operators</li>
+                  <li>Notifications</li>
+                  <li>Landing Pages</li>
+                </ul>
+              </div>
+              <div class="">
+                <input
+                  type="button"
+                  value="Order Now"
+                  class="price_item_button"
+                />
+              </div>
+            </a>
+          </div>
+          <div class="price_item_wrapper col-md-4">
+            <a href="#" class="price_item">
+              <div class="price_item_title">
+                <h5>Premium</h5>
+                <p>Brief price description</p>
+              </div>
+              <div class="price_item_price">
+                <p class="price_item_price_number">10</p>
+                <p class="price_item_price_symbol">$</p>
+                <p class="price_item_price_per">Per / month</p>
+              </div>
+              <div class="price_item_description">
+                <ul>
+                  <li>10+ Operators</li>
+                  <li>Notifications</li>
+                  <li>Landing Pages</li>
+                </ul>
+              </div>
+              <div>
+                <input
+                  type="button"
+                  value="Order Now"
+                  class="price_item_button"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- REVIEWS  -->
+      <section class="reviews">
+        <div class="row text-center text-md-start justify-content-center">
+          <div class="col-12">
+            <h2 class="reviews_title">What Clients Say</h2>
+          </div>
+          <div class="col-md-6">
+            <p class="reviews_text">
+              Problems trying to resolve the conflict between the two major
+              realms of Classical physics: Newtonian mechanics
+            </p>
+          </div>
+        </div>
+        <div class="reviews_item_row row">
+          <div class="reviews_item_col col-xl-4">
+            <div class="reviews_item">
+              <img
+                src="./img/review_stars.svg"
+                alt="stars"
+                class="reviews_item_stars"
+              />
+              <div class="reviews_item_text">
+                <p class="">
+                  Product helps you see how many more days you need to work to
+                  reach your financial goal.
+                </p>
+              </div>
+              <div class="reviews_item_person">
+                <p class="reviews_item_person_name">Wahid Ari</p>
+                <p class="reviews_item_job">Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="reviews_item_col col-xl-4">
+            <div class="reviews_item">
+              <img
+                src="./img/review_stars.svg"
+                alt="stars"
+                class="reviews_item_stars"
+              />
+              <div class="reviews_item_text">
+                <p class="">
+                  Product helps you see how many more days you need to work to
+                  reach your financial goal.
+                </p>
+              </div>
+              <div class="reviews_item_person">
+                <p class="reviews_item_person_name">Wahid Ari</p>
+                <p class="reviews_item_job">Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="reviews_item_col col-xl-4">
+            <div class="reviews_item">
+              <img
+                src="./img/review_stars.svg"
+                alt="stars"
+                class="reviews_item_stars"
+              />
+              <div class="reviews_item_text">
+                <p class="">
+                  Product helps you see how many more days you need to work to
+                  reach your financial goal.
+                </p>
+              </div>
+              <div class="reviews_item_person">
+                <p class="reviews_item_person_name">Wahid Ari</p>
+                <p class="reviews_item_job">Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER  -->
+      <footer class="py-5">
+        <div class="row mx-3">
+          <div class="col-md-3 d-flex align-items-center flex-column">
+            <div class="footer_brand">
+              <a class="navbar-brand" href="#">Product</a>
+            </div>
+            <div class="footer_social">
+              <img src="./img/footer_icon_instagram.svg" alt="Instagram" class="footer_social_item">
+              <img src="./img/footer_icon_facebook.svg" alt="Facebook" class="footer_social_item">
+              <img src="./img/footer_icon_twitter.svg" alt="Twitter" class="footer_social_item">
+            </div>
+          </div>
+    
+          <div class="col-sm-6 col-md-1 offset-md-1 text-center text-md-start mb-3">
+            <h5 class="footer_list_title">Resource</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_list">About Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_list">Blog </a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_list">Cantact</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_list">FAQ</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-sm-6 col-md-2 offset-md-1 text-center text-md-start mb-3">
+            <h5 class="footer_list_title">Legal Stuff</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_list">Disclaimer </a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_list">Financing </a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_list">Privacy Policy</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer_list">Terms of Service </a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-3 ">
+            <form>
+              <p class="footer_form_title mb-4 text-center text-md-start">knowing you're always on the best energy deal. 
+              </p>
+              <div class="w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <div class="w-100">
+                  <input id="newsletter1" type="footer_lists="form-control" >
+                </div>
+                <div>
+                  <input
+                    type="button"
+                    value="Sign up Now"
+                    class="footer_button d-block mx-auto mx-md-0"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between py-4">
+          <p class="footer_made text-center">Made With Love By Figmaland All Right Reserved 
+          </p>
+        </div>
+      </footer>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>
