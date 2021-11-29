@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+ 
+.navbar {
+margin-bottom: 50px;
+}
+ 
+.btn-outline-success {
+    color: #02897A;
+    border: 1px solid #02897A;
+}
+
+.btn-outline-success:hover {
+    background-color:  #02897A;
+}
+
+li {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    list-style-type: none;
+    color: #22343D;
+}
+
+a:hover {
+    font-weight: 600;
+}
+
+h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 40px;
+    color: #22343D;
+}
+
+h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343D;
+}
+
+p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+}
+
+.prising-h2 {
+    margin-bottom: 32px;
+}
+
+.prising-p {
+    margin-top: 16px;
+    margin-bottom: 49px;
+}
+
+.btn_prising {
+    background-color: #02897A;
+    color: white;
+}
+
+.card-body:hover {
+    background-color:  #02897A;
+}
+
+.btn_prising:hover {
+    background-color: white;
+    color: #02897A;
+}
+
+.prising {
+    margin-bottom: 150px;
+}
+
+.enterprise {
+    padding: 50px;
+    background: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%);
+    margin-bottom: 100px;
+}
+
+.enterprise-p{
+    margin-bottom: 32px;
+}
+
+.product-h1 {
+    margin-bottom: 56px;
+}
+
+.product-universities-p {
+    margin-bottom: 149px;
+}
+
+.question-p {
+    margin: 8px 0 50px 0;
+}
+
+.get-this {
+    background:#02897A;
+    margin-bottom: 150px;
+}
+
+.accordion-btn {
+    position: relative;
+    border: none;
+    background: none;
+}
+
+.accordion-btn:before {
+    position: absolute;
+    content: "+";
+    background: #02897A;
+    border-radius: 50%;
+    width: 25px;
+}
+
+.accordion-btn[aria-expanded="true"]:before {
+    content: "-";
+}
+
+.accordion-text {
+   margin-left: 30px;
+}
+
+.accordion {
+ margin-bottom: 150px;
+}
+
+.get-this-h2 {
+    color: white;
+    margin: 49px 0 45px 0;
+}
+
+.btn-getThis {
+    background: white;
+    padding: 5px 20px;
+    margin-bottom: 56px;
+    font-weight: 500;  
+}
+
+h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #22343D;
+}
+
