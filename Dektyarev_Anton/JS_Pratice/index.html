@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Practice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="hfix">Let's modify this block!</h1>
+      <div id="block">
+        <p id="inboxtext"></p>
+      </div>
+
+      <input
+        type="range"
+        id="bwidth"
+        min="1"
+        max="100"
+        value="100"
+        oninput="func6()"
+      />
+      <label for="bwidth">W</label>
+      <input type="text" id="tbw" value="100" />
+
+      <input
+        type="range"
+        id="bheigth"
+        min="1"
+        max="100"
+        value="100"
+        oninput="func6()"
+      />
+      <label id="bhlabel" for="bheigth">H</label>
+      <input type="text" id="tbh" value="100" />
+
+      <input
+        type="range"
+        id="brotate"
+        min="-360"
+        max="360"
+        value="0"
+        oninput="func6()"
+      />
+      <label id="brlabel" for="brotate">R</label>
+      <input type="text" id="ttbr" value="0" />
+    </header>
+
+    <main>
+      <div class="wrapper3">
+        <p><b>Непрозрачность:</b></p>
+        <input
+          type="range"
+          id="opacity"
+          min="0"
+          max="100"
+          value="100"
+          oninput="func3()"
+        />
+      </div>
+
+      <div class="wrapper0">
+        <h1>Текст в блок:</h1>
+        <p>
+          Текст в блок:
+          <input id="blocktext" type="text" oninput="func7()" value="" />
+        </p>
+        <p>
+          Размер текста:
+          <input
+            type="range"
+            id="textfontsize"
+            min="12"
+            max="20"
+            value="12"
+            oninput="func7()"
+          />
+        </p>
+        <p>
+          Жирность текста:
+          <input
+            type="range"
+            id="textfontweight"
+            min="100"
+            max="900"
+            value="400"
+            oninput="func7()"
+          />
+        </p>
+        <p>
+          Цвет текста:
+          <input
+            type="color"
+            id="textblockcolor"
+            value="#000000"
+            oninput="func7()"
+          />
+        </p>
+      </div>
+
+      <div class="wrapper1">
+        <h1>Скругление углов:</h1>
+        <div class="block1">
+          <p>
+            Верхний левый угол:
+            <input
+              type="range"
+              id="rtl"
+              min="0"
+              max="100"
+              value="0"
+              oninput="func1()"
+            />
+            <input type="text" id="ttl" value="0" disabled="disabled" />
+          </p>
+        </div>
+
+        <div class="block1">
+          <p>
+            Верхний правый угол:
+            <input
+              type="range"
+              id="rtr"
+              min="0"
+              max="100"
+              value="0"
+              oninput="func1()"
+            />
+            <input type="text" id="ttr" value="0" disabled="disabled" />
+          </p>
+        </div>
+
+        <div class="block1">
+          <p>
+            Нижний правый угол:
+            <input
+              type="range"
+              id="rbr"
+              min="0"
+              max="100"
+              value="0"
+              oninput="func1()"
+            />
+            <input type="text" id="tbr" value="0" disabled="disabled" />
+          </p>
+        </div>
+
+        <div class="block1">
+          <p>
+            Нижний левый угол:
+            <input
+              type="range"
+              id="rbl"
+              min="0"
+              max="100"
+              value="0"
+              oninput="func1()"
+            />
+            <input type="text" id="tbl" value="0" disabled="disabled" />
+          </p>
+        </div>
+      </div>
+
+      <div class="wrapper2">
+        <h1>Цвет фона:</h1>
+        <p>
+          <button class="btn">Black</button>
+          <button class="btn">White</button>
+          <button class="btn">Red</button>
+          <button class="btn">Green</button>
+          <button class="btn">Yellow</button>
+        </p>
+        <p>
+          <button class="btn">Blue</button>
+          <button class="btn">Pink</button>
+          <button class="btn">Orange</button>
+          <button class="btn">Purple</button>
+          <button class="btn">Lavender</button>
+        </p>
+      </div>
+
+      <div class="rgb-box">
+        <p>
+          Пипетка:
+          <input type="color" id="cpic" value="#000000" oninput="func2a()" />
+        </p>
+        <p>
+          Red
+          <input
+            type="range"
+            id="red"
+            min="0"
+            max="255"
+            value="0"
+            oninput="func2()"
+          />
+          <input type="text" id="rb" value="0" disabled="disabled" />
+        </p>
+        <p>
+          Green
+          <input
+            type="range"
+            id="green"
+            min="0"
+            max="255"
+            value="0"
+            oninput="func2()"
+          />
+          <input type="text" id="gb" value="0" disabled="disabled" />
+        </p>
+        <p>
+          Blue
+          <input
+            type="range"
+            id="blue"
+            min="0"
+            max="255"
+            value="0"
+            oninput="func2()"
+          />
+          <input type="text" id="bb" value="0" disabled="disabled" />
+        </p>
+      </div>
+
+      <div class="wrapper4">
+        <h1>Тень блока:</h1>
+
+        <div class="flexbox">
+          <p class="centered">
+            Cмещение по Х:
+            <input
+              type="range"
+              id="ox"
+              min="-150"
+              max="150"
+              value="0"
+              oninput="func4()"
+            />
+          </p>
+          <p class="centered">
+            Cмещение по Y:
+            <input
+              type="range"
+              id="oy"
+              min="-150"
+              max="150"
+              value="0"
+              oninput="func4()"
+            />
+          </p>
+        </div>
+
+        <div class="flexbox">
+          <p class="centered">
+            Размытие:
+            <input
+              type="range"
+              id="blurr"
+              min="0"
+              max="80"
+              value="0"
+              oninput="func4()"
+            />
+          </p>
+          <p class="centered">
+            Распространение:
+            <input
+              type="range"
+              id="spreadr"
+              min="0"
+              max="40"
+              value="0"
+              oninput="func4()"
+            />
+          </p>
+        </div>
+      </div>
+
+      <div class="wrapper5">
+        <p>Цвет тени:</p>
+        <p>
+          Пипетка:
+          <input type="color" id="scpic" value="#000000" oninput="func4a()" />
+        </p>
+        <p>
+          Red
+          <input
+            type="range"
+            id="sred"
+            min="0"
+            max="255"
+            value="0"
+            oninput="func4()"
+          />
+          <input type="text" id="srb" value="0" disabled="disabled" />
+        </p>
+        <p>
+          Green
+          <input
+            type="range"
+            id="sgreen"
+            min="0"
+            max="255"
+            value="0"
+            oninput="func4()"
+          />
+          <input type="text" id="sgb" value="0" disabled="disabled" />
+        </p>
+        <p>
+          Blue
+          <input
+            type="range"
+            id="sblue"
+            min="0"
+            max="255"
+            value="0"
+            oninput="func4()"
+          />
+          <input type="text" id="sbb" value="0" disabled="disabled" />
+        </p>
+      </div>
+
+      <div class="wrapper6">
+        <h1>Рамка:</h1>
+        <p>
+          Тип рамки:
+
+          <input
+            type="radio"
+            id="btsolid"
+            value="solid"
+            name="bordertype"
+            checked
+            oninput="func5()"
+          />
+          <label for="btsolid">Solid</label>
+
+          <input
+            type="radio"
+            id="btdashed"
+            value="dashed"
+            name="bordertype"
+            oninput="func5()"
+          />
+          <label for="btdashed">Dashed</label>
+
+          <input
+            type="radio"
+            id="btdouble"
+            value="double"
+            name="bordertype"
+            oninput="func5()"
+          />
+          <label for="btdouble">Double</label>
+
+          <input
+            type="radio"
+            id="btdotted"
+            value="dotted"
+            name="bordertype"
+            oninput="func5()"
+          />
+          <label for="btdotted">Dotted</label>
+        </p>
+
+        <p>
+          Толщина рамки:
+          <input
+            type="range"
+            id="bdepth"
+            min="0"
+            max="50"
+            value="1"
+            oninput="func5()"
+          />
+          <input
+            type="text"
+            id="bdepthinfo"
+            value="1"
+            disabled="disabled"
+            oninput="func5()"
+          />
+        </p>
+
+        <p>Цвет рамки:</p>
+        <p>
+          Пипетка:
+          <input type="color" id="bcpic" value="#000000" oninput="func5a()" />
+        </p>
+        <p>
+          Red
+          <input
+            type="range"
+            id="bred"
+            min="0"
+            max="255"
+            value="0"
+            oninput="func5()"
+          />
+          <input type="text" id="brb" value="0" disabled="disabled" />
+        </p>
+        <p>
+          Green
+          <input
+            type="range"
+            id="bgreen"
+            min="0"
+            max="255"
+            value="0"
+            oninput="func5()"
+          />
+          <input type="text" id="bgb" value="0" disabled="disabled" />
+        </p>
+        <p>
+          Blue
+          <input
+            type="range"
+            id="bblue"
+            min="0"
+            max="255"
+            value="0"
+            oninput="func5()"
+          />
+          <input type="text" id="bbb" value="0" disabled="disabled" />
+        </p>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

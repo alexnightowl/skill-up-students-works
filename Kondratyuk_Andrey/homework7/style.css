@@ -1,0 +1,50 @@
+.overfloy {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    overflow: scroll;
+}
+
+
+.overfloy::-webkit-scrollbar {
+    display: none;
+
+}
+
+.overflow-wrapper {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    opacity: x;
+}
+.block {
+        background: rgb(rgb(82, 19, 19), rgb(36, 117, 36), rgb(43, 43, 158));
+ width: 600px;
+ height: 600px;
+  opacity: 0.5;
+}
+
+.batton {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: 1px url(./icon.png) no-repeat;
+    background-size: 50px;
+    background-position: center;
+    box-shadow: 2px 10px 100px  3px rgb(0, 0, 0, 0.1)   ,  inset  2px 10px 100px  3px rgba(255, 255, 255, 0.1) ;
+    transition: 0,3s all ease-in-out;
+}
+
+.batton:hover {
+    box-shadow: 2px 10px 100px  3px rgb(0, 0, 0, 0.1)   ,  inset  2px 10px 100px  3px rgba(255, 255, 255, 0.1) ;
+}
+
+.rectangle {
+    position: static;
+width: 262px;
+height: 272px;
+left: 670px;
+top: 303px;
+
+background: #C4C4C4;
+}

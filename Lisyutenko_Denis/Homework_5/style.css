@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: #353a40;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin-top: 4%;
+  font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.link_wrapper {
+  display: flex;
+}
+
+.imput_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.search_imput {
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 7px 7px 7px 7px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background: #353a40;
+  border: 1px solid #55828f;
+  color: #55828f;
+  margin-left: 7px;
+  border-radius: 10%;
+}
+
+.container {
+  position: relative;
+  width: 98%;
+  height: 250px;
+  border: dotted grey 2px;
+}
+
+.containers {
+  position: absolute;
+  background: #fe8889;
+  width: 100px;
+  height: 100px;
+}
+
+.blue {
+  background: #7f89eb;
+  left: 75px;
+  top: 75px;
+  z-index: 1;
+}
+
+.green {
+  background: #4ced99;
+  left: 150px;
+  top: 150px;
+}
+
+.containers2 {
+  position: absolute;
+  background: #fe8889;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+
+.blue2 {
+  background: #7f89eb;
+  left: 75px;
+  top: 75px;
+}
+
+.green2 {
+  background: #4ced99;
+  left: 150px;
+  top: 150px;
+  z-index: 1;
+}
+
+.containers3 {
+  position: absolute;
+  background: #fe8889;
+  width: 100px;
+  height: 100px;
+  z-index: 3;
+}
+
+.blue3 {
+  background: #7f89eb;
+  left: 75px;
+  top: 75px;
+  z-index: 2;
+}
+
+.green3 {
+  background: #4ced99;
+  left: 150px;
+  top: 150px;
+  z-index: 1;
+}
+
+.circle {
+  position: relative;
+  border: dotted gray 2px;
+  width: 100%;
+  height: 400px;
+}
+
+.rectengular {
+  position: relative;
+  width: 150px;
+  height: 300px;
+  border: black solid 1px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dot1 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-color: red;
+  border-radius: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.dot2 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 110px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.dot3 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 210px;
+  margin-left: 35px;
+  margin-right: 35px;
+}

@@ -1,0 +1,157 @@
+* {
+  font-family: Poppins
+}
+
+body {
+  background: #1f2e35;
+}
+
+.img_size {
+  width: 50px;
+  height: 42px;
+  padding-bottom: 10px;
+}
+
+.navHover ul li:hover {
+  font-weight: bold;
+}
+
+.clientH1 h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.clients {
+  margin-bottom: 117px;
+}
+
+.cont {
+  width: 200px;
+}
+
+.formaProduct {
+  background-color: #22343D;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.iconForma {
+  margin: 32px 0;
+  margin-bottom: 10px;
+}
+
+.textDecorationForm {
+  max-width: 275px;
+}
+
+.textForEach {
+  margin-bottom: 50px;
+}
+
+.productValue {
+  margin-bottom: 100px;
+}
+
+.textForContent {
+  margin-bottom: 40px;
+}
+
+.companyJoin {
+  background-color: #22343D;
+  border: 1px solid #22343D;
+  box-sizing: border-box;
+  border-radius: 10px;
+  max-width: 968px;
+  min-height: 345px;
+}
+
+.companyJoin button {
+  width: 150px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.textInput {
+  width: 325px;
+  height: 48px;
+  border: 1px solid #BCD0E5;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.textInput:focus {
+  outline: none;
+}
+
+@media only screen and (max-width : 992px) {
+  .clientSites img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .clientSites {
+    display: flex;
+    justify-content: center;
+  }
+
+  .clientH1 h1 {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 38px;
+  }
+
+  .offersJoin {
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width : 470px) {
+  .formaProduct {
+    height: 100% !important;
+  }
+
+  .companyJoin img {
+    height: 100% !important;
+  }
+
+  .photoсorrect {
+    max-width: 280px !important;
+    max-height: 240px !important;
+  }
+}
+
+@media only screen and (min-width : 1000px) {}
+
+
+@media only screen and (max-width : 1200px) {
+  .spaceAgain {
+    margin-top: 80px !important;
+    margin-bottom: 70px !important;
+  }
+
+  .buttonHidden {
+    display: none;
+  }
+
+}
+
+@media (min-width: 250px) and (max-width: 1200px) {
+  .companyJoin {
+    text-align: center;
+  }
+
+  .companyJoin h2 {
+    min-width: 80px !important;
+  }
+
+  .workProduct img {
+    width: 100%;
+  }
+
+
+
+}

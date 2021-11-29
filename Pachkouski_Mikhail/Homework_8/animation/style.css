@@ -1,0 +1,61 @@
+body {
+  font: 1em Arial;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  background: #333;
+  margin: 30px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  animation: spin 2s linear 1s infinite alternate;
+}
+
+.square:hover {
+  animation-play-state: paused;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  width: 200px;
+  height: 30px;
+  border: 3px solid #fff;
+  background: #999;
+  overflow: hidden;
+  border-radius: 7px;
+  margin: 40px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bar {
+  width: 400px;
+  height: 30px;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.9) 5px,
+    transparent 5px,
+    transparent 10px
+  );
+  animation: slide 3s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      margin-left: -100%;
+  }
+}

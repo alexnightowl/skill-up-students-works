@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  border: 10px solid goldenrod;
+}
+
+.flexbox {
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  align-content: center;
+  font-size: 100px;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.flexbox_one {
+  background: #1abc9c;
+}
+
+.flexbox_two {
+  background: #3498db;
+  order: 2;
+}
+
+.flexbox_three {
+  background: #9b59b6;
+  order: 1;
+}
+
+.flexbox_four {
+  background: #34495e;
+}
+
+.flexbox_five {
+  background: #f1c40f;
+}
+
+.flexbox_six {
+  background: #e67e22;
+  order: -1;
+}
+
+.flexbox_seven {
+  background: #e74c3c;
+  order: -2;
+}
+
+.flexbox_eight {
+  background: #bdc3c7;
+}
+
+.flexbox_nine {
+  background: #2ecc71;
+}
+
+.flexbox_ten {
+  background: #16a085;
+}

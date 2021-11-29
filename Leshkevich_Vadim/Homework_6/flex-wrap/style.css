@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 10px solid goldenrod;
+  min-height: 100vh;
+}
+
+.flexbox {
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  padding: 10px;
+  width: calc(100% / 3);
+}
+
+.flexbox_one {
+  background: #1abc9c;
+}
+
+.flexbox_two {
+  background: #3498db;
+}
+
+.flexbox_three {
+  background: #9b59b6;
+}
+
+.flexbox_four {
+  background: #34495e;
+}
+
+.flexbox_five {
+  background: #f1c40f;
+}
+
+.flexbox_six {
+  background: #e67e22;
+}
+
+.flexbox_seven {
+  background: #e74c3c;
+}
+
+.flexbox_eight {
+  background: #bdc3c7;
+}
+
+.flexbox_nine {
+  background: #2ecc71;
+}
+
+.flexbox_ten {
+  background: #16a085;
+}

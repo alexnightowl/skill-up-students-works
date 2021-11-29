@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.skeleton {
+    background: radial-gradient(white, #91f142);
+    padding: 20px; 
+    text-align: justify; 
+}
+
+h1 {
+    color: #964b00;
+    margin-bottom: 40px;
+    text-align: center; 
+}
+
+p {
+    padding: 5px 20px;
+    color: #8d4e24;
+    line-height: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.block {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: #8d4e24;
+}
+
+a:hover {
+    background: linear-gradient( 90deg, rgb(106, 230, 247), #8af532);
+    transition: all 1.5s;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer p {
+    text-align: center;
+}

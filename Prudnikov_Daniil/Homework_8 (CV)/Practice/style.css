@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+}
+
+.html_css_cont {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn {
+    font-size: 30px;
+    padding: 25px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background: white;
+    color: rgb(61, 101, 139);
+    border: 0;
+    border: 2px solid rgb(61, 101, 139);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(61, 101, 139);
+    color: white;
+}

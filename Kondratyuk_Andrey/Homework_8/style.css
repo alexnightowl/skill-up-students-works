@@ -1,0 +1,81 @@
+.border_0 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+
+.sus_admin {
+    position: absolute;
+    border: 1px solid red;
+    width: auto;
+    height: 45.62px;
+    justify-content: space-between;
+}
+.menu {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    font-size:16px;
+}
+.menu li {
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+/* .border_1 {
+width: 555px;
+} */
+
+.text {
+    border: solid 1px blue;
+    width: 100%;
+    height: 682px;
+
+
+}
+.img_figma {
+position: absolute;
+width: auto;
+height: auto;
+left: 745.76px;
+top: 179.11px;
+} 
+.text_1 {
+    position: absolute;
+    width: 555px;
+    height: 140px;
+    left: 157px;
+    top: 201px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+}  
+.text_2 _{
+    position: absolute;
+width: 555px;
+height: 60px;
+left: 150px;
+top: 366.77px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+}
+
+
+/* .title_inform {
+    width: 200px;
+    height: 1140px;
+    border: 1px solid green;
+    justify-content: space-between;
+} */

@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(238, 238, 238);
+  text-transform: uppercase;
+  font: 16px Arial;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  float: left;
+  margin: 40px;
+  background: #999;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+
+  border-radius: 5px;
+  box-shadow: 0 8px 15px rgba(0,0,0, 0.6);
+}
+
+.container::after {
+  content: '';
+  width: 400px;
+  height: 300px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.6s;
+
+  background: radial-gradient(transparent , rgba(0,0,0, 0.6) );
+}
+
+.container:hover::after {
+  opacity: 0;
+}
