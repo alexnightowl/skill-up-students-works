@@ -1,0 +1,58 @@
+.flex_ordering {
+    display: flex;
+}
+
+.flex {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 100px;
+    text-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    width: 10%;
+}
+
+.flex1 {
+    background:#1abc9c ;
+}
+
+.blue {
+    background:#3498db ;
+}
+
+.purple {
+    background: #9b59b6;
+    order: 1;
+}
+
+.flex4 {
+    background: #34495e;
+}
+
+.yellow {
+    background: #f1c40f;
+    order: -1;
+}
+
+.orange {
+    background: #e67e22;
+}
+
+.red {
+    background: #e74c3c;
+    order: 1;
+}
+
+.gray {
+    background: #bdc3c7;
+}
+
+.light_green {
+    background: #2ecc71;
+    order: -1;
+}
+
+.green {
+    background: #16a085;
+}
+
