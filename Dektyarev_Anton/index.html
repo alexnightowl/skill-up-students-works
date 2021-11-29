@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ru">
 
 <head>
     <meta charset="UTF-8">
@@ -12,23 +12,26 @@
 <body>
 
     <header>
-        <img width="190px" height="190px" src="index.files/photo.gif" alt="myphoto">
+        <div class="myphoto-box"><a href="index.html"><img src="index.files/photo.gif" alt="myphoto"></a></div>
         <p>Антон Дектярёв</p>
         <p>Front end Developer </p>
-        <a href="allhomeworks.html"><img width="50px" height="40px" src="index.files/book.png" alt="myhomeworks"></a>
-        <p>All my homeworks (Link)</p>
+        <a class="allmyhwlink" href="allhomeworks.html"><img class="works-img" width="50px" height="40px" src="index.files/book.png"
+                alt="myhomeworks"></a>
+        <p class="allmyhwtext">All my homeworks (Link)</p>
     </header>
 
- <!-- mobile block -->
+    <!-- mobile block -->
     <div class="header-mobile">
-        <img height="100%" src="index.files/photo.gif" alt="myphoto">
+        <div class="myphoto-box-mobile"><a href="index.html"><img height="100%" src="index.files/photo.gif"
+                    alt="myphoto"></a></div>
         <p>Антон</p>
         <p>Дектярёв</p>
         <p>Front end Developer</p>
-        <a href="allhomeworks.html"><img width="40px" height="30px" src="index.files/book.png" alt="myhomeworks"></a>
-        <p>All my homeworks (Link)</p>
+        <a class="allmyhwlink" href="allhomeworks.html"><img class="works-img" width="40px" height="30px" src="index.files/book.png"
+                alt="myhomeworks"></a>
+        <p class="allmyhwtext">All my homeworks (Link)</p>
     </div>
- <!-- mobile block -->
+    <!-- mobile block -->
 
     <div class="nav-wrapper">
 
@@ -36,27 +39,88 @@
 
             <div class="navbox">
                 <img width="25px" height="20px" src="index.files/mail.svg" alt="mymail">
-                <p>deguz@mail.ru</p>
+                <p><a href="mailto:deguz@mail.ru">deguz@mail.ru</a></p>
             </div>
 
             <div class="navbox">
                 <img width="25px" height="30px" src="index.files/phone.svg" alt="myphone">
-                <p>+375 (29) 213-07-68</p>
+                <p class="phonenumbertext"><a href="tel: +375292130768">+375 (29) 213-07-68</a></p>
             </div>
 
             <div class="navbox">
                 <img width="25px" height="20px" src="index.files/loc.svg" alt="mylocation">
-                <p>Витебск</p>
+                <p class="locationtext"> <a href="https://maps.google.com?saddr=Current+Location&daddr=55.180819900433, 30.18773639963402">Витебск</a></p>
             </div>
 
             <div class="navbox">
                 <img width="25px" height="20px" src="index.files/link.svg" alt="instagram">
-                <p>@deguz.belarus</p>
+                <p><a href="https://www.instagram.com/deguz.belarus">@deguz.belarus</a></p>
             </div>
 
         </nav>
 
     </div>
+
+    <!--menu-->
+    <div class="menu">
+
+        <ul>
+
+            <li id="menuspreader">
+                <p class="menutext">Добро пожаловать!</p>
+                <div class="mobile-menu">
+                
+                </div>
+            </li>
+            
+            <li>
+                <div class="menu-button">
+                    <ul>
+                        <li>Список 1</li>
+                        <li><a href="#">Элемент 1</a></li>
+                        <li><a href="#">Элемент 2</a></li>
+                        <li><a href="#">Элемент 3</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li>
+                <div class="menu-button">
+                    <ul>
+                        <li>Список 2</li>
+                        <li><a href="#">Элемент 1</a></li>
+                        <li><a href="#">Элемент 2</a></li>
+                        <li><a href="#">Элемент 3</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li>
+                <div class="menu-button">
+                    <ul>
+                        <li>Список 3</li>
+                        <li><a href="#">Элемент 1</a></li>
+                        <li><a href="#">Элемент 2</a></li>
+                        <li><a href="#">Элемент 3</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li>
+                <div class="menu-button">
+                    <ul>
+                        <li>Список 4</li>
+                        <li><a href="#">Элемент 1</a></li>
+                        <li><a href="#">Элемент 2</a></li>
+                        <li><a href="#">Элемент 3</a></li>
+                    </ul>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+    <!--menu-->
 
     <main>
 
@@ -67,7 +131,7 @@
                     <p>Краткая информация</p>
                 </div>
                 <div class="textblock">
-                    <p>Ляляляляляляллллллллллллллллллллллллллллллллллллллллл</p>
+                    <p>***</p>
                 </div>
             </div>
 
@@ -76,7 +140,7 @@
                     <p>Опыт работы</p>
                 </div>
                 <div class="textblock">
-                    <p>Ляляляляляляллллллллллллллллллллллллллллллллллллллллл</p>
+                    <p>***</p>
                 </div>
             </div>
 
@@ -85,7 +149,12 @@
                     <p>Образование</p>
                 </div>
                 <div class="textblock">
-                    <p>Ляляляляляляллллллллллллллллллллллллллллллллллллллллл</p>
+                    <p>• Skill Up ("Front end De&shy;ve&shy;lo&shy;per"), 2021-2022</p>
+                    <p>• Fit&shy;ness aca&shy;de&shy;my RB ("Gym inst&shy;ruc&shy;tor"), 2020-2021</p>
+                    <p>• Vi&shy;tebsk Sta&shy;te Tech&shy;no&shy;lo&shy;gi&shy;cal Uni&shy;ver&shy;si&shy;ty
+                        ("Eco&shy;no&shy;mist"), 2004-2008</p>
+                    <p>• Vi&shy;tebsk Sta&shy;te Po&shy;ly&shy;tech&shy;ni&shy;cal Col&shy;le&shy;ge
+                        ("Eco&shy;no&shy;mist"), 2001-2004</p>
                 </div>
             </div>
 
@@ -94,7 +163,9 @@
                     <p>Сертификаты</p>
                 </div>
                 <div class="textblock">
-                    <p>Ляляляляляляллллллллллллллллллллллллллллллллллллллллл</p>
+                    <p>• Skill Up - "Front end De&shy;ve&shy;lop&shy;per", Feb 2022</p>
+                    <p>• Fit&shy;ness
+                        Aca&shy;de&shy;my RB - "Gym inst&shy;ruc&shy;tor", Jan 2021</p>
                 </div>
             </div>
 
@@ -107,7 +178,22 @@
                     <p>Навыки</p>
                 </div>
                 <div class="textblock">
-                    <p>Ляляляляляляллллллллллллллллллллллллллллллллллллллллл</p>
+                    <p>• HTML5</p>
+                    <p>• CSS3</p>
+                    <p>• Java&shy;Script (ES6)</p>
+                    <p>• Git</p>
+                    <p>• React</p>
+                </div>
+            </div>
+
+            <div class="info-block2 myworksblock">
+                <div class="upper_block"><img width="25px" height="25px" src="index.files/icon.png" alt="icon">
+                    <p>Примеры работ</p>
+                    <button id="workprev">Prev</button>
+                    <button id="worknext">Next</button>
+                </div>
+                <div class="textblock myworks">
+                <a id="workimagelink" href="#"><img id="workimage" width="288px" height="148px" src="" alt="work example"></a>
                 </div>
             </div>
 
@@ -116,7 +202,8 @@
                     <p>Языки</p>
                 </div>
                 <div class="textblock">
-                    <p>Русский (родной)<br>Английский (B1)</p>
+                    <p>• Русс&shy;кий (род&shy;ной)</p>
+                    <p>• Анг&shy;лийс&shy;кий (B1)</p>
                 </div>
             </div>
 
@@ -125,7 +212,9 @@
                     <p>Сферы компетенции</p>
                 </div>
                 <div class="textblock">
-                    <p>Ляляляляляляллллллллллллллллллллллллллллллллллллллллл</p>
+                    <p>• Front end De&shy;ve&shy;lop&shy;ment</p>
+                    <p>• Фит&shy;нес и бо&shy;ди&shy;бил&shy;динг</p>
+                    <p>• Ком&shy;мер&shy;чес&shy;кая дея&shy;тель&shy;ность</p>
                 </div>
             </div>
 
@@ -134,7 +223,7 @@
                     <p>Обо мне</p>
                 </div>
                 <div class="textblock">
-                    <p>Ляляляляляляллллллллллллллллллллллллллллллллллллллллл</p>
+                    <p>***</p>
                 </div>
 
         </aside>
@@ -148,6 +237,8 @@
         </footer>
 
     </div>
+
+<script src="main.js"></script>
 
 </body>
 
