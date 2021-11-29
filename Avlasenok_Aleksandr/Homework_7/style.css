@@ -3,12 +3,15 @@ body{
    position: relative;
    width: 1440px;
    margin: 0;
+   background-color: #F6F6F6;
 }
 .navigater{
    display: flex;
    justify-content: space-between;
+   position: relative;
+   align-items: center;
    margin:50px 150px 45px;
-   width: 1440px;
+   width: 100%;
 }
 .logotip{
    position: relative;
@@ -90,14 +93,17 @@ a:hover{
    margin-right: 30px;
 }
 .block1{
-   position: absolute;
+   position: relative;
    display: flex;
    flex-direction: column;
    margin-top: 103px;
+   width: 100%;
+   background-color: #F6F6F6;
 }
 .pic1{
    position: absolute;
    margin-left: 895px;
+   margin-bottom: 97px;
 }
 .text1{
    margin: 0 0 20px 150px;
@@ -163,7 +169,7 @@ h3 span{
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-   margin: 664px 0 0 150px;
+   margin: 207px 0 0 150px;
    background: #FFFFFF;
    border-radius: 10px;
    box-shadow: 0 50px 80px 0 rgb(20, 19, 19, 0.35)
@@ -219,14 +225,20 @@ h4 span{
    color: #0B132A;
 }
 .block2{
-   position: absolute;
-   margin: 960px 150px 0 185px;
+   position: relative;
    display: flex;
    flex-direction: row-reverse;
+   justify-content: space-between;
+   width: 100%;
+   background-color: #F6F6F6;
+   margin-top: 500px;
+}
+.illustr2 {
+   position: relative;
+   margin-left: 184px;
 }
 .provide{
    position: relative;
-   margin-left: 169px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -235,6 +247,9 @@ h4 span{
    position: relative;
    width: 383px;
    height: 100px;
+   margin-bottom: 30px;
+}
+h5{
    font-family:"Rubik";
    font-style: normal;
    font-weight: 500;
@@ -246,6 +261,9 @@ h4 span{
    position: relative;
    width: 427px;
    height: 60px;
+   margin-bottom: 50px;
+}
+h6{
    font-family: "Rubik";
    font-style: normal;
    font-weight: normal;
@@ -255,15 +273,21 @@ h4 span{
 }
 .list{
    position: relative;
-   font-family: Rubik;
+   font-family: "Rubik";
    font-style: normal;
    font-weight: normal;
    font-size: 14px;
    line-height: 30px;
    color: #4F5665;
 }
-ul{
-   list-style-image: url(./image/galka.svg);
+.marker{
+	list-style: none;
+	padding: 0;
+	margin: 20px 0;
+}
+.marker li{
+	background: url("./image/galka.svg") no-repeat left center;
+	padding-left: 40px;
 }
 li{
    list-style-type: none;
@@ -271,5 +295,105 @@ li{
 }
 .plan{
    position: absolute;
-   margin-top: 1636px;
+   margin-top: 126px;
+   width: 100%;
+}
+.title3{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-left: 527px;
+   width: 383px;
+   height: 50px;
+}
+h7{
+   font-family: "Rubik";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 35px;
+   line-height: 50px;
+   text-align: center;
+   color: #0B132A;
+}
+.title4{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-left: 442px;
+   margin-top: 20px;
+   margin-bottom: 60px;
+   width: 555px;
+   height: 60px;
+}
+h8{
+   font-family: "Rubik";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 30px;
+   text-align: center;
+   color: #4F5665;
+}
+.wrapper2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-left: 174px;
+}
+.free-plan{
+   display: flex;
+   flex-direction: column;
+   width: 330px;
+   height: 760px;
+   background-color: #fff;
+   border: 2px solid #DDDDDD;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+.free-plan:hover{
+   border: 3px solid blue;
+}
+.standard-plan{
+   display: flex;
+   flex-direction: column;
+   width: 330px;
+   height: 760px;
+   background-color: #fff;
+   border: 2px solid #DDDDDD;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+.standard-plan:hover{
+   border: 3px solid blue;
+}
+.premium-plan{
+   display: flex;
+   flex-direction: column;
+   width: 330px;
+   height: 760px;
+   background-color: #fff;
+   border: 2px solid #DDDDDD;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+.premium-plan:hover{
+   border: 3px solid blue;
+}
+.cake{
+   position: absolute;
+   padding: 79px 92px 515px;
+}
+h9{
+   position: relative;
+   margin-top: 275px;
+   text-align: center;
+
+   font-family: "Rubik";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 30px;
+   color: #0B132A;
 }
