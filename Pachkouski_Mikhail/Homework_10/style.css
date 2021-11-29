@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Yanone+Kaffeesatz:wght@400;600&display=swap");
+
+body {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  background-color: rgb(126, 223, 207);
+  color: rgb(27, 119, 91);
+  font-size: 20px;
+}
+
+#block {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(230, 230, 169);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 100px 100px 25px 25px;
+}
+
+.block__wrap {
+  background-color: rgb(126, 223, 207);
+  width: 75%;
+  position: fixed;
+  bottom: 0;
+}
+
+#block__text {
+  width: 75%;
+  height: 75%;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.3em;
+  border: none;
+  outline: none;
+  resize: none;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section__title {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.subsection__title {
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.block1__range__tl,
+.block1__range__tr,
+.block1__range__br,
+.block1__range__bl,
+.block1__color,
+.block1__color__red,
+.block1__color__green,
+.block1__color__blue,
+.block1__color__trans,
+.block1__shadow,
+.block1__shadow__rad,
+.block1__shadow__x,
+.block1__shadow__y,
+.block1__border,
+.block1__border__color,
+.block1__border__width,
+.block1__font,
+.block1__font__color,
+.block1__font__size {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block1__range__wrap,
+.block1__range__top,
+.block1__range__bottom,
+.block1__color__wrap,
+.block1__shadow__wrap,
+.block1__border__wrap,
+.block1__font__wrap,
+.block1__font__border__wrap {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.block1__shadow__rad,
+.block1__shadow__x,
+.block1__shadow__y {
+    width: 200px;
+}
+
+.block1__range__intext {
+  margin-top: 10px;
+  width: 70px;
+  text-align: center;
+}
+
+.block1__range__inrange {
+  width: 100px;
+}
+
+.block1__color__left,
+.block1__color__right {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.block1__font {
+  margin-bottom: 250px;
+}

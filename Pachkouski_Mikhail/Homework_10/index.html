@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Homework_10</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="block1">
+        <p class="title">Управление блоком</p>
+        <p class="section__title">Углы</p>
+        <div class="block1__range__wrap">
+          <div class="block1__range__top">
+            <div class="block1__range__tl">
+              <p class="subsection__title">Верхний левый угол:</p>
+              <input
+                type="range"
+                id="rtl"
+                min="0"
+                max="100"
+                value="100"
+                oninput="fun1()"
+                class="block1__range__inrange"
+              />
+              <input
+                type="text"
+                id="ttl"
+                value="100"
+                class="block1__range__intext"
+              />
+            </div>
+            <div class="block1__range__tr">
+              <p class="subsection__title">Верхний правый угол:</p>
+              <input
+                type="range"
+                id="rtr"
+                min="0"
+                max="100"
+                value="100"
+                oninput="fun1()"
+                class="block1__range__inrange"
+              />
+              <input
+                type="text"
+                id="ttr"
+                value="100"
+                class="block1__range__intext"
+              />
+            </div>
+          </div>
+          <div class="block1__range__bottom">
+            <div class="block1__range__br">
+              <p class="subsection__title">Нижний правый угол:</p>
+              <input
+                type="range"
+                id="rbr"
+                min="0"
+                max="100"
+                value="25"
+                oninput="fun1()"
+                class="block1__range__inrange"
+              />
+              <input
+                type="text"
+                id="tbr"
+                value="25"
+                class="block1__range__intext"
+              />
+            </div>
+            <div class="block1__range__bl">
+              <p class="subsection__title">Нижний левый угол:</p>
+              <input
+                type="range"
+                id="rbl"
+                min="0"
+                max="100"
+                value="25"
+                oninput="fun1()"
+                class="block1__range__inrange"
+              />
+              <input
+                type="text"
+                id="tbl"
+                value="25"
+                class="block1__range__intext"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="block1__color">
+          <p class="section__title">Цвет блока</p>
+          <div class="block1__color__wrap">
+            <div class="block1__color__left">
+              <div class="block1__color__red">
+                <p class="subsection__title">Красный</p>
+                <input
+                  type="range"
+                  id="col__red"
+                  min="0"
+                  max="255"
+                  value="255"
+                  oninput="fun2()"
+                  class="block1__range__inrange"
+                />
+                <input
+                  type="text"
+                  id="t__col__red"
+                  value="255"
+                  class="block1__range__intext"
+                />
+              </div>
+              <div class="block1__color__green">
+                <p class="subsection__title">Зелёный</p>
+                <input
+                  type="range"
+                  id="col__green"
+                  min="0"
+                  max="255"
+                  value="165"
+                  oninput="fun2()"
+                  class="block1__range__inrange"
+                />
+                <input
+                  type="text"
+                  id="t__col__green"
+                  value="165"
+                  class="block1__range__intext"
+                />
+              </div>
+            </div>
+            <div class="block1__color__right">
+              <div class="block1__color__blue">
+                <p class="subsection__title">Синий</p>
+                <input
+                  type="range"
+                  id="col__blue"
+                  min="0"
+                  max="255"
+                  value="45"
+                  oninput="fun2()"
+                  class="block1__range__inrange"
+                />
+                <input
+                  type="text"
+                  id="t__col__blue"
+                  value="45"
+                  class="block1__range__intext"
+                />
+              </div>
+              <div class="block1__color__trans">
+                <p class="subsection__title">Прозрачность</p>
+                <input
+                  type="range"
+                  id="rtrans"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value="1"
+                  oninput="fun2()"
+                  class="block1__range__inrange"
+                />
+                <input
+                  type="text"
+                  id="ttrans"
+                  value="1"
+                  class="block1__range__intext"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block1__shadow">
+          <p class="section__title">Тень</p>
+          <div class="block1__shadow__wrap">
+            <div class="block1__shadow__x">
+              <p class="subsection__title">Смещение по X</p>
+              <input
+                type="range"
+                id="sx"
+                min="-30"
+                max="30"
+                value="0"
+                oninput="fun3()"
+                class="block1__range__inrange"
+              />
+              <input
+                type="text"
+                id="tsx"
+                value="0"
+                class="block1__range__intext"
+              />
+            </div>
+            <div class="block1__shadow__y">
+              <p class="subsection__title">Смещение по Y</p>
+              <input
+                type="range"
+                id="sy"
+                min="-30"
+                max="30"
+                value="0"
+                oninput="fun3()"
+                class="block1__range__inrange"
+              />
+              <input
+                type="text"
+                id="tsy"
+                value="0"
+                class="block1__range__intext"
+              />
+            </div>
+            <div class="block1__shadow__rad">
+              <p class="subsection__title">Радиус размытия</p>
+              <input
+                type="range"
+                id="srad"
+                min="0"
+                max="30"
+                value="10"
+                oninput="fun3()"
+                class="block1__range__inrange"
+              />
+              <input
+                type="text"
+                id="tsrad"
+                value="0"
+                class="block1__range__intext"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="block1__font__border__wrap">
+          <div class="block1__border">
+            <p class="section__title">Рамка</p>
+            <div class="block1__border__wrap">
+              <div class="block1__border__color">
+                <p class="subsection__title">Цвет</p>
+                <input
+                  type="range"
+                  id="borcolr"
+                  min="0"
+                  max="255"
+                  value="0"
+                  oninput="fun4()"
+                  class="block1__range__inrange"
+                />
+                <input
+                  type="range"
+                  id="borcolg"
+                  min="0"
+                  max="255"
+                  value="0"
+                  oninput="fun4()"
+                  class="block1__range__inrange"
+                />
+                <input
+                  type="range"
+                  id="borcolb"
+                  min="0"
+                  max="255"
+                  value="0"
+                  oninput="fun4()"
+                  class="block1__range__inrange"
+                />
+                <!-- <input type="text" id="tborcol" value="0" class="block1__range__intext"/> -->
+              </div>
+              <div class="block1__border__width">
+                <p class="subsection__title">Толщина</p>
+                <input
+                  type="range"
+                  id="borw"
+                  min="0"
+                  max="10"
+                  value="0"
+                  oninput="fun4()"
+                  class="block1__range__inrange"
+                />
+                <input
+                  type="text"
+                  id="tborw"
+                  value="0"
+                  class="block1__range__intext"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="block1__font">
+            <p class="section__title">Шрифт</p>
+            <div class="block1__font__wrap">
+              <div class="block1__font__color">
+                <p class="subsection__title">Цвет</p>
+                <input
+                  type="range"
+                  id="fontcolr"
+                  min="0"
+                  max="255"
+                  value="0"
+                  oninput="fun5()"
+                  class="block1__range__inrange"
+                />
+                <input
+                  type="range"
+                  id="fontcolg"
+                  min="0"
+                  max="255"
+                  value="0"
+                  oninput="fun5()"
+                  class="block1__range__inrange"
+                />
+                <input
+                  type="range"
+                  id="fontcolb"
+                  min="0"
+                  max="255"
+                  value="0"
+                  oninput="fun5()"
+                  class="block1__range__inrange"
+                />
+              </div>
+              <div class="block1__font__size">
+                <p class="subsection__title">Размер</p>
+                <input
+                  type="range"
+                  id="fontsize"
+                  min="10"
+                  max="32"
+                  value="0"
+                  oninput="fun5()"
+                  class="block1__range__inrange"
+                />
+                <input
+                  type="text"
+                  id="tfontsize"
+                  value="10"
+                  class="block1__range__intext"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block__wrap">
+        <div id="block">
+          <textarea id="block__text">Change me!</textarea>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
