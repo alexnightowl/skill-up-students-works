@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  background:
+radial-gradient(circle at 50% 59%, #D2CAAB 3%, #364E27 4%, #364E27 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 50px 0,
+radial-gradient(circle at 50% 41%, #364E27 3%, #D2CAAB 4%, #D2CAAB 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 50px 0,
+radial-gradient(circle at 50% 59%, #D2CAAB 3%, #364E27 4%, #364E27 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 0 50px,
+radial-gradient(circle at 50% 41%, #364E27 3%, #D2CAAB 4%, #D2CAAB 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 0 50px,
+radial-gradient(circle at 100% 50%, #D2CAAB 16%, rgba(210,202,171,0) 17%),
+radial-gradient(circle at 0% 50%, #364E27 16%, rgba(54,78,39,0) 17%),
+radial-gradient(circle at 100% 50%, #D2CAAB 16%, rgba(210,202,171,0) 17%) 50px 50px,
+radial-gradient(circle at 0% 50%, #364E27 16%, rgba(54,78,39,0) 17%) 50px 50px;
+background-color:#63773F;
+background-size:100px 100px;
+}
+
+.d21 {
+  width: 100px; 
+  height: 50px;
+  background: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px 2px 50px 2px;
+  border-radius: 50%;
+  position: relative;
+  }
+  .d21:before, 
+  .d21:after {
+  content: "";
+  width: 12px; 
+  height: 12px;
+  position: absolute; 
+  top: 50%;
+  border-radius: 50%;
+  }
+  .d21:before {
+  left: 0;
+  background: url("./images/bg.jpg") white;
+  border: 19px solid black;
+  }
+  .d21:after {
+  left: 50%;
+  background: black;
+  border: 19px solid white;
+  }
+
+  a {
+    display: block;
+    width: 200px; 
+    height: 200px;
+  }
+
+  .p {
+    margin: 0 auto;
+    margin-top: 200px;
+  }

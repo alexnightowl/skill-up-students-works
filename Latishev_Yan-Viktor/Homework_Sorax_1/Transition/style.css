@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(238, 238, 238);
+  text-transform: uppercase;
+  font: 16px Arial;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 30px;
+  width: 50px;
+  opacity: 50%;
+  transition: opacity 300ms ease-in-out ;
+}
+
+.nav:hover {
+  opacity: 100% ;
+}
+
+.nav li {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  transition: width 200ms ease-in-out, height 200ms ease-in-out 200ms ;
+}
+
+.nav li:hover {
+  width: 200px;
+  height: 175px;
+}
+
+.nav li a {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  background: #bbb;
+  margin: 1px;
+  color: white;
+  padding-left: 15px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.nav li a:hover {
+  background: #2cf5ff;
+}
+
+.nav li a:first-child {
+  font-size: 17px;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  text-indent: 36px;
+}
+
+.nav li a:first-child::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 9px;
+  left: 9px;
+}
+
+.main-menu a:first-child::before {
+  background: url(home.png) center no-repeat;
+}
+
+.settings a:first-child::before {
+  background: url(settings.png) center no-repeat;
+}
+
+.link a:first-child::before {
+  background: url(link.png) center no-repeat;
+}
+
+.search a:first-child::before {
+  background: url(search.png) center no-repeat;
+}

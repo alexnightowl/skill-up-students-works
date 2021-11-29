@@ -1,0 +1,34 @@
+body {
+    padding: 50px;
+    background: linear-gradient(to right, #b66d0f, #ebb507, #c8dd07);
+}
+
+h1 {
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 60px;
+    text-shadow: 4px 4px 0 rgb(196, 233, 30);
+    color: rgb(7, 7, 7);
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.circle {
+    margin: auto;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 1px dotted #000;
+    text-align: center;
+    font: 80px bold;
+    font-family: 'Grechen Fuemen', cursive;
+    margin-bottom: 20px;
+  }

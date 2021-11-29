@@ -1,0 +1,293 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    padding: 8px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+#wrapper {
+    width: 650px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-name: rotation, manifestation-translation;
+    animation-duration: 140s, 3s;
+    animation-iteration-count: infinite, 1;
+    animation-timing-function: linear, linear;
+    animation-direction: reverse, normal;
+    animation-delay: 3s, 0s;
+}
+
+.round-wrapper {
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.mainlogo-wrapper {
+    background: #000;
+    border: 1px solid wheat;
+    animation-name: shawow-glow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.firstlogo-wrapper {
+    position: absolute;
+    top: 0px;
+    background: green;
+    box-shadow: 0px 0px 25px 0px green;
+    transition: 1s;
+}
+
+.firstlogo-wrapper:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 40px 1px rgb(226, 68, 155);
+}
+
+.secondlogo-wrapper {
+    position: absolute;
+    bottom: 0px;
+    background: blue;
+    box-shadow: 0px 0px 25px 0px blue;
+    transition: 1s;
+}
+
+.secondlogo-wrapper:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 40px 1px rgb(226, 68, 155);
+}
+
+.thirdlogo-wrapper {
+    position: absolute;
+    right: 0px;
+    background: yellow;
+    box-shadow: 0px 0px 25px 0px yellow;
+    transition: 1s;
+}
+
+.thirdlogo-wrapper:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 40px 1px rgb(226, 68, 155);
+}
+
+.fourthlogo-wrapper {
+    position: absolute;
+    left: 0px;
+    background: cadetblue;
+    box-shadow: 0px 0px 25px 0px cadetblue;
+    transition: 1s;
+}
+
+.fourthlogo-wrapper:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 40px 1px rgb(226, 68, 155);
+}
+
+.star {
+    position: absolute;
+    border-radius: 50%;
+    z-index: -2;
+}
+
+.star-1 {
+    width: 2px;
+    height: 2px;
+    top: calc(0px + 15vh);
+    left: calc(0px + 5vw);
+    background: green; 
+    animation-name: star-shawow-glow;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.star-2 {
+    width: 2px;
+    height: 2px;
+    top: calc(0px + 30vh);
+    left: calc(0px + 70vw);
+    background: red; 
+    animation-name: star-shawow-glow;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.star-3 {
+    width: 2px;
+    height: 2px;
+    top: calc(0px + 40vh);
+    left: calc(0px + 39vw);
+    background: green; 
+    animation-name: star-shawow-glow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.star-4 {
+    width: 2px;
+    height: 2px;
+    top: calc(0px + 70vh);
+    left: calc(0px + 20vw);
+    background: yellowgreen; 
+    animation-name: star-shawow-glow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.star-5 {
+    width: 2px;
+    height: 2px;
+    top: calc(0px + 85vh);
+    left: calc(0px + 53vw);
+    background: blueviolet; 
+    animation-name: star-shawow-glow;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.star-6 {
+    width: 2px;
+    height: 2px;
+    top: calc(0px + 65vh);
+    left: calc(0px + 83vw);
+    background: green; 
+    animation-name: star-shawow-glow;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.star-7 {
+    width: 2px;
+    height: 2px;
+    top: calc(0px + 10vh);
+    left: calc(0px + 45vw);
+    background: yellowgreen; 
+    animation-name: star-shawow-glow;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.star-8 {
+    width: 2px;
+    height: 2px;
+    top: calc(0px + 5vh);
+    left: calc(0px + 88vw);
+    background: rebeccapurple; 
+    animation-name: star-shawow-glow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.star-9 {
+    width: 2px;
+    height: 2px;
+    top: calc(0px + 40vh);
+    left: calc(0px + 18vw);
+    background: red; 
+    animation-name: star-shawow-glow;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.star-10 {
+    width: 2px;
+    height: 2px;
+    top: calc(0px + 90vh);
+    left: calc(0px + 88vw);
+    background: greenyellow; 
+    animation-name: star-shawow-glow;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/*animations*/
+@keyframes rotation {
+    0% {
+    transform: rotate(0deg);    
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+@keyframes manifestation-translation {
+    0% {
+    opacity: 0;
+    transform: translateY(-80px);
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0px);
+    }
+}
+
+@keyframes shawow-glow {
+    0% {
+    box-shadow: 0px 0px 5px 0px #000;
+    }
+    50% {
+    box-shadow: 0px 0px 40px 10px #ffd700;
+    }
+    100% {
+    box-shadow: 0px 0px 5px 0px #000;
+    }
+}
+
+@keyframes star-shawow-glow {
+    0% {
+    box-shadow: 0px 0px 1px 0px #ffd700;
+    }
+    50% {
+    box-shadow: 0px 0px 3px 1px #ffd700;
+    }
+    100% {
+    box-shadow: 0px 0px 1px 0px #ffd700;
+    }
+}
+/*animations*/
+
+/*adaptation*/
+@media screen and (max-width: 1080px) and (orientation: landscape) {
+    body {
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+} 
+
+ @media screen and (max-width: 768px) and (orientation: landscape) {
+    body {
+        padding-left: 175px;
+        padding-right: 175px;
+    }
+} 
+
+@media screen and (max-width: 568px) and (orientation: landscape) {
+    body {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+} 
+/*adaptation*/
