@@ -1,3 +1,8 @@
+:root {
+    --footterjumpvalue: ;
+    --navjumpvalue: ;
+}
+
 body {
     padding: 0px;
     margin: 0px;
@@ -28,18 +33,26 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+    opacity: 0;
+    animation-name: header-manifestation;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .myphoto-box {
     width: 180px;
     height: 180px;
     position: relative;
+    transform: rotate(180deg);
     border-radius: 50%;
     overflow: hidden;
-    animation-name: shawow-glow;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
+    animation-name: shawow-glow, myphoto-rotation;
+    animation-duration: 6s, 1s;
+    animation-delay: 0s, 3.5s;
+    animation-iteration-count: infinite, 1;
     animation-timing-function: ease-out;
+    animation-fill-mode: none, forwards;
 }
 
 .myphoto-box img {
@@ -50,7 +63,7 @@ header {
 }
 
 .myphoto-box img:hover {
-    opacity: 0.9;
+    transform: rotate(-10deg);
 }
 
 header p:nth-child(2) {
@@ -118,6 +131,11 @@ header p:nth-child(5) {
 /* mobile block */
 .header-mobile {
     display: none;
+    opacity: 0;
+    animation-name: header-manifestation;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .myphoto-box-mobile {
@@ -125,6 +143,11 @@ header p:nth-child(5) {
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
+    animation-name: shawow-glow;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
 }
 
 .myphoto-box-mobile img {
@@ -132,10 +155,13 @@ header p:nth-child(5) {
     height: 150px;
     border-radius: 50%;
     transition: 1s;
-}
-
-.myphoto-box-mobile img:hover {
-    opacity: 0.9;
+    transform: rotate(180deg);
+    animation-name: myphoto-rotation;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 }
 
 .header-mobile a:nth-child(5) {
@@ -156,9 +182,9 @@ header p:nth-child(5) {
     padding-bottom: 4px;
     border-top: 2px solid #A59263;
     border-bottom: 2px solid #A59263;
-    margin-bottom: 5px;
-    animation-name: manifestation;
-    animation-duration: 3.5s;
+    animation-name: manifestation, nav-moving;
+    animation-duration: 2s, 2s;
+    animation-timing-function: ease-out, ease-out;
 }
 
 nav {
@@ -206,12 +232,14 @@ nav:hover {
     cursor: default;
 }
 
+/* menu styles*/
 .menu {
     width: 100%;
     height: 32px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    display: none; /* menu status - OFF */
 }
 
 .menu>* {
@@ -337,15 +365,21 @@ nav:hover {
 .menu-button li a:hover {
     color: #ffd700;
 }
+/* menu styles */
 
 main {
     display: flex;
-    height: calc(100vh - 343px);
+    transform: translateX(-100vw);
+    height: calc(100vh - 306px);
     background: linear-gradient(to right, rgb(158, 101, 101) 0%, rgb(108, 51, 51) 33.3%, rgb(0, 0, 0) 66.6%);
     padding-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
     overflow-y: auto;
+    animation-name: slide-side;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-delay: 1.9s;
 }
 
 article {
@@ -366,6 +400,11 @@ aside {
 .myworks {
     height: 150px;
     overflow: hidden;
+}
+
+.myworks img {
+    width: 100%;
+    height: 100%;
 }
 
 #workprev {
@@ -416,6 +455,7 @@ aside {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
+    align-content: center;
 }
 
 .upper_block {
@@ -455,8 +495,10 @@ aside {
     padding-bottom: 4px;
     border-top: 2px solid #A59263;
     border-bottom: 2px solid #A59263;
-    animation-name: manifestation;
-    animation-duration: 3.5s;
+    animation-name: manifestation, footer-moving;
+    animation-duration: 2s, 2s;
+    animation-timing-function: ease-out, ease-out;
+    animation-fill-mode: forwards, none;
 }
 
 footer {
@@ -466,8 +508,6 @@ footer {
     align-items: center;
     height: 20px;
     background-color: #A59263;
-    animation-name: manifestation;
-    animation-duration: 3.5s;
 }
 
 footer:hover {
@@ -536,6 +576,52 @@ footer p {
     }
     100% {
     opacity: 1;
+    }
+}
+
+@keyframes slide-side {  
+    0% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100vw);
+        opacity: 0.5;
+    }
+}
+
+@keyframes footer-moving {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(var(--footterjumpvalue));
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes nav-moving {
+    0% {
+        transform: translateY(-232px);
+    }
+    50% {
+        transform: translateY(var(--navjumpvalue));
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes header-manifestation {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes myphoto-rotation {
+    100% {
+        transform: rotate(0deg);
     }
 }
 /* animations */
@@ -670,10 +756,7 @@ footer p {
     /* mobile header */
 
     .nav-wrapper {
-        height: 120px;
         margin-top: 10px;
-        margin-bottom: 8px;
-        border-bottom: 0px;
     }
 
     nav {
@@ -686,7 +769,7 @@ footer p {
     main {
         padding-left: 40px;
         padding-right: 40px;
-        height: calc(100vh - 368px);
+        height: calc(100vh - 370px);
     }
 
     .upper_block p {
@@ -795,7 +878,7 @@ footer p {
 @media screen and (max-width:550px) {
     main {
         flex-direction: column;
-        height: calc(100vh - 368px);
+        height: calc(100vh - 370px);
     }
 
     article {
@@ -810,10 +893,6 @@ footer p {
         margin-right: auto;
         max-width: 100%;
         min-width: 100%;
-    }
-
-    .myworks {
-        width: 288px;
     }
 }
 

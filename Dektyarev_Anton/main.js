@@ -1,7 +1,12 @@
-var myMenu = document.querySelector(".menu");
-var menuSpreader = document.querySelector("#menuspreader");
+//menu vars
+/* var myMenu = document.querySelector(".menu");
+var menuSpreader = document.querySelector("#menuspreader"); */
+//menu vars
 
-menuSpreader.addEventListener("click", function menuSpreading() {
+var mainblock = document.querySelector("main");
+
+// menu behaviour
+/* menuSpreader.addEventListener("click", function menuSpreading() {
   let screenWidth = window.innerWidth;
   if (screenWidth <= 768) {
     myMenu.classList.toggle("spreaded");
@@ -12,9 +17,10 @@ window.addEventListener("resize", function () {
   let screenWidth = window.innerWidth;
   if (screenWidth > 768) {
     myMenu.classList.remove("spreaded");
-  }
-});
+  } */
+// menu behaviour
 
+// my works box
 var buttonPrevius = document.querySelector("#workprev");
 var buttonNext = document.querySelector("#worknext");
 var workImage = document.querySelector("#workimage");
@@ -88,3 +94,10 @@ function sliderOnTimeChange() {
 }
 
 setInterval(sliderOnTimeChange, 35000);
+// my works box
+
+function mainBlockstyleRemoving() {
+  mainblock.style.transform = "translateX(0px)";
+}
+
+setTimeout(mainBlockstyleRemoving, 2000);
