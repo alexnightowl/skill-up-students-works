@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Front end Developer, Anton Dektyarev, Антон Дектярёв, Deguz">
+    <meta name="theme-color" content="#263238"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anton Dektyarev</title>
+    <link rel="icon" href="index.files/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <script src="second.js"></script>
 </head>
@@ -17,9 +20,15 @@
         <div class="myphoto-box"><a href="index.html"><img src="index.files/photo2.gif" alt="myphoto"></a></div>
         <p>Антон Дектярёв</p>
         <p>Front end Developer </p>
-        <a class="allmyhwlink" href="allhomeworks.html"><img class="works-img" width="50px" height="40px" src="index.files/book.png"
-                alt="myhomeworks"></a>
-        <p class="allmyhwtext">All my homeworks (Link)</p>
+        
+        <div id="playbutton">
+        <audio id="bgm" src="index.files/bgm.mp3" loop></audio>
+        </div>
+        <div id="bgminfobox"></div>
+        <div class="langchange-button">
+            <div id="changer"></div>
+            <span class="langtext">En</span>
+        </div>
     </header>
     <!-- desktop header -->
 
@@ -29,10 +38,7 @@
                     alt="myphoto"></a></div>
         <p>Антон</p>
         <p>Дектярёв</p>
-        <pre>Front end      Developer</pre>
-        <a class="allmyhwlink" href="allhomeworks.html"><img class="works-img" width="40px" height="30px" src="index.files/book.png"
-                alt="myhomeworks"></a>
-        <p class="allmyhwtext">All my homeworks (Link)</p>
+        <pre>Front end Developer</pre>
     </div>
     <!-- mobile header -->
 
@@ -42,22 +48,22 @@
 
             <div class="navbox popup-box">
                 <img width="25px" height="25px" src="index.files/linkedin.svg" alt="mymail">
-                <p class="navtext"><a href="https://www.linkedin.com/in/deguzbelarus">Anton Dektyarev</a></p>
+                <p class="navtext"><a href="https://www.linkedin.com/in/deguzbelarus" target="_blank" rel="noopener">Anton Dektyarev</a></p>
             </div>
 
             <div class="navbox popup-box popup-2">
                 <img width="25px" height="25px" src="index.files/github.svg" alt="myphone">
-                <p class="navtext"><a href="https://github.com/DeguzBelarus/Front-end-Projects">DeguzBelarus</a></p>
+                <p class="navtext"><a href="https://github.com/DeguzBelarus/Front-end-Projects" target="_blank" rel="noopener">DeguzBelarus</a></p>
             </div>
 
             <div class="navbox popup-box popup-3">
                 <img width="25px" height="25px" src="index.files/instagram.svg" alt="instagram">
-                <p class="navtext"><a href="https://www.instagram.com/deguz.belarus">@deguz.belarus</a></p>
+                <p class="navtext"><a href="https://www.instagram.com/deguz.belarus" target="_blank" rel="noopener">@deguz.belarus</a></p>
             </div>
 
             <div class="navbox popup-box popup-4">
                 <img width="25px" height="25px" src="index.files/location.svg" alt="mylocation">
-                <p class="navtext"><a href="https://maps.google.com?saddr=Current+Location&daddr=55.180819900433, 30.18773639963402">Витебск</a></p>
+                <p class="navtext"><a href="https://maps.google.com?saddr=Current+Location&daddr=55.180819900433, 30.18773639963402" target="_blank" rel="noopener">Витебск</a></p>
             </div>
 
         </nav>
@@ -130,7 +136,7 @@
         <article>
 
             <div class="info-block">
-                <div class="upper_block"><img width="25px" height="25px" src="index.files/info.png" alt="icon">
+                <div class="upper_block"><img width="25px" height="25px" src="index.files/icon.png" alt="icon">
                     <p>Краткая информация</p>
                 </div>
                 <div class="textblock">
@@ -189,11 +195,12 @@
                     <p>Навыки</p>
                 </div>
                 <div class="textblock">
-                    <p>• HTML5</p>
-                    <p>• CSS3</p>
                     <p>• Java&shy;Script (ES6)</p>
+                    <p>• CSS3</p>
+                    <p>• HTML5</p>
+                    <p>• React + Redux</p>
+                    <p>• jQuery</p>
                     <p>• Git</p>
-                    <p>• React</p>
                 </div>
             </div>
 

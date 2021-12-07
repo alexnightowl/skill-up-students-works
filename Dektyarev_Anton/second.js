@@ -1,3 +1,4 @@
+/* onload animation */
 let currentWindowHeight = window.innerHeight;
 let currentWindowWidth = window.innerWidth;
 let futterJumpValue;
@@ -16,8 +17,6 @@ document.documentElement.style.setProperty(
   futterJumpValue
 );
 document.documentElement.style.setProperty("--navjumpvalue", navJumpValue);
-console.log(futterJumpValue);
-console.log(navJumpValue);
 
 window.addEventListener("resize", function vpchupdate() {
   let currentWindowHeight = window.innerHeight;
@@ -38,7 +37,5 @@ window.addEventListener("resize", function vpchupdate() {
     futterJumpValue
   );
   document.documentElement.style.setProperty("--navjumpvalue", navJumpValue);
-
-  console.log(futterJumpValue);
-  console.log(navJumpValue);
 });
+/* onload animation */
