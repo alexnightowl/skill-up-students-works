@@ -1,0 +1,24 @@
+@import "../../variables.scss";
+
+.list {
+
+}
+
+.form {
+   display: flex;
+   column-gap: 1em;
+   justify-content: space-between;
+   padding: 0.5em;
+
+   * {
+      padding: 0.5em;
+   }
+
+   input {
+      width: 100%;
+   }
+
+   button {
+      width: 100px;
+   }
+}

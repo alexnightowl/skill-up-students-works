@@ -1,0 +1,37 @@
+@import "../../variables.scss";
+
+.item {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid rgb(161, 128, 128);
+   min-height: 20px;
+   transition: background 270ms ease-in-out;
+   padding: 0.5em 1em;
+   
+   
+   .completed {
+      text-decoration: line-through;
+      opacity: 0.5;
+   }
+
+   &:hover {
+      background-color: $teal-lighten-4;
+   }
+
+   p {
+      margin: 0;
+      width: 100%;
+      text-align: left;
+      padding: 0 1em;
+   }
+
+   span {
+      color: black;
+      background-color: $teal-lighten-4;
+      padding: 6px 8px;
+      border-radius: 50%;
+   }
+}
+

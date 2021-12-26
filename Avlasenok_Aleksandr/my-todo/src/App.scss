@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 50%;
+}
+
+.main-wrapper{
+  border: 1px solid rgb(201, 199, 199);
+  max-width: 500px;
+  width: 100%;
+}
