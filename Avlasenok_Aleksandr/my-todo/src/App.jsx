@@ -6,6 +6,10 @@ import TodoList from "./components/TodoList";
 function App() {
   const [todos, setTodos] = useState(JSON.parse(localStorage.getItem("todos")));
 
+  // fetch('https://jsonplaceholder.typicode.com/todos')
+  //   .then(response => response.json())
+  //   .then(data => todos(data));
+
   const addTodo = (newTodo) => {
     if(!newTodo.text) {
       return;
